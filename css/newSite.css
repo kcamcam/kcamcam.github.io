@@ -31,7 +31,7 @@ div{
 
 .left{
     position: relative;
-    height: 900px;
+    height: 800px;
     width: 10%;
     background-color: #cb2028;
     float: left;
@@ -42,7 +42,7 @@ div{
 
 .right{
     position: relative;
-    height: 900px;
+    height: 800px;
     width: 89.5%;
     background-image: url("http://i.imgur.com/oMXV1zp.jpg");
     float: right;
