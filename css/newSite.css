@@ -1,0 +1,111 @@
+html, body{
+    height: 100%;
+    font-family: Verdana;
+    font-size: 14px;
+    background-color: black;
+}
+
+div{
+    border-radius: 5px;
+}
+
+#header{
+    position: fixed;
+    z-index: 1;
+    width: 98.75%;
+	height: 50px;
+    border: 2px;
+    background-color: #ccc;
+	margin-top: -5px;
+}
+
+#footer{
+    postion: relative;
+    height: 40px;
+    background-color: #ccc;
+    clear: both;
+    text-align: center;
+    padding:5px;
+}
+
+
+.left{
+    position: relative;
+    height: 800px;
+    width: 10%;
+    background-color: #cb2028;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 5px;
+     align-content: center;
+}
+
+.right{
+    position: relative;
+    height: 800px;
+    width: 89.5%;
+    background-image: url("http://i.imgur.com/oMXV1zp.jpg");
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+#name{
+    float:left;
+	margin-left: 5px;
+	color: black;
+}
+
+
+/*Side menu CSS*/
+.sideMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #cb2028;
+}
+
+.sideMenu a{
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.sideMenu li a:hover {
+    background-color: black;
+    font-weight: bold;
+    color: #cb2028;
+}
+/*Side menu CSS close*/
+
+ul {
+    font-size: 12px;  
+	color: white;
+}
+
+ul lh{
+    font-weight: bold;
+}
+
+
+#email{
+    float: right;
+	margin-right: 5px;
+	font-size: 14px;
+	color: #cb2028;  
+}
+
+
+
+#cena{
+    text-decoration: none; 
+    color: white;
+}
+
+#cena:hover, #email:hover{
+    font-weight: bold;   
+}
+
+
