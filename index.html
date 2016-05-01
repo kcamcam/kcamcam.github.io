@@ -52,7 +52,7 @@
             <h1>Kevin Camellini</h1>
             <h3>Software Engineering Student</h3>
             <br>
-            <a href="#about" class="btn animated rubberBand btn-dark btn-lg">&lt;&#47;&gt;</a>
+            <a href="#about" class="btn btn-dark btn-lg">&lt;&#47;&gt;</a>
         </div>
     </header>
 
@@ -84,7 +84,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa icon-java-bold fa-stack-1x text-primary" style="left:10px;top:3px"></i>
+                                <i class="fa icon-java-bold fa-stack-1x text-primary proglang" style="left:10px;top:3px"></i>
                             </span>
                                 <h4>
                                     <strong>Java</strong>
@@ -96,7 +96,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-html5 fa-stack-1x text-primary"></i>
+                                    <i class="fa fa-html5 fa-stack-1x text-primary proglang"></i>
                                 </span>
                                 <h4>
                                     <strong>HTML 5</strong>
@@ -108,7 +108,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-css3 fa-stack-1x text-primary"></i>
+                                <i class="fa fa-css3 fa-stack-1x text-primary proglang"></i>
                             </span>
                                 <h4>
                                     <strong>CSS 3</strong>
@@ -128,7 +128,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa icon-javascript-alt fa-stack-1x text-primary" style="left:6px;top:3px"></i>
+                                <i class="fa icon-javascript-alt fa-stack-1x text-primary proglang" style="left:6px;top:3px"></i>
                             </span>
                                 <h4>
                                     <strong>Java Script</strong>
@@ -140,16 +140,16 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa icon-php-alt fa-stack-1x text-primary" style="left:5px; top:6px"></i>
+                                    <i class="fa icon-php-alt fa-stack-1x text-primary proglang" style="left:5px; top:6px"></i>
                                 </span>
                                 <h4>
                                     <strong>PHP</strong>
-                                    <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                                 </h4>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
+                    <a href="#portfolio" class="btn btn-lg btn-light">Learn More</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -302,5 +302,19 @@
 		  ga('create', 'UA-73609113-1', 'auto');
 		  ga('send', 'pageview');
 	</script>
+    <script>
+        $(".social").hover(
+       function(){ $(this).addClass(" animated rubberBand ") },
+       function(){ $(this).removeClass('hover') }
+        )
+        $(".proglang").hover(
+       function(){ $(this).addClass("animated pulse ") },
+       function(){ $(this).removeClass('hover') }
+        )
+        $(".btn").hover(
+       function(){ $(this).addClass(" animated rubberBand ") },
+       function(){ $(this).removeClass('hover') }
+        )
+    </script>
 </body>
 </html>
