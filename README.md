@@ -3,6 +3,7 @@ Personal portfolio website.
 Template:
 
 http://startbootstrap.com/template-overviews/stylish-portfolio/
+
 http://getbootstrap.com/css/
 
 Icons:
@@ -13,12 +14,15 @@ https://fortawesome.github.io/Font-Awesome/
 Animation:
 
 https://daneden.github.io/animate.css/
+
 https://github.com/zeusdeux/isInViewport
 
 Pictures:
 
-reebok crossfit logo
+reebok logo
 http://www.logo-designer.co/reebok-unveils-new-delta-logo-design-brand-mark/
+
+
 programing languages
 http://www.cs.tufts.edu/comp/105/images/progLanguages.jpg
 
