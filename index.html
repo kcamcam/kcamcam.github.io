@@ -307,15 +307,18 @@
 
     <!-- SCRIPTS FOR ANIMATION-->
     <script>
-        $(document).on("scrollstop",function(){
+        $(document).scroll(function(){
             $(".social:in-viewport").toggleClass("rubberBand");
         });
-
         /*
         $(window).scroll(function(){
             $(".proglang:in-viewport").toggleClass("swing");
         });
 		*/
+        $(".social").hover(function(){
+            $(this).toggleClass("rubberBand");
+        });
+
 		 $(".proglang").hover(function(){
             $(this).toggleClass("swing");
         });
