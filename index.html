@@ -310,9 +310,13 @@
         $(window).scroll(function(){
             $(".social:in-viewport").toggleClass("rubberBand");
         });
-        
+        /*
         $(window).scroll(function(){
             $(".proglang:in-viewport").toggleClass("swing");
+        });
+		*/
+		 $(".proglang").hover(function(){
+            $(this).toggleClass("swing");
         });
 
         $(".btn").hover(function(){
