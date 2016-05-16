@@ -13,6 +13,7 @@ https://fortawesome.github.io/Font-Awesome/
 Animation:
 
 https://daneden.github.io/animate.css/
+https://github.com/zeusdeux/isInViewport
 
 Pictures:
 
