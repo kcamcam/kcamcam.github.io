@@ -307,7 +307,7 @@
 
     <!-- SCRIPTS FOR ANIMATION-->
     <script>
-        $(document).scroll(function(){
+        $(document).on("scrollstop",function(){
             $(".social:in-viewport").toggleClass("rubberBand");
         });
 
