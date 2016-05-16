@@ -307,8 +307,9 @@
 
     <!-- SCRIPTS FOR ANIMATION-->
     <script>
-        $(window).on("scroll",function(){
-            $(".social:in-viewport").toggleClass("rubberBand");
+        $(window).scroll(function(){
+            if($("#contact:in-viewport")){
+            	$(".social").toggleClass("rubberBand");}
         });
 
         /*
