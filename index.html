@@ -307,9 +307,10 @@
 
     <!-- SCRIPTS FOR ANIMATION-->
     <script>
-        $(document).scroll(function(){
+        $(window).on("scroll",function(){
             $(".social:in-viewport").toggleClass("rubberBand");
         });
+
         /*
         $(window).scroll(function(){
             $(".proglang:in-viewport").toggleClass("swing");
