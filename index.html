@@ -253,7 +253,7 @@
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted footerz">&copy;Kevin Camellini 2016</p>
+                    <p class="text-muted">&copy;Kevin Camellini 2016</p>
                 </div>
             </div>
         </div>
@@ -312,26 +312,32 @@
 
     <!-- SCRIPTS FOR ANIMATION -->
     <script type="text/javascript">
+        
         $(window).scroll(function(){
-            if($(".footerz:in-viewport")){
-                $(".social1").delay(1200).queue(function(){
+            if($(".contact").isInViewport({tolerance:1,}) ){
+                $(".social1").delay(1600).queue(function(){
                     $(this).addClass("bounce");
                     $(this).dequeue();
                 });
-                $(".social2").delay(1600).queue(function(){
+                $(".social2").delay(2000).queue(function(){
                     $(this).addClass("bounce");
                     $(this).dequeue();
                 });
-                $(".social3").delay(2000).queue(function(){
+                $(".social3").delay(2400).queue(function(){
                     $(this).addClass("bounce");
                     $(this).dequeue();
                 });
-                $(".social4").delay(2400).queue(function(){
+                $(".social4").delay(2800).queue(function(){
                     $(this).addClass("bounce");
                     $(this).dequeue();
                 });
             };              
         });
+
+        $(window).scroll(function(){
+            $(".call-to-action").isInViewport({tolerance:1}).css({"color":"black"});
+        });
+
         /* OLD SOLUTION */
         //$(".social:in-viewport").toggleClass("bounce"); 
         /*
