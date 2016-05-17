@@ -330,11 +330,15 @@
     <script>
 
         $(document).scroll(function(){
-            if(".services:inviewport"){
-                $(".proglang").toggleClass("swing");
+            var oldvisible
+            if(".services:inviewport(150)"){
+                $(".proglang").each(function(){
+                    $(this).toggleClass("swing");
+                });     
             }
         });
         /*
+        isElementInViewport(document.getElementById('elem'));
         function isElementInViewport (el) {
             if (typeof jQuery === "function" && el instanceof jQuery) {
                 el = el[0];
