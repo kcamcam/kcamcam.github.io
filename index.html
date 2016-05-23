@@ -9,6 +9,7 @@
     <meta name="description" content="personal website for kevin camellini">
     <meta name="keywords" content="Kevin Camellini,Kevin,Camellini,crossfit,software engineer,software engineering,software,engineer,engineering,concordia, Concordia University, Montreal, Canada">
     <meta name="author" content="Kevin Camellini">
+    
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -18,8 +19,19 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="fonts/font-mfizz-2.3.0/font-mfizz.css">
+    <script type="text/javascript">
+          function inView(elem) {
+              var $elem = $(elem);
+              var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+              var viewportTop = $(scrollElem).scrollTop();
+              var viewportBottom = viewportTop + $(window).height();
+              var elemTop = Math.round( $elem.offset().top );
+              var elemBottom = elemTop + $elem.height();
+              return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+          }
+      </script>
+</head>
 <body>
-
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle animated"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
@@ -49,7 +61,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Kevin Camellini</h1>
+            <h1 class="name animated">Kevin Camellini</h1>
             <h3>Software Engineering Student</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg animated">&lt;&#47;&gt;</a>
@@ -59,7 +71,7 @@
     <!-- About -->
     <section id="about" class="about">
         <div class="container">
-            <div class="row">
+            <div class="row about1 animated">
                 <div class="col-lg-12 text-center">
                     <h3>My name is Kevin Camellini and I am a software engineering student at<a class="school" target="_blank" href="https://www.concordia.ca/encs.html"> Concordia University</a>.</h3>
                     <p class="lead">Along with my interests in programming, I strive towards expanding my knowledge and physical fitness.</p>
@@ -77,7 +89,7 @@
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services bg-primary">
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center services1 animated">
                 <div class="col-lg-10 col-lg-offset-1">
                     <h2>Development</h2>
                     <hr class="small">
@@ -123,7 +135,7 @@
                 <!-- /.col-lg-10 -->
             </div>
             <!-- /.row -->
-            <div class="row text-center">
+            <div class="row text-center services2 animated">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="row">
                         <!-- JAVA SCRIPT -->
@@ -173,36 +185,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Personal Interests</h2>
+                    <h2 class="portfolio1 animated">Personal Interests</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#top">
-                                    <!-- img-portfolio -->
-                                    <img class="img-responsive" src="img/progLanguages_colorfull.jpg">
-                                </a>
+                                    <img class="img-responsive animated" src="img/progLanguages_colorfull.jpg">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#top">
-                                    <img class="img-responsive" src="img/cottage2.JPG">
-                                </a>
+                                    <img class="img-responsive animated" src="img/cottage2.JPG">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#top">
-                                    <img class="img-responsive" src="img/canoe1.jpg">
-                                </a>
+                                    <img class="img-responsive animated" src="img/canoe1.jpg">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#top">
-                                    <img class="img-responsive" src="img/reebok_cf.png">
-                                </a>
+                                    <img class="img-responsive animated" src="img/reebok_cf.png">
                             </div>
                         </div>
                     </div>
@@ -218,7 +221,7 @@
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
         <div class="container">
-            <div class="row">
+            <div class="row call-to-action1 animated">
                 <div class="col-lg-12 text-center">
                     <h3>Thanks for visiting!</h3>
                     <a href="#top" class="btn btn-lg btn-light animated">Back to top</a>
@@ -230,7 +233,7 @@
     <!-- Footer -->
     <footer>
         <div class="container" id="contact">
-            <div class="row">
+            <div class="row contact1 animated">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <img class="me-pic" src="img/me.jpg"/>
                     <h4><strong>Kevin Camellini</strong>
@@ -238,7 +241,7 @@
                     <p>Montreal, Québec, Canada</p>
                     <p class="email"><a href="mailto:kevin@kcamellini.com"><i class="fa fa-envelope-o fa-fw"></i>kevin@kcamellini.com</a></p>
                     <br/>
-                    <ul class="list-inline">
+                    <ul class="list-inline social">
                         <li>
                             <a href="https://www.facebook.com/kcamellini"><i class="fa fa-facebook fa-fw fa-3x animated social1"></i></a>
                         </li>
@@ -253,7 +256,7 @@
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">&copy;Kevin Camellini 2016</p>
+                    <p class="text-muted footerz">&copy;Kevin Camellini 2016</p>
                 </div>
             </div>
         </div>
@@ -261,7 +264,6 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js" type="text/javascript"></script>
-    <script src="js/viewport.js" type="text/javascript"></script>
     <!--  jQuery UI -->
     <script src="js/jquery-ui.js" type="text/javascript"></script>
 
@@ -286,7 +288,6 @@
     $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
@@ -312,48 +313,63 @@
 
     <!-- SCRIPTS FOR ANIMATION -->
     <script type="text/javascript">
-        
-        $(window).scroll(function(){
-            if($(".contact").isInViewport({tolerance:1,}) ){
-                $(".social1").delay(1600).queue(function(){
-                    $(this).addClass("bounce");
-                    $(this).dequeue();
-                });
-                $(".social2").delay(2000).queue(function(){
-                    $(this).addClass("bounce");
-                    $(this).dequeue();
-                });
-                $(".social3").delay(2400).queue(function(){
-                    $(this).addClass("bounce");
-                    $(this).dequeue();
-                });
-                $(".social4").delay(2800).queue(function(){
-                    $(this).addClass("bounce");
-                    $(this).dequeue();
-                });
-            };              
-        });
 
-        $(window).scroll(function(){
-            $(".call-to-action").isInViewport({tolerance:1}).css({"color":"black"});
-        });
-
-        /* OLD SOLUTION */
-        //$(".social:in-viewport").toggleClass("bounce"); 
-        /*
-        $(window).scroll(function(){
-            $(".proglang:in-viewport").toggleClass("swing");
-        });
-		*/
+    	/* ANIMATE ON SCROLL */
+		$(document).ready(function(){
+			if(inView($(".name"))){
+				$(".name").addClass("zoomIn");
+			};
+			$(".img-responsive").click(function(){
+				$(this).toggleClass("hinge");
+			});		
+          	$(window).scroll(function(){  
+	            if(inView($(".footerz"))){
+	                $(".social1").delay(500).queue(function(){
+	                    $(this).addClass("bounce");
+	                    $(this).dequeue();
+	                });
+	                //$(".social1").removeClass("bounce");
+	                $(".social2").delay(1000).queue(function(){
+	                    $(this).addClass("bounce");
+	                    $(this).dequeue();
+	                });
+	                //$(".social2").removeClass("bounce");
+	                $(".social3").delay(1500).queue(function(){
+	                    $(this).addClass("bounce");
+	                    $(this).dequeue();
+	                });
+	                //$(".social3").removeClass("bounce");
+	                $(".social4").delay(2000).queue(function(){
+	                    $(this).addClass("bounce");
+	                    $(this).dequeue();
+	                });
+	                //$(".social4").removeClass("bounce");         
+	            }; 
+	             if(inView($(".about"))){
+	             	$(".about1").addClass("slideInDown");
+	             };
+				if(inView($(".services"))){
+	             	$(".services1").addClass("slideInUp");
+	             };
+				if(inView($(".services"))){
+	             	$(".services2").addClass("slideInDown");
+	             };
+				if(inView($(".portfolio"))){
+	             	$(".portfolio1").addClass("pulse");
+	             };
+				if(inView($(".call-to-action"))){
+	             	$(".call-to-action1").addClass("pulse");
+	             };             
+        	});
+      	});
+    	/* Hover Animations */
         $(".social1, .social2, .social3, .social4").hover(function(){
             $(this).removeClass("bounce");
             $(this).toggleClass("rubberBand");
         });
-
 		 $(".proglang").hover(function(){
             $(this).toggleClass("swing");
         });
-
         $(".btn").hover(function(){
             $(this).toggleClass("rubberBand");
         });
