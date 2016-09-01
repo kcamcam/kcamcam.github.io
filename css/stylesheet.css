@@ -51,7 +51,7 @@ html,body {
 	-moz-transition: all 0.8s;
 	transition: all 0.8s;
 }
-.proglang:hover, .proglang:focus, proglang:click{
+.proglang:hover, .proglang:focus, proglang:active{
 	color: #CA5E28;
 	background-color: black;
 	text-shadow: 0.3px 0.3px 0.3px black;
@@ -93,7 +93,7 @@ html,body {
 .text h4{
 	color: black;
 }
-.text:hover, .text:hover, .text:click{
+.text:hover, .text:focus, .text:active{
     opacity:1;
 	background-color: rgba(255,255,255,0.6);
 }
