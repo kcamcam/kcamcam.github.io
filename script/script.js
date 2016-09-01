@@ -39,7 +39,7 @@ $(document).ready(function(){
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").removeClass("active");
         };
-		if(inView($(".about"))){
+		if(inView($(".name h3"))){
 			$(".homenav").removeClass("active");
 			$(".aboutnav").addClass("active");
 			$(".programmingnav").removeClass("active");
