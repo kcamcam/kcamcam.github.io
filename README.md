@@ -1,29 +1,16 @@
 Personal portfolio website.
 
-Template:
-
-http://startbootstrap.com/template-overviews/stylish-portfolio/
-
+##Resources:
 http://getbootstrap.com/css/
+http://getbootstrap.com/javascript/
+http://http://jquery.com/css/
 
-Icons:
 
+##Icons and Fonts:
 http://fizzed.com/oss/font-mfizz
 https://fortawesome.github.io/Font-Awesome/
+https://fonts.googleapis.com/css
 
-Animation:
-
+##Animation:
 https://daneden.github.io/animate.css/
-
 https://github.com/zeusdeux/isInViewport
-
-Pictures:
-
-reebok logo
-http://www.logo-designer.co/reebok-unveils-new-delta-logo-design-brand-mark/
-
-
-programing languages
-http://www.cs.tufts.edu/comp/105/images/progLanguages.jpg
-
-
