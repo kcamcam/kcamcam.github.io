@@ -27,7 +27,7 @@ $(function() {
 $(document).ready(function(){
 	/* SCROLLING PAGE ANIMATIONS */
 	if(inView($(".name"))){
-		$('.name').addClass("zoomIn");
+		$('.name').addClass("fadeInDownBig");
 	};
 	$(window).scroll(function(){ 
 		if(inView($(".about"))){
@@ -45,8 +45,8 @@ $(document).ready(function(){
 		if(inView($(".footerz"))){
 			$(".contact1").removeClass("hidden");
 			$(".contact2").removeClass("hidden");
-			$(".contact1").addClass("fadeInRight");
-			$(".contact2").addClass("fadeInLeft");			
+			$(".contact1").addClass("fadeInLeft");
+			$(".contact2").addClass("fadeInRight");			
 		}; 	
 	});   
     $(window).scroll(function(){  
