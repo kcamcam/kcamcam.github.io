@@ -74,28 +74,27 @@ html,body {
 .text{
     color: #CA5E28;
 	position: absolute;
-	left: 0;
-	right: 0;
 	top: 0;
 	bottom: 0;
-    text-align: center;
-    vertical-align: middle;
+	left: 0;
+	right: 0;
+    /*text-align: center;
+    vertical-align: middle; */
     width: 100%;
     height: 100%;
-	margin: 10px;
-	line-height:30px;
+	line-height:1.5em;
     z-index: 10;
     opacity: 0;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	transition: all 0.8s;
+	background-color: rgba(255,255,255,0.6);
 }
 .text h4{
 	color: black;
 }
-.text:hover, .text:focus, .text:active{
+.text:hover, .text:focus, .text:active, .img-responsive:hover, .img-responsive:focus, .img-responsive:active{
     opacity:1;
-	background-color: rgba(255,255,255,0.6);
 }
 
 .footer{
@@ -115,6 +114,7 @@ html,body {
 }
 .social li a{
 	color: black;
+	font-size: 0.8em;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	transition: all 0.8s;
