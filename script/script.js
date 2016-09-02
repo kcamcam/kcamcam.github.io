@@ -31,17 +31,24 @@ $(document).ready(function(){
 	};
 	$(window).scroll(function(){ 
 		if(inView($(".about"))){
-			$(".about1").addClass("slideInUp");
+			$(".about1").removeClass("hidden");
+			$(".about1").addClass("fadeInDown");
 		};
 		if(inView($(".programming"))){
-			$(".programming1").addClass("slideInDown");
+			$(".programming1").removeClass("hidden");
+			$(".programming1").addClass("fadeInUp");
 		};
 		if(inView($(".interests"))){
-			$(".interests1").addClass("slideInUp");
+			$(".interests1").removeClass("hidden");
+			$(".interests1").addClass("fadeInDown");
+		};
+		if(inView($(".footerz"))){
+			$(".contact1").removeClass("hidden");
+			$(".contact2").removeClass("hidden");
+			$(".contact1").addClass("fadeInRight");
+			$(".contact2").addClass("fadeInLeft");			
 		}; 	
-	}); 
-	//$(".img-responsive").click(function(){
-	//$(this).toggleClass("hinge");});   
+	});   
     $(window).scroll(function(){  
 		/* CUSTOM SCROLL SPY */
         if(inView($(".home"))){
@@ -81,25 +88,28 @@ $(document).ready(function(){
         };
 		/* BOUNCING SOCIAL BUTTONS */
 		if(inView($(".footerz"))){
-            $(".social1").delay(500).queue(function(){
-                $(this).addClass("bounce");
-                $(this).dequeue();
-            });
-            $(".social2").delay(1000).queue(function(){
-                $(this).addClass("bounce");
-                $(this).dequeue();
-            });
-            $(".social3").delay(1500).queue(function(){
-                $(this).addClass("bounce");
-                $(this).dequeue();
-            });
-            $(".social4").delay(2000).queue(function(){
-                $(this).addClass("bounce");
-                $(this).dequeue();
-            });
-        };            
+			dance();
+        }; 
     });
 });
+function dance() {
+	$(".social1").delay(500).queue(function(){
+		$(this).addClass("bounce");
+		$(this).dequeue();
+	});
+	$(".social2").delay(1000).queue(function(){
+		$(this).addClass("bounce");
+		$(this).dequeue();
+	});
+	$(".social3").delay(1500).queue(function(){
+		$(this).addClass("bounce");
+		$(this).dequeue();
+	});
+	$(".social4").delay(2000).queue(function(){
+		$(this).addClass("bounce");
+		$(this).dequeue();
+	});
+}
 
 /* NAVBAR HAMBURGER/X ANIMATION */
 $(".navbar-toggle").on("click", function () {

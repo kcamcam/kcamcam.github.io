@@ -89,6 +89,9 @@ html,body {
 	padding-top: 20px;
 	background-color: rgba(255,255,255,0.6);
 }
+.padfixweight{
+	padding-top: 8px;
+}
 .text h4{
 	color: black;
 }
