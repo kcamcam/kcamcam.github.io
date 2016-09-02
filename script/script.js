@@ -36,7 +36,7 @@ $(document).ready(function(){
 		};
 		if(inView($(".programming"))){
 			$(".programming1").removeClass("hidden");
-			$(".programming1").addClass("fadeInUp");
+			$(".programming1").addClass("fadeInDown");
 		};
 		if(inView($(".interests"))){
 			$(".interests1").removeClass("hidden");
