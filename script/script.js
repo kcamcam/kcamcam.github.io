@@ -1,4 +1,3 @@
-//setTimeout(function(){}, 2000);  SET TIMEOUT FOR INTRO
 function inView(elem) {
     var $elem = $(elem);
     var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
@@ -26,12 +25,25 @@ $(function() {
 });
 /* ANIMATE IN VIEW */
 $(document).ready(function(){
-    if(inView($(".name"))){
-        $(".name").addClass("zoomIn");
-    };
-        //$(".img-responsive").click(function(){
-        //$(this).toggleClass("hinge");});   
+	/* SCROLLING PAGE ANIMATIONS */
+	if(inView($(".name"))){
+		$('.name').addClass("zoomIn");
+	};
+	$(window).scroll(function(){ 
+		if(inView($(".about"))){
+			$(".about1").addClass("slideInUp");
+		};
+		if(inView($(".programming"))){
+			$(".programming1").addClass("slideInDown");
+		};
+		if(inView($(".interests"))){
+			$(".interests1").addClass("slideInUp");
+		}; 	
+	}); 
+	//$(".img-responsive").click(function(){
+	//$(this).toggleClass("hinge");});   
     $(window).scroll(function(){  
+		/* CUSTOM SCROLL SPY */
         if(inView($(".home"))){
             $(".homenav").addClass("active");
 			$(".aboutnav").removeClass("active");
@@ -67,13 +79,7 @@ $(document).ready(function(){
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").addClass("active");
         };
-		
-		/*
-		<li><a class="homenav" href="#home">Kevin Camellini</a></li>
-		<li><a class="aboutnav" href="#about">About</a></li>
-		<li><a class="programmingnav" href="#programming">programming</a></li>
-		<li><a class="interestsnav" href="#interests">Interests</a></li>
-		<li><a class="contactnav" href="#contact">Contact</a></li>*/
+		/* BOUNCING SOCIAL BUTTONS */
 		if(inView($(".footerz"))){
             $(".social1").delay(500).queue(function(){
                 $(this).addClass("bounce");
@@ -91,25 +97,7 @@ $(document).ready(function(){
                 $(this).addClass("bounce");
                 $(this).dequeue();
             });
-        }; 
-        if(inView($(".about"))){
-            $(".about1").addClass("slideInDown");
-        };
-        if(inView($(".services"))){
-            $(".programming1").addClass("slideInUp");
-        };
-        if(inView($(".services"))){
-            $(".services2").addClass("slideInDown");
-        };
-        if(inView($(".codeTxt"))){
-            $(".codeTxt").addClass("pulse");
-        };
-        if(inView($(".interests"))){
-            $(".interests1").addClass("pulse");
-        };
-        if(inView($(".call-to-action"))){
-            $(".call-to-action1").addClass("pulse");
-        };             
+        };            
     });
 });
 
