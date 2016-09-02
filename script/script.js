@@ -53,7 +53,7 @@ $(document).ready(function(){
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").removeClass("active");
         };
-		if(inView($(".weightlifting"))){
+		if(inView($(".crossfit"))){
 			$(".homenav").removeClass("active");
 			$(".aboutnav").removeClass("active");
 			$(".programmingnav").removeClass("active");
