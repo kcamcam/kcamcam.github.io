@@ -1,6 +1,6 @@
-##Personal website.
+# #Personal website.
 
-# #Resources:
+##Resources:
 http://getbootstrap.com/css/  
 http://getbootstrap.com/javascript/  
 http://jquery.com/css/  
