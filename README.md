@@ -1,9 +1,9 @@
-###Personal website.
+##Personal website.
 
-##Resources:
+# #Resources:
 http://getbootstrap.com/css/  
 http://getbootstrap.com/javascript/  
-http://http://jquery.com/css/  
+http://jquery.com/css/  
 
 
 ##Icons and Fonts:
