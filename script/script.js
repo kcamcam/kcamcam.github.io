@@ -27,7 +27,7 @@ $(function() {
 $(document).ready(function(){
 	/* SCROLLING PAGE ANIMATIONS */
 	if(inView($(".name"))){
-		$('.name').addClass("fadeInDownBig");
+		$('.name').addClass("fadeInDown");
 	};
 	$(window).scroll(function(){ 
 		if(inView($(".about"))){
