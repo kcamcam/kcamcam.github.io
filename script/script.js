@@ -30,6 +30,7 @@ $(document).ready(function(){
 		$('.name').addClass("fadeInDown");
 	};
 	$(window).scroll(function(){ 
+		/*
 		if(inView($(".about"))){
 			$(".about1").removeClass("hidden");
 			$(".about1").addClass("fadeInDown");
@@ -42,6 +43,7 @@ $(document).ready(function(){
 			$(".interests1").removeClass("hidden");
 			$(".interests1").addClass("fadeInDown");
 		};
+		*/
 		if(inView($(".footerz"))){
 			$(".contact1").removeClass("hidden");
 			$(".contact2").removeClass("hidden");
@@ -86,9 +88,9 @@ $(document).ready(function(){
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").addClass("active");
         };
-		/* BOUNCING SOCIAL BUTTONS */
+		/* BOUNCING SOCIAL BUTTONS *//*
 		if(inView($(".footerz"))){
-			dance();
+			dance();*/
         }; 
     });
 });
