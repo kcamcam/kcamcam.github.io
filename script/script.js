@@ -92,6 +92,7 @@ $(document).ready(function(){
         }; 
     });
 });
+/*
 function dance() {
 	$(".social1").delay(500).queue(function(){
 		$(this).addClass("bounce");
@@ -105,11 +106,7 @@ function dance() {
 		$(this).addClass("bounce");
 		$(this).dequeue();
 	});
-	$(".social4").delay(2000).queue(function(){
-		$(this).addClass("bounce");
-		$(this).dequeue();
-	});
-}
+}*/
 
 /* NAVBAR HAMBURGER/X ANIMATION */
 $(".navbar-toggle").on("click", function () {
