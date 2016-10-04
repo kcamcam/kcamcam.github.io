@@ -1,11 +1,11 @@
 function inView(elem) {
-    var $elem = $(elem);
-    var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
-    var viewportTop = $(scrollElem).scrollTop();
-    var viewportBottom = viewportTop + $(window).height();
-    var elemTop = Math.round( $elem.offset().top );
-    var elemBottom = elemTop + $elem.height();
-    return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+	var $elem = $(elem);
+	var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+	var viewportTop = $(scrollElem).scrollTop();
+	var viewportBottom = viewportTop + $(window).height();
+	var elemTop = Math.round( $elem.offset().top );
+	var elemBottom = elemTop + $elem.height();
+	return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
 };
 
 // Scrolls to the selected menu item on the page
@@ -27,10 +27,14 @@ $(function() {
 $(document).ready(function(){
 	/* SCROLLING PAGE ANIMATIONS */
 	if(inView($(".name"))){
-		$('.name').addClass("fadeInDown");
+		delay(500).queue(function(){
+			$(this).addClass("fadeInDown");
+			$(this).dequeue();
+		});
 	};
+	/*
 	$(window).scroll(function(){ 
-		/*
+		
 		if(inView($(".about"))){
 			$(".about1").removeClass("hidden");
 			$(".about1").addClass("fadeInDown");
@@ -49,8 +53,9 @@ $(document).ready(function(){
 			$(".contact2").removeClass("hidden");
 			$(".contact1").addClass("fadeInLeft");
 			$(".contact2").addClass("fadeInRight");			
-		}; */	
+		}; 
 	});   
+	*/
     $(window).scroll(function(){  
 		/* CUSTOM SCROLL SPY */
         if(inView($(".home"))){
