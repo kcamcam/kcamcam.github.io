@@ -27,7 +27,7 @@ $(function() {
 $(document).ready(function(){
 	/* SCROLLING PAGE ANIMATIONS */
 	if(inView($(".name"))){
-		delay(500).queue(function(){
+		$(this).delay(500).queue(function(){
 			$(this).addClass("fadeInDown");
 			$(this).dequeue();
 		});
@@ -56,51 +56,51 @@ $(document).ready(function(){
 		}; 
 	});   
 	*/
-    $(window).scroll(function(){  
+	$(window).scroll(function(){  
 		/* CUSTOM SCROLL SPY */
-        if(inView($(".home"))){
-            $(".homenav").addClass("active");
+		if(inView($(".home"))){
+			$(".homenav").addClass("active");
 			$(".aboutnav").removeClass("active");
 			$(".programmingnav").removeClass("active");
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").removeClass("active");
-        };
+		};
 		if(inView($(".about"))){
 			$(".homenav").removeClass("active");
 			$(".aboutnav").addClass("active");
 			$(".programmingnav").removeClass("active");
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").removeClass("active");
-        };
+		};
 		if(inView($(".icon-ruby"))){
 			$(".homenav").removeClass("active");
 			$(".aboutnav").removeClass("active");
 			$(".programmingnav").addClass("active");
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").removeClass("active");
-        };
+		};
 		if(inView($(".crossfit"))){
 			$(".homenav").removeClass("active");
 			$(".aboutnav").removeClass("active");
 			$(".programmingnav").removeClass("active");
 			$(".interestsnav").addClass("active");
 			$(".contactnav").removeClass("active");
-        };
+		};
 		if(inView($(".footerz"))){
 			$(".homenav").removeClass("active");
 			$(".aboutnav").removeClass("active");			
 			$(".programmingnav").removeClass("active");
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").addClass("active");
-        };
+		};
 		/* BOUNCING SOCIAL BUTTONS *//*
 		if(inView($(".footerz"))){
 			dance();
-        }; */
-    });
+        	}; */
+	});
 });
-/*
-function dance() {
+
+/*function dance() {
 	$(".social1").delay(500).queue(function(){
 		$(this).addClass("bounce");
 		$(this).dequeue();
