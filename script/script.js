@@ -43,13 +43,13 @@ $(document).ready(function(){
 			$(".interests1").removeClass("hidden");
 			$(".interests1").addClass("fadeInDown");
 		};
-		*/
+		
 		if(inView($(".footerz"))){
 			$(".contact1").removeClass("hidden");
 			$(".contact2").removeClass("hidden");
 			$(".contact1").addClass("fadeInLeft");
 			$(".contact2").addClass("fadeInRight");			
-		}; 	
+		}; */	
 	});   
     $(window).scroll(function(){  
 		/* CUSTOM SCROLL SPY */
