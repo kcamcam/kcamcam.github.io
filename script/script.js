@@ -90,8 +90,8 @@ $(document).ready(function(){
         };
 		/* BOUNCING SOCIAL BUTTONS *//*
 		if(inView($(".footerz"))){
-			dance();*/
-        }; 
+			dance();
+        }; */
     });
 });
 /*
