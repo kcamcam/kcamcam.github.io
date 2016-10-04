@@ -115,7 +115,7 @@ html,body {
 	border:1px solid black;
 }
 .social li a{
-	color: black;
+	color: #777777;
 	font-size: 0.8em;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
