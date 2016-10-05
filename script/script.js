@@ -8,7 +8,7 @@ function inView(elem) {
 	return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
 };
 
-// Scrolls to the selected menu item on the page
+/* Scrolls to the selected menu item on the page */
 $(function() {
 	$('a').click(function() {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
@@ -25,10 +25,11 @@ $(function() {
 });
 /* ANIMATE IN VIEW */
 $(document).ready(function(){
-	/* SCROLLING PAGE ANIMATIONS */
+	/* LANDING ANIMATION */
 	if(inView($(".name"))){
 		$('.name').addClass("fadeInDown");
 	};
+	/* ON SCROLL ANIMATIONS */
 	$(window).scroll(function(){  
 		/* CUSTOM SCROLL SPY */
 		if(inView($(".home"))){
@@ -52,7 +53,7 @@ $(document).ready(function(){
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").removeClass("active");
 		};
-		if(inView($(".crossfit"))){
+		if(inView($(".hiking"))){
 			$(".homenav").removeClass("active");
 			$(".aboutnav").removeClass("active");
 			$(".programmingnav").removeClass("active");
@@ -66,47 +67,8 @@ $(document).ready(function(){
 			$(".interestsnav").removeClass("active");
 			$(".contactnav").addClass("active");
 		};
-		/* Custom Animations *//*
-		if(inView($(".about"))){
-			$(".about1").removeClass("hidden");
-			$(".about1").addClass("fadeInDown");
-		};
-		if(inView($(".programming"))){
-			$(".programming1").removeClass("hidden");
-			$(".programming1").addClass("fadeInDown");
-		};
-		if(inView($(".interests"))){
-			$(".interests1").removeClass("hidden");
-			$(".interests1").addClass("fadeInDown");
-		};
-		
-		if(inView($(".footerz"))){
-			$(".contact1").removeClass("hidden");
-			$(".contact2").removeClass("hidden");
-			$(".contact1").addClass("fadeInLeft");
-			$(".contact2").addClass("fadeInRight");			
-		};*/   
-		/* BOUNCING SOCIAL BUTTONS *//*
-		if(inView($(".footerz"))){
-			dance();
-        	}; */
 	});
 });
-
-/*function dance() {
-	$(".social1").delay(500).queue(function(){
-		$(this).addClass("bounce");
-		$(this).dequeue();
-	});
-	$(".social2").delay(1000).queue(function(){
-		$(this).addClass("bounce");
-		$(this).dequeue();
-	});
-	$(".social3").delay(1500).queue(function(){
-		$(this).addClass("bounce");
-		$(this).dequeue();
-	});
-}*/
 
 /* NAVBAR HAMBURGER/X ANIMATION */
 $(".navbar-toggle").on("click", function () {
@@ -126,3 +88,44 @@ $(window).scroll(function(){
   		$(".navbar-fixed-top").removeClass("top-nav-collapse");
 	}
 });
+
+/*function dance() {
+	$(".social1").delay(500).queue(function(){
+		$(this).addClass("bounce");
+		$(this).dequeue();
+	});
+	$(".social2").delay(1000).queue(function(){
+		$(this).addClass("bounce");
+		$(this).dequeue();
+	});
+	$(".social3").delay(1500).queue(function(){
+		$(this).addClass("bounce");
+		$(this).dequeue();
+	});
+}*/
+/*Custom Animations */
+/*$(window).scroll(function(){
+	if(inView($(".about"))){
+		$(".about1").removeClass("hidden");
+		$(".about1").addClass("fadeInDown");
+	};
+	if(inView($(".programming"))){
+		$(".programming1").removeClass("hidden");
+		$(".programming1").addClass("fadeInDown");
+	};
+	if(inView($(".interests"))){
+		$(".interests1").removeClass("hidden");
+		$(".interests1").addClass("fadeInDown");
+	};
+	if(inView($(".footerz"))){
+		$(".contact1").removeClass("hidden");
+		$(".contact2").removeClass("hidden");
+		$(".contact1").addClass("fadeInLeft");
+		$(".contact2").addClass("fadeInRight");			
+	};*/   
+	/* BOUNCING SOCIAL BUTTONS *//*
+	if(inView($(".footerz"))){
+		dance();
+	};
+});*/
+
