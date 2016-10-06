@@ -60,7 +60,7 @@ $(document).ready(function(){
 			$(".interestsnav").addClass("active");
 			$(".contactnav").removeClass("active");
 		};
-		if(inView($(".footerz"))){
+		if(inView($(".fa-twitter"))){
 			$(".homenav").removeClass("active");
 			$(".aboutnav").removeClass("active");			
 			$(".programmingnav").removeClass("active");
