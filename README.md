@@ -1,4 +1,4 @@
-# #Personal website.
+# Personal website.
 
 ##Resources:
 http://getbootstrap.com/css/  
