@@ -47,6 +47,9 @@ html,body {
 h3{
 	color: #CA5E28;
 }
+.fa-4x{
+    left: -9.5px;
+}
 .proglang{
 	color: white;
 	-webkit-transition: all 0.8s;
