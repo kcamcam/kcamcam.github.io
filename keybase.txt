@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/kcamcam
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.kcamellini.com
+  * I am kcamcam (https://keybase.io/kcamcam) on keybase.
+  * I have a public key with fingerprint B302 51A9 F73F 3488 A344  A804 6390 B98D 58C1 181E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120d7ea68740383d3b15c8131822279afcca756b6e7a4bb59e0ce997cb356a692f50a",
+            "fingerprint": "b30251a9f73f3488a344a8046390b98d58c1181e",
+            "host": "keybase.io",
+            "key_id": "6390b98d58c1181e",
+            "kid": "010101e81456025dddff5a8b1f16b48af202179d3133204d7be744015bcb2c0929450a",
+            "uid": "ed45087d6eee51ee9f66d4bbde8cff19",
+            "username": "kcamcam"
+        },
+        "service": {
+            "hostname": "www.kcamellini.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1482467908,
+    "expire_in": 157680000,
+    "prev": "1a7ef94334f436a43fbe032bfeae1ce2ae2ca1158817e19b0a8d081d4c642bde",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.61
+Comment: https://keybase.io/crypto
+
+yMNzAnicbVJ/TFVVHH8oYLD4kQIy/hC7Cv4YP+65P899TpwiAx0gNVlMIDz33nPh
+xnvvPt97PFJE0crSBOHNVtbTXBDGK4LRRmVZPGRs2mROwZAYJRHQ1gjEyBxI95L+
+1zlnO/t+z+fz+X6+352esOWm0ACp/uvaAn/smoAf/N4KU0GRb2cVIWryQcJcRZTj
+pQtbZOx0lZSrMmEmSECRMo8RB3mGpCEt0yJgJQhoACmK4gWkSBLiWU7kMI8YUWQF
+TEpYEHhJpFkOcQKlsCQikghFtZVih92h2ly6rEiTFAuQoPC0QjMQIpphECQZjhZI
+UYAyCyUAIMA6sUxzGgzdnIicOEXV9JwelCzZ+x/8U9/GxhAwLKeXkmVZUVgERaAA
+TmQgUiiSArwg04CmKZKReRHzDEMCVpRESiIFSmD+812xJIdlPYS8zGGMWYCxoHCc
+rLcrYygpChAMoBM7bMiKDa8SsuqHqE4i9KRblbAxV6ORJ4DKysoUA4QtFtWmpkia
+VRewOzSXJmkW/b3M5bI7zQbfddC+RMBiyROpElG1yfowdYYbO5yqZiPMQEdKLtXQ
+BgykGI4XSJhE4FftqgOXqAaC5TlI6suog926JEA8VgSGphmFoTnE0IqISZoSFYww
+kDCFMCUhAFgIAY+BIJIIyiQEMiNxDKU3ThjNHbBphFnQbaJSXdKpltqQq8KBiepu
+f1GgKSDUFBy0zPhkptCQyKdfz38kYrHAvDm/Nrr5UWcWwfVu6j57I3/2ykoyeshz
++OSz3shJ0vyJb1n7B8e+byyuD2+BNvbK3I6G7xq7UOlWz9DjU6/7m9VL7tV3N/hO
+e1a9P/fPwMsxm9+am7H519Zk5d33jgzfHC/Mfnh8p7UrwxKU6euPi0tMp3zNr9W3
+jeYGzof/kjra9/t568XpW6Lpy/3D3XF/qCGfnbo/cpLrRZVz87FfvJM99OeeC+vd
+z63qXBh/aYBrTb2TXpWxvC2rro/4vLWu13tgpjc7b3yXVzjaNzt7ZuF2S+/PwiUi
+8tOp9861XDv+zbkfbz/oWv3GBa66J2g4qqc5/YWwrEHn7jVp7Rsnju7Ze6ciVMrp
+iDjhIwqny6MmvW11+9dNuBLKG1YGtNWseNG6NS/sr/VaZ39w9ELc2MStn2KUfTG5
+8hktU04aXJGXWzs3dPbusdh9265qIVH2R57rHz889GZYFh8/0TNTMNOx0WP58Ih7
++8zfv40NhrePtVNlI8MhVHJ6Xcg9ZXYxIWWT3dF2PVMgiqJ6bjbOpz7zdnRTh+Ve
+adq7a4urioPHcqqpbVtc8U1jr2x32vuJdfV5KJ59frYpJ8HUdZg//+2vicmh7tMf
+5cZPfrX38tXkiUM1tdNxaa0NizlbWhYjmF0Pki/S13aMhOWPto4+jm6ZKkwnLqcN
+3BhNwv6pwBO5ng19dYn1Gf8Cn8fDKg==
+=2f1A
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kcamcam
+
+==================================================================
