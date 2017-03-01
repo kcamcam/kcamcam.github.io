@@ -2,13 +2,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <style type="text/css">
-        
+        body, html{
+            height: 100%;
+            width: 100%;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+        }
+        div{
+            text-align: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }   
+        p a, p a:visited{
+            color: blue;
+            text-decoration: none;
+            border-bottom: solid 2px transparent;
+        }
+        p a:hover, p a:focus{
+            color: black;
+            border-bottom: solid  1px black;
+            -webkit-transition: all 0.8s;
+            -moz-transition: all 0.8s;
+            transition: all 0.8s;
+        }
     </style>
 </head>
 <body>
-    <p>This webesite has moved to <a href="http://www.kevincamellini.com">kevincamellini.com</a></p>
-    <p>To continue to the old ghetto website go to <a href="http://www.kcamellini.com/kcamcam.html">kcamellini.com</a></p>
+    <div>
+        <p>This webesite has moved to </p>
+        <p><a href="http://www.kevincamellini.com">kevincamellini.com</a></p>
+        <p>To continue to the ghetto old website go to </p>
+        <p><a href="http://www.kcamellini.com/kcamcam.html">kcamellini.com</a></p>
+    </div>
 </body>
 </html>
