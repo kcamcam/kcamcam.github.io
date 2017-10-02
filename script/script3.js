@@ -15,6 +15,18 @@ function setYear(){
     footer.innerHTML=date;
 }
 
+/* TypeWritter 2.0 */
+$(function(){
+	$(".occupation").typed({
+		strings: ["Developer","Student","Software Engineering Student"],
+		typeSpeed: 40,
+		startDelay: 300,
+		callback: function() {
+			return $(".name").siblings('.typed-cursor').remove();
+		}
+	});
+});
+
 /* Scroll Function */
 $(function() {
 	$('a').click(function() {
@@ -31,17 +43,6 @@ $(function() {
 	});
 });
 
-/* TypeWritter 2.0 */
-$(function(){
-    $(".occupation").typed({
-        strings: ["Developer","Student","Software Engineering Student"],
-        typeSpeed: 40,
-        startDelay: 300,
-        callback: function() {
-            return $(".name").siblings('.typed-cursor').remove();
-        }
-    }); 
-});
 
 /* Easter Egg */
 var stringVal="";
