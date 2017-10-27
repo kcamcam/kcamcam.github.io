@@ -32,6 +32,9 @@ blockquote {
 .card-image{
 	height: 100%;
 }
+.card-image h1:hover, .card-image h1:focus{
+	cursor: pointer;
+}
 
 /***** Footer *****/
 .fa{

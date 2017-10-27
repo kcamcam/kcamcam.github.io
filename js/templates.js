@@ -1,4 +1,4 @@
-var projectNamesArr = ["classifiedz","exambank","quotifier","clock","converter","ppa","cpi","minicalc","cena","algotime","space","trippy","storyflow","kcamel"];
+var projectNamesArr = ["classifiedz","exambank","quotifier","clock","converter","ppa","cpi","minicalc","cena","algotime","space","trippy","storyflow","kcamel","emojify"];
 for (i = 0; i < projectNamesArr.length; i++) {
     createCard(projectNamesArr[i]);
 }
@@ -10,12 +10,12 @@ function createCard(project){
 	description = bajson[project]['description'];
 	urlweb = bajson[project]['urlweb'];
 	urlgithub = bajson[project]['urlgithub'];
-
+//<img class=\"activator\" src=\""+imgurl+"\">\
 	var template = "\
 		<div class=\"col s12 m4 l4 xl3\">\
 			<div class=\"card hoverable sticky-action small\">\
-				<div class=\"card-image\">\
-					<img class=\"activator\" src=\""+imgurl+"\">\
+				<div class=\"card-image \">\
+					<h1 class=\"center-align activator\" style=\"font-size:8em;\">"+imgurl+"</h1>\
 				</div>\
 				<div class=\"card-content\">\
 					<span class=\"card-title activator truncate\">\
