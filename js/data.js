@@ -8,9 +8,9 @@ var bajson = {
 		"urlgithub":"https://github.com/classifiedz/classifiedz.github.io"
 	},
 	"exambank":{
-		"imgurl":"\u{1F392}",//./img/exambank.png
+		"imgurl":"\u{1F4DA}",//./img/exambank.png
 		"title":"Exam Bank",
-		"subtitle":"Exam Bank\u{1F392}",
+		"subtitle":"Exam Bank \u{1F4DA}",
 		"description":"Exam bank is a single comprehensive collection of all the exams I have collected throughout the course of my Software Engineering Degree at Concordia. A PHP script genreates the entire page, you could just add files to the github repo and the exams automatically show up on the website.",
 		"urlweb":"https://exambank.kcamel.com",
 		"urlgithub":"https://github.com/kcamcam/exambank"
