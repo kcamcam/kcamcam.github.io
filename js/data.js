@@ -67,7 +67,7 @@ var bajson = {
 		"imgurl":"\u{1F4FA}",//./img/cena.png
 		"title":"Instant Cena",
 		"subtitle":"Instant Cena \u{1F4FA}",
-		"description":"Bet you can't see him. Troll your friends \u{1F4A9}.",
+		"description":"Bet you can't see him\u{1F6AB}. Troll your friends \u{1F4A9}.",
 		"urlweb":"https://instantcena.ca",
 		"urlgithub":"https://github.com/kcamcam/instantcena"
 	},
