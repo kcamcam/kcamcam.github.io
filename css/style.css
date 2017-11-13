@@ -46,7 +46,7 @@ blockquote {
 .fa-chevron-left, .fa-chevron-right, .fa-heart{
    font-size: 1em;
 }
-.footer-copyright div div div a{
+.footer_name{
    font-weight: bold;
    color: inherit;
    cursor: pointer;
