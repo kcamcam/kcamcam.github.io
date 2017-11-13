@@ -43,6 +43,14 @@ blockquote {
 .social ul li a{
   color: white;
 }
+.fa-chevron-left, .fa-chevron-right, .fa-heart{
+   font-size: 1em;
+}
+.footer-copyright div div div a{
+   font-weight: bold;
+   color: inherit;
+   cursor: pointer;
+}
 
 /***** Common *****/
 .social ul li a:hover, .social ul li a:focus, .links a:hover, .links a:focus{
