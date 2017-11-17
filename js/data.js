@@ -118,5 +118,13 @@ var bajson = {
 		"description":"Emojify your text! Some pretty sweet JS adds emojis to ur text.",
 		"urlweb":"https://kcamel.com/emojify/",
 		"urlgithub":"https://github.com/kcamcam/emojify"
+	},
+	"kitty":{
+		"imgurl":"\u{1F63C}",
+		"title":"Kitty Wallpaper",
+		"subtitle":"Kitty Wallpaper \u{1F63C}",
+		"description":"A browser wallpaper that helps keep your \u{1F63C} occipied, while you stay busy \u{1F9D0}.",
+		"urlweb":"https://cat.kcamel.com",
+		"urlgithub":"https://github.com/kcamcam/cat-wallpaper"
 	}
 };
