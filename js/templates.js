@@ -10,36 +10,36 @@ function createCard(project){
 	description = bajson[project]['description'];
 	urlweb = bajson[project]['urlweb'];
 	urlgithub = bajson[project]['urlgithub'];
-//<img class=\"activator\" src=\""+imgurl+"\">\
+	//<img class=\"activator\" src=\""+imgurl+"\">\
 	var template = "\
 		<div class=\"col s12 m4 l4 xl3\">\
-			<div class=\"card hoverable sticky-action small\">\
-				<div class=\"card-image \">\
-					<h1 class=\"center-align activator\" style=\"font-size:8em;\">"+imgurl+"</h1>\
+			<div class=\"card hoverable modal-trigger sticky-action waves-effect waves-block waves-light\" data-target=\"#"+project+"\">\
+				<div class=\"card-image\">\
+					<h1 class=\"center-align activator\" style=\"font-size: 8.4em;\">"+imgurl+"</h1>\
 				</div>\
 				<div class=\"card-content\">\
-					<span class=\"card-title activator truncate\">\
-						<i class=\"material-icons right activator\">more_vert</i>"
-						+title+
-					"</span>\
-				</div>\
-				<div class=\"card-reveal\">\
-					<span class=\"card-title grey-text text-darken-3\">\
-						<i class=\"material-icons right\">close</i>"
-						+subtitle+
-					"</span>\
-					<p class=\"grey-text text-darken-3\">"
-						+description+
-					"</p>\
-				</div>\
-				<div class=\"card-action px-1 right-align links\">\
-					<a class=\"grey-text darken-1\" href=\""+urlweb+"\"><i class=\"fa fa-globe\"></i></a>\
-					<a class=\"grey-text darken-1\" href=\""+urlgithub+"\"><i class=\"fa fa-github\"></i></a>\
+					<span class=\"card-title truncate\">"+title+"</span>\
 				</div>\
 			</div>\
 		</div>\
 	";
+	var modal = "\
+		<div id=\"#"+project+"\" class=\"modal modal-fixed-footer\">\
+			<div class=\"modal-content\">\
+				<i class=\"material-icons right modal-action modal-close\">close</i>\
+				<h4>"+subtitle+"</h4>\
+				<p class=\"grey-text text-darken-3 description\">"+description+"</p>\
+			</div>\
+			<div class=\"modal-footer p-3 links\">\
+				<a class=\"grey-text text-darken-2 pr-2 hvr-icon-back globe \" href=\""+urlweb+"\">www</a>\
+				<a class=\"grey-text text-darken-2 pr-2 hvr-icon-back github \" href=\""+urlgithub+"\">code</a>\
+			</div>\
+		</div>\
+	";
+
 	$('.'+project).append(template);
+	$('.'+project).append(modal);
+	$('.modal').modal();
 	console.log('create '+project);
 }
 console.log('everything ok :)');

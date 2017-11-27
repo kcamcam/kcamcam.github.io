@@ -24,6 +24,7 @@ blockquote {
 }
 .tabs .tab a:hover, .tabs .tab a.active{
 	color: rgb(247,138,73);
+	/*background-color: black;*/
 }
 .tabs .indicator {
 	background-color: rgb(251,168,118);
@@ -32,15 +33,22 @@ blockquote {
 .card-image{
 	height: 100%;
 }
-.card-image h1:hover, .card-image h1:focus{
+.card:hover, .card:focus{
 	cursor: pointer;
 }
+.globe:before {
+	/*http://astronautweb.co/snippet/font-awesome/#font-awesome-list*/
+  content: "\f0ac";
+}
+.github:before{
+	/*http://astronautweb.co/snippet/font-awesome/#font-awesome-list*/
+	content: "\f09b";
+}
+
 
 /***** Footer *****/
-.fa{
-  font-size:1.4em;
-}
 .social ul li a{
+	font-size:1.4em;
   color: white;
 }
 .fa-chevron-left, .fa-chevron-right, .fa-heart{
@@ -49,12 +57,47 @@ blockquote {
 .footer_name{
    font-weight: bold;
    color: inherit;
-   cursor: pointer;
+}
+.icon-brand:before {
+  content: "\e909";
+}
+.signature {
+	font-size: 1em;
 }
 
 /***** Common *****/
 .social ul li a:hover, .social ul li a:focus, .links a:hover, .links a:focus{
-	-webkit-transition: color .28s ease;
+	/*-webkit-transition: color .28s ease;
 	transition: color .28s ease;
-	color: rgb(251,168,118)!important;
+	color: rgb(251,168,118)!important;*/
+}
+
+/***** Ethereum Icon *****/
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('../fonts/icomoon.ttf?9jxqnj') format('truetype'),
+    url('../fonts/icomoon.woff?9jxqnj') format('woff'),
+    url('../fonts/icomoon.svg?9jxqnj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-eth"], [class*=" icon-eth"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ethbrand:before {
+  content: "\e909";
 }
