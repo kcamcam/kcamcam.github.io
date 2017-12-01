@@ -33,7 +33,7 @@ function createCard(project){
 			</div>\
 			<div class=\"modal-footer p-3 links\">\
 				<small class=\"left mt-2\">Updated:"+date+"</small>\
-				<a class=\"grey-text text-darken-2 pr-2 hvr-icon-back globe \" href=\""+urlweb+"\">www</a>\
+				<a class=\"grey-text text-darken-2 hvr-icon-back globe \" href=\""+urlweb+"\">www</a>\
 				<a class=\"grey-text text-darken-2 pr-2 hvr-icon-back github \" href=\""+urlgithub+"\">code</a>\
 			</div>\
 		</div>\
