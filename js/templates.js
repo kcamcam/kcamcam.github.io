@@ -10,6 +10,7 @@ function createCard(project){
 	description = bajson[project]['description'];
 	urlweb = bajson[project]['urlweb'];
 	urlgithub = bajson[project]['urlgithub'];
+	date = bajson[project]['date'];
 	//<img class=\"activator\" src=\""+imgurl+"\">\
 	var template = "\
 		<div class=\"col s12 m4 l4 xl3\">\
@@ -18,7 +19,7 @@ function createCard(project){
 					<h1 class=\"center-align activator\" style=\"font-size: 8.4em;\">"+imgurl+"</h1>\
 				</div>\
 				<div class=\"card-content\">\
-					<span class=\"card-title truncate\">"+title+"</span>\
+					<span id=\"card-title\" class=\"card-title truncate\">"+title+"</span>\
 				</div>\
 			</div>\
 		</div>\
@@ -27,10 +28,11 @@ function createCard(project){
 		<div id=\"#"+project+"\" class=\"modal modal-fixed-footer\">\
 			<div class=\"modal-content\">\
 				<i class=\"material-icons right modal-action modal-close\">close</i>\
-				<h4>"+subtitle+"</h4>\
+				<h4 id=\"card-title\">"+subtitle+"</h4>\
 				<p class=\"grey-text text-darken-3 description\">"+description+"</p>\
 			</div>\
 			<div class=\"modal-footer p-3 links\">\
+				<small class=\"left mt-2\">Updated:"+date+"</small>\
 				<a class=\"grey-text text-darken-2 pr-2 hvr-icon-back globe \" href=\""+urlweb+"\">www</a>\
 				<a class=\"grey-text text-darken-2 pr-2 hvr-icon-back github \" href=\""+urlgithub+"\">code</a>\
 			</div>\

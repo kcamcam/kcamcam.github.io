@@ -5,7 +5,8 @@ var bajson = {
 		"subtitle":"Classifiedz \u{1F50D}",
 		"description":"Classifiedz.xyz is a term project for a Software Process class at Concordia. We created a classifiedz website to buy and sell goods and services, on a team of 8 people, of which I was the lead. We used Laravel, MySQL, and Boostrap.",
 		"urlweb":"http://classifiedz.xyz",
-		"urlgithub":"https://github.com/classifiedz/classifiedz.github.io"
+		"urlgithub":"https://github.com/classifiedz/classifiedz.github.io",
+		"date":"10-2017"
 	},
 	"exambank":{
 		"imgurl":"\u{1F4DA}",//./img/exambank.png
@@ -13,7 +14,8 @@ var bajson = {
 		"subtitle":"Exam Bank \u{1F4DA}",
 		"description":"Exam bank is a single comprehensive collection of all the exams I have collected throughout the course of my Software Engineering Degree at Concordia. A PHP script genreates the entire page, you could just add files to the github repo and the exams automatically show up on the website.",
 		"urlweb":"https://exambank.kcamel.com",
-		"urlgithub":"https://github.com/kcamcam/exambank"
+		"urlgithub":"https://github.com/kcamcam/exambank",
+		"date":"11-2017"
 	},
 	"quotifier":{
 		"imgurl":"\u{1F4DD}",//./img/quotifier.png
@@ -21,7 +23,8 @@ var bajson = {
 		"subtitle":"Quotifier \u{1F4DD}",
 		"description":"Quotifier is a PHP app that adds random quotes by randon authors to your code. Give it a try!",
 		"urlweb":"https://quotifier.ca",
-		"urlgithub":"https://github.com/kcamcam/Quotifier"
+		"urlgithub":"https://github.com/kcamcam/Quotifier",
+		"date":"03-2017"
 	},
 	"clock":{
 		"imgurl":"\u{23F0}",//./img/clock.png
@@ -29,7 +32,8 @@ var bajson = {
 		"subtitle":"Binary Clock \u{23F0}",
 		"description":"Binary clock, a fun little project that makes it easy to read a binary clock.",
 		"urlweb":"https://kcamel.com/binaryClock",
-		"urlgithub":"https://github.com/kcamcam/binaryClock"
+		"urlgithub":"https://github.com/kcamcam/binaryClock",
+		"date":"06-2017"
 	},
 	"converter":{
 		"imgurl":"\u{1F916}",//./img/converter.png
@@ -37,7 +41,8 @@ var bajson = {
 		"subtitle":"Binary Converter \u{1F916}",
 		"description":"A simple and elegant converter to convert binary,octal,hex, or decimal interchangeably.",
 		"urlweb":"https://binaryconverter.ca/",
-		"urlgithub":"https://github.com/kcamcam/binaryConverter"
+		"urlgithub":"https://github.com/kcamcam/binaryConverter",
+		"date":"04-2017"
 	},
 	"ppa":{
 		"imgurl":"\u{1F4AA}",//./img/ppa.png
@@ -45,7 +50,8 @@ var bajson = {
 		"subtitle":"PPA \u{1F4AA}",
 		"description":"Pro Performance Athletik - Vanilla HTML,CSS,JS and Bootstrap website for a personal trainer.",
 		"urlweb":"https://ppathletik.ca/",
-		"urlgithub":"https://github.com/kcamcam/ppa"
+		"urlgithub":"https://github.com/kcamcam/ppa",
+		"date":"09-2017"
 	},
 	"cpi":{
 		"imgurl":"\u{1F486}",//./img/cpi.png
@@ -53,7 +59,8 @@ var bajson = {
 		"subtitle":"CPI \u{1F486}",
 		"description":"Clinique Physio Impact - Vanilla HTML,CSS,JS and Bootstrap website for a physio/osteopath.",
 		"urlweb":"https://kcamel.com/CPI/",
-		"urlgithub":"https://github.com/kcamcam/CPI"
+		"urlgithub":"https://github.com/kcamcam/CPI",
+		"date":"08-2017"
 	},
 	"minicalc":{
 		"imgurl":"\u{231A}",//./img/minicalc.png
@@ -61,7 +68,8 @@ var bajson = {
 		"subtitle":"miniCalc \u{1F34E}\u{231A}",
 		"description":"Website for an apple watch calculator app developed by my coleagues <a href=\"https://famingolabs.com\">@Famingo Labs.</a>",
 		"urlweb":"https://kcamel.com/miniCalc.ca/",
-		"urlgithub":"https://github.com/kcamcam/miniCalc.ca"
+		"urlgithub":"https://github.com/kcamcam/miniCalc.ca",
+		"date":"08-2017"
 	},
 	"cena":{
 		"imgurl":"\u{1F4FA}",//./img/cena.png
@@ -69,7 +77,8 @@ var bajson = {
 		"subtitle":"Instant Cena \u{1F4FA}",
 		"description":"Bet you can't see him\u{1F6AB}. Troll your friends \u{1F4A9}.",
 		"urlweb":"https://instantcena.ca",
-		"urlgithub":"https://github.com/kcamcam/instantcena"
+		"urlgithub":"https://github.com/kcamcam/instantcena",
+		"date":"01-2017"
 	},
 	"algotime":{
 		"imgurl":"\u{1F468}\u{200D}\u{1F4BB}",//./img/scs.png
@@ -77,7 +86,8 @@ var bajson = {
 		"subtitle":"Algorithm Time \u{1F468}\u{200D}\u{1F4BB}",
 		"description":"I attent weekly coding challenges at school hosted by the Software Engineering and Computer Science Society (SCS).",
 		"urlweb":"https://algotime.scsconcordia.com/",
-		"urlgithub":"#!"
+		"urlgithub":"#!",
+		"date":""
 	},
 	"space":{
 		"imgurl":"\u{1F680}",//./img/space.png
@@ -85,7 +95,8 @@ var bajson = {
 		"subtitle":"Space Concordia \u{1F680}",
 		"description":"I am a memberof the Space Concordia Robotics team. I work on the motor inerface for the motors on the robotic arm of the rover.",
 		"urlweb":"https://spaceconcordia.github.io/",
-		"urlgithub":"https://github.com/space-concordia-robotics/robotics-prototype/tree/master/motor-interface"
+		"urlgithub":"https://github.com/space-concordia-robotics/robotics-prototype/tree/master/motor-interface",
+		"date":""
 	},
 	"trippy":{
 		"imgurl":"\u{1F6E9}",//./img/trippy.png
@@ -93,7 +104,8 @@ var bajson = {
 		"subtitle":"Trippy \u{1F6E9}",
 		"description":"Angel Hacks 16' - My first ever hackathon, we built a social media travel suggestion chat bot using Facebook and Expedia's API.",
 		"urlweb":"https://kcamel.com/Trippy/",
-		"urlgithub":"https://github.com/kcamcam/Trippy"
+		"urlgithub":"https://github.com/kcamcam/Trippy",
+		"date":"06-2016"
 	},
 	"storyflow":{
 		"imgurl":"\u{1F4F7}",//./img/conu.png
@@ -101,7 +113,8 @@ var bajson = {
 		"subtitle":"Story Flow \u{1F4F7}",
 		"description":"ConUHAcks II - A collaborative Instagram stories app. You can think of it kind of like Snapchat stories but for Instagram but you get to chose who's in your story.",
 		"urlweb":"https://github.com/kcamcam/Storyflow/blob/master/storyflow.gif",
-		"urlgithub":"https://github.com/kcamcam/Storyflow"
+		"urlgithub":"https://github.com/kcamcam/Storyflow",
+		"date":"01-2017"
 	},
 	"kcamel":{
 		"imgurl":"\u{1F468}\u{200D}\u{1F4BB}",//./img/kcamel.png
@@ -109,7 +122,8 @@ var bajson = {
 		"subtitle":"kcamel \u{1F468}\u{200D}\u{1F4BB}",
 		"description":"My portfolio website, yup the same one you're on, almost entirely generated via a JS script.",
 		"urlweb":"https://kcamel.com",
-		"urlgithub":"https://github.com/kcamcam/kcamcam.github.io"
+		"urlgithub":"https://github.com/kcamcam/kcamcam.github.io",
+		"date":"11-2017"
 	},
 	"emojify":{
 		"imgurl":"\u{1F92F}",
@@ -117,7 +131,8 @@ var bajson = {
 		"subtitle":"Emojify \u{1F92F}",
 		"description":"Emojify your text! Some pretty sweet JS adds emojis to ur text.",
 		"urlweb":"https://kcamel.com/emojify/",
-		"urlgithub":"https://github.com/kcamcam/emojify"
+		"urlgithub":"https://github.com/kcamcam/emojify",
+		"date":"10-2017"
 	},
 	"kitty":{
 		"imgurl":"\u{1F63C}",
@@ -125,6 +140,7 @@ var bajson = {
 		"subtitle":"Kitty Wallpaper \u{1F63C}",
 		"description":"A browser wallpaper that helps keep your \u{1F63C} occipied, while you stay busy \u{1F9D0}.",
 		"urlweb":"https://cat.kcamel.com",
-		"urlgithub":"https://github.com/kcamcam/cat-wallpaper"
+		"urlgithub":"https://github.com/kcamcam/cat-wallpaper",
+		"date":"11-2017"
 	}
 };

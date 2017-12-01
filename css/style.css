@@ -5,9 +5,7 @@ html, body{
   flex-direction: column;
   --main-color: rgb(247,138,73);
 }
-.block{
 
-}
 /***** Landing *****/
 .header{
   min-height:100vh;
@@ -30,6 +28,10 @@ blockquote {
 	background-color: rgb(251,168,118);
 }
 
+#card-title{
+	font-family: Raleway;
+	font-weight: 500;
+}
 .card-image{
 	height: 100%;
 }
@@ -37,14 +39,11 @@ blockquote {
 	cursor: pointer;
 }
 .globe:before {
-	/*http://astronautweb.co/snippet/font-awesome/#font-awesome-list*/
   content: "\f0ac";
 }
 .github:before{
-	/*http://astronautweb.co/snippet/font-awesome/#font-awesome-list*/
 	content: "\f09b";
 }
-
 
 /***** Footer *****/
 .social ul li a{
