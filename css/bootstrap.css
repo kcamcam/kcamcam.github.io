@@ -4,7 +4,7 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *
- * @kcamcam - Took all the margin and padding css out of bootstrap
+ * @kcamcam - used only the parts of bootstrap useful tho this project
  */
 
  .clearfix::after {

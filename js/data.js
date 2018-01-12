@@ -60,7 +60,7 @@ var bajson = {
 		"description":"Clinique Physio Impact - Vanilla HTML,CSS,JS and Bootstrap website for a physio/osteopath.",
 		"urlweb":"https://kcamel.com/CPI/",
 		"urlgithub":"https://github.com/kcamcam/CPI",
-		"date":"08-2017"
+		"date":"12-2017"
 	},
 	"minicalc":{
 		"imgurl":"\u{231A}",//./img/minicalc.png
@@ -120,10 +120,10 @@ var bajson = {
 		"imgurl":"\u{1F468}\u{200D}\u{1F4BB}",//./img/kcamel.png
 		"title":"kcamel",
 		"subtitle":"kcamel \u{1F468}\u{200D}\u{1F4BB}",
-		"description":"My portfolio website, yup the same one you're on, almost entirely generated via a JS script.",
+		"description":"My portfolio website, yup the same one you're on, almost entirely generated via JS. These cards \u{1F449} all JS.",
 		"urlweb":"https://kcamel.com",
 		"urlgithub":"https://github.com/kcamcam/kcamcam.github.io",
-		"date":"11-2017"
+		"date":"01-2018"
 	},
 	"emojify":{
 		"imgurl":"\u{1F92F}",
@@ -142,5 +142,23 @@ var bajson = {
 		"urlweb":"https://cat.kcamel.com",
 		"urlgithub":"https://github.com/kcamcam/cat-wallpaper",
 		"date":"11-2017"
+	},
+	"driverrank":{
+		"imgurl":"\u{1F698}",
+		"title":"Driver Rank",
+		"subtitle":"Driver Rank \u{1F698}",
+		"description":"My first rails project. A place where you can rate other drivers on their driving.",
+		"urlweb":"https://driverrank.ca",
+		"urlgithub":"https://github.com/kcamcam/driver-rank",
+		"date":"01-2018"
+	},
+	"famingo":{
+		"imgurl":"\u{1F937}\u{200D}\u{2642}\u{FE0F}",
+		"title":"ConUhacks18\'",
+		"subtitle":"ConUHcaks 18\'\u{1F468}\u{200D}\u{1F4BB}",
+		"description":"Who knows what <a href=\"https://famingolabs.com\">famingolabs</a> is up to next.",
+		"urlweb":"https://famingolabs.com",
+		"urlgithub":"https://github.com/famingolabs",
+		"date":"01-2018"
 	}
 };
