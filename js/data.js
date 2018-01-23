@@ -120,7 +120,7 @@ var bajson = {
 		"imgurl":"\u{1F468}\u{200D}\u{1F4BB}",//./img/kcamel.png
 		"title":"kcamel",
 		"subtitle":"kcamel \u{1F468}\u{200D}\u{1F4BB}",
-		"description":"My portfolio website, yup the same one you're on, almost entirely generated via JS. These cards \u{1F449} all JS.",
+		"description":"My portfolio website, yup the same one you're on, almost entirely generated via JS. These cards \u{1F449} all JS. Pretty sweet.",
 		"urlweb":"https://kcamel.com",
 		"urlgithub":"https://github.com/kcamcam/kcamcam.github.io",
 		"date":"01-2018"
@@ -129,7 +129,7 @@ var bajson = {
 		"imgurl":"\u{1F92F}",
 		"title":"Emojify",
 		"subtitle":"Emojify \u{1F92F}",
-		"description":"Emojify your text! Some pretty sweet JS adds emojis to ur text.",
+		"description":"Emojify your text! Some pretty sweet JS adds emojis to text anywhere.",
 		"urlweb":"https://kcamel.com/emojify/",
 		"urlgithub":"https://github.com/kcamcam/emojify",
 		"date":"10-2017"
