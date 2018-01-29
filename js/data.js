@@ -100,18 +100,18 @@ var bajson = {
 	},
 	"trippy":{
 		"imgurl":"\u{1F6E9}",//./img/trippy.png
-		"title":"Trippy",
+		"title":"Angel Hacks",
 		"subtitle":"Trippy \u{1F6E9}",
-		"description":"Angel Hacks 16' - My first ever hackathon, we built a social media travel suggestion chat bot using Facebook and Expedia's API.",
+		"description":"Angel Hacks 2016 - My first ever hackathon, we built a social media travel suggestion chat bot using Facebook and Expedia's API.",
 		"urlweb":"https://kcamel.com/Trippy/",
 		"urlgithub":"https://github.com/kcamcam/Trippy",
 		"date":"06-2016"
 	},
 	"storyflow":{
 		"imgurl":"\u{1F4F7}",//./img/conu.png
-		"title":"Story Flow",
+		"title":"ConUHacks II",
 		"subtitle":"Story Flow \u{1F4F7}",
-		"description":"ConUHAcks II - A collaborative Instagram stories app. You can think of it kind of like Snapchat stories but for Instagram but you get to chose who's in your story.",
+		"description":"ConUHAcks II - Top 5 out of 600 student. A collaborative Instagram stories app. You can think of it kind of like Snapchat stories but for Instagram but you get to chose who's in your story.",
 		"urlweb":"https://github.com/kcamcam/Storyflow/blob/master/storyflow.gif",
 		"urlgithub":"https://github.com/kcamcam/Storyflow",
 		"date":"01-2017"
@@ -153,12 +153,12 @@ var bajson = {
 		"date":"01-2018"
 	},
 	"famingo":{
-		"imgurl":"\u{1F937}\u{200D}\u{2642}\u{FE0F}",
-		"title":"ConUhacks18\'",
-		"subtitle":"ConUHcaks 18\'\u{1F468}\u{200D}\u{1F4BB}",
-		"description":"Who knows what <a href=\"https://famingolabs.com\">famingolabs</a> is up to next.",
-		"urlweb":"https://famingolabs.com",
-		"urlgithub":"https://github.com/famingolabs",
+		"imgurl":"\u{1F947}",
+		"title":"ConUhacks III",
+		"subtitle":"ConUHcaks III \u{1F378}",
+		"description":"\u{1F947} First place out of 600+ students. <a href=\"https://famingolabs.com\">Famingolabs</a> brings you an IOT hardward hack DIY cocktail recipe mixer. Built with components from a CNC machine and whatever parts four SOEN students turned plumbers for a day could find.",
+		"urlweb":"https://devpost.com/software/turnt-hm13r8",
+		"urlgithub":"https://github.com/izconcept/Turnt",
 		"date":"01-2018"
 	}
 };
