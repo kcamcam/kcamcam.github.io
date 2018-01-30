@@ -112,7 +112,7 @@ var bajson = {
 		"title":"ConUHacks II",
 		"subtitle":"Story Flow \u{1F4F7}",
 		"description":"ConUHAcks II - Top 5 out of 600 student. A collaborative Instagram stories app. You can think of it kind of like Snapchat stories but for Instagram but you get to chose who's in your story.",
-		"urlweb":"https://github.com/kcamcam/Storyflow/blob/master/storyflow.gif",
+		"urlweb":"https://devpost.com/software/storyflow",
 		"urlgithub":"https://github.com/kcamcam/Storyflow",
 		"date":"01-2017"
 	},
