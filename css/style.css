@@ -36,11 +36,8 @@ blockquote {
 .card:hover, .card:focus{
 	cursor: pointer;
 }
-.globe:before {
-  content: "\f0ac";
-}
-.github:before{
-	content: "\f09b";
+
+.github:hover, .globe:hover{
 }
 
 /***** Footer *****/
@@ -77,34 +74,4 @@ blockquote {
     font-size: 7em;
     color: white;
     font-family: arial black;
-}
-
-/***** Ethereum Icon *****/
-@font-face {
-  font-family: 'icomoon';
-  src:
-    url('../fonts/icomoon.ttf?9jxqnj') format('truetype'),
-    url('../fonts/icomoon.woff?9jxqnj') format('woff'),
-    url('../fonts/icomoon.svg?9jxqnj#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-[class^="icon-eth"], [class*=" icon-eth"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-ethbrand:before {
-  content: "\e909";
 }
