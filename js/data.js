@@ -160,5 +160,23 @@ var bajson = {
 		"urlweb":"https://devpost.com/software/turnt-hm13r8",
 		"urlgithub":"https://github.com/izconcept/Turnt",
 		"date":"01-2018"
+	},
+	"metro":{
+		"imgurl":"\u{1F687}",
+		"title":"Metro Exit Cheat Sheet",
+		"subtitle":"Metro Exit Cheat Sheet \u{1F687}",
+		"description":"A cheat sheet that tells you exactly which metro cart doors will land you directly in front of the exit stairs.",
+		"urlweb":"https://metro.kcamel.com/",
+		"urlgithub":"https://github.com/kcamcam/metro-exit-cheat-sheet",
+		"date":"02-2018"
+	},
+	"readings":{
+		"imgurl":"\u{1F4D9}",
+		"title":"ENGR 392 Readings",
+		"subtitle":"ENGR 392 Readings \u{1F4D9}",
+		"description":"I was tired of in class readings that were scanned from books and almost impossible to read. ENGR 392 was a reading intensive course, so I passed all the readings through the Google Docs OCR to make them reader friendly and they can take advantage of safari's reader view.",
+		"urlweb":"https://kcamel.com/engr392",
+		"urlgithub":"https://github.com/kcamcam/engr392",
+		"date":"01-2018"
 	}
 };
