@@ -3,8 +3,8 @@ var bajson = {
     "imgurl":"\u{1F50D}",//./img/classifiedz.png
 		"title":"Classifiedz",
 		"subtitle":"Classifiedz \u{1F50D}",
-		"description":"Classifiedz.xyz is a term project for a Software Process class at Concordia. We created a classifiedz website to buy and sell goods and services, on a team of 8 people, of which I was the lead. We used Laravel, MySQL, and Boostrap.",
-		"urlweb":"http://classifiedz.xyz",
+		"description":"Classifiedz.xyz is a term project for the Software Process class at Concordia. We created a classifiedz website to buy and sell goods and services, similar to Kijiji.  We were a team of 8 people, of which I was the lead. We used Laravel, MySQL, and Boostrap.",
+		"urlweb":"http://classifiedz341.herokuapp.com/",
 		"urlgithub":"https://github.com/classifiedz/classifiedz.github.io",
 		"date":"10-2017"
 	},
