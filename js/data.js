@@ -22,7 +22,7 @@ var bajson = {
 		"title":"Quotifier",
 		"subtitle":"Quotifier \u{1F4DD}",
 		"description":"Quotifier is a PHP app that adds random quotes by randon authors to your code. Give it a try!",
-		"urlweb":"https://quotifier.ca",
+		"urlweb":"https://quotifier.herokuapp.com/",
 		"urlgithub":"https://github.com/kcamcam/Quotifier",
 		"date":"03-2017"
 	},
@@ -40,7 +40,7 @@ var bajson = {
 		"title":"Binary Converter",
 		"subtitle":"Binary Converter \u{1F916}",
 		"description":"A simple and elegant converter to convert binary,octal,hex, or decimal interchangeably.",
-		"urlweb":"https://binaryconverter.ca/",
+		"urlweb":"https://kcamel.com/binaryConverter",
 		"urlgithub":"https://github.com/kcamcam/binaryConverter",
 		"date":"04-2017"
 	},
@@ -49,7 +49,7 @@ var bajson = {
 		"title":"PPA",
 		"subtitle":"PPA \u{1F4AA}",
 		"description":"Pro Performance Athletik - Vanilla HTML,CSS,JS and Bootstrap website for a personal trainer.",
-		"urlweb":"https://ppathletik.ca/",
+		"urlweb":"https://kcamel.com/ppa",
 		"urlgithub":"https://github.com/kcamcam/ppa",
 		"date":"09-2017"
 	},
