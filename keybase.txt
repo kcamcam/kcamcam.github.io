@@ -6,30 +6,24 @@ I hereby claim:
 
   * I am an admin of https://kcamel.com
   * I am kcamcam (https://keybase.io/kcamcam) on keybase.
-  * I have a public key with fingerprint B302 51A9 F73F 3488 A344  A804 6390 B98D 58C1 181E
+  * I have a public key ASCLxsCL_v61R_p99CDhh4HmUaYY8DPGFbft6Mpmu8cXBQo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "0120d7ea68740383d3b15c8131822279afcca756b6e7a4bb59e0ce997cb356a692f50a",
-      "fingerprint": "b30251a9f73f3488a344a8046390b98d58c1181e",
+      "eldest_kid": "012019e20ae975c5b84013f7a9195560ed720d32d75a4f6c35b5c220626117a235920a",
       "host": "keybase.io",
-      "key_id": "6390b98d58c1181e",
-      "kid": "010101e81456025dddff5a8b1f16b48af202179d3133204d7be744015bcb2c0929450a",
+      "kid": "01208bc6c08bfefeb547fa7df420e18781e651a618f033c615b7ede8ca66bbc717050a",
       "uid": "ed45087d6eee51ee9f66d4bbde8cff19",
       "username": "kcamcam"
     },
     "merkle_root": {
-      "ctime": 1513298681,
-      "hash_meta": "6358a160321d1f8c71d14989e4057cada2776869d7018ba59de2413543d1847a",
-      "seqno": 1821302
-    },
-    "revoke": {
-      "sig_ids": [
-        "b962ec2a86bc7a1e4f5328b339ca2a03559f5bf8d0e84d0f16b091c0d147861f0f"
-      ]
+      "ctime": 1521078668,
+      "hash": "f00be01f9cb869e8be230274640b06d20f56d96e641a9d28494b56ac1e3d701a88e8688865409afedfa43687e038f3d37f7fd5e6d6c29df9a7580b818f5c432b",
+      "hash_meta": "801356fcaf86f7517e42fda92bc48c36c4249d5c695f90735a7df75f3be5aab7",
+      "seqno": 2238245
     },
     "service": {
       "hostname": "kcamel.com",
@@ -38,47 +32,20 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1513298777,
-  "expire_in": 157680000,
-  "prev": "c86aa07127f15372823d7c19660c436933d6d50819d557359deb6dfca6758fd7",
-  "seqno": 29,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.45"
+  },
+  "ctime": 1521078697,
+  "expire_in": 504576000,
+  "prev": "59b32afaca6e5abc9eaef04c388ccb4c78f5a3eee34d7ef5361f4991b4486e6f",
+  "seqno": 47,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.76
-Comment: https://keybase.io/crypto
-
-yMP7AnicbVMLbBRFGD6KgFQeJjzLQ8kGUnldd3Z253GAYE0LpT6wpbZA4TK7M9te
-27sre3elBYq8WyFAhQBVC7ZYxaCIUSPPqrSIQFG0AbE8fRAJIiSiFVSozlaJmriz
-yWQm3/993//NzKGenT3xnayqvWtyDg58oFNzYyTmmQkHz1igmGFepvgWKIWiYxJF
-XESi/sIAV3yKCjSVY8EQwboKCeTQBIZFAARE0zRMmW1ZDBvIRAIz3TQNKlRLUIot
-ExqIIarZhsqUMYodCOUJp9gJhKKS1oSqZgBGbQxtqBPCoK4zouoIUtWkhBvEAoAA
-IQvzwxG3QpozWUR4A2G5Jxf+Dnv/g7/r2x2CAN1AUopzbtsGIyawATJ1wmxN1QCm
-HAIINVXn2BRY11VgmJapWSrVqP6X71gHneBySTBHQggDCEFthLhslwti2TagLjAi
-nBALCterxYLyV8rHKEHhFBYJvxMOR91srWjARQADQI0SRIDsj0Xy/UERZR3tGIQB
-pEINcGATC8tJp4QKXTWwxTjTMEYEUY5VQExmUC40HUBDhxwQHbt+I2JuKCwViAZk
-xtKBI0rChcIVjwTyZGoRxTdLMSnShKUxgkwLMyB024AaMSGkFtOYCg2D2oZpE64K
-onPVDU2lwFKlHUwQsFVbmV3uijklAauD3D2mf7UvirxWOCj9FDvhaNgKF8n9/Gi0
-OOJzU4mWFbvAecL0/03hNwMhLq+IrCgRTiQQDskeJPK/gWGMxyiitDjgCH/ARRgy
-DlV+ro4okZQWQYypGGjYBgbEGtEgxxagCKmWDhGFkCMujxJQbhgYugmaiNsWQ9gg
-Nsf/JKhR6ZPlSU6ZW4hFY45QyhsP5t7j6RTv6dolzn07nvju9999UTvTe7ePTX49
-uH9ZdlWifvvWtRFk3oFhXx2d01Y//pXpP8MJ2zbsuX7j5W6RrUP2tvrO1F/5YGrZ
-ovXepinZzvA+ZfDrXrD/uKg+59yXdMqq0oW7W+r3FvTb/MyguEUbEqbNmrFkUvqs
-p08ZiUXk9plxQ+uaKhtqRqUtLCiNztgXv6p57YRTE2uX4wvr6+csWeZ//nD1eTbo
-UGzT4q063JJ2avuiFNS1vmHI8l5zRzvbUU7/ovD5wZlPHFsZm7n62xW5dxr+2Hr5
-dH3vHu8Ny2oq/PTYjZrvHtqQ0Nq+yXsiaY+374rY+5OU7IHowTuVVs+atSMvDd2W
-MPQKf2lp50tvZAdWVGVs7La0PevhpHjrx7frPjubv/2xTTffvarpP2U9ldSn2Kg9
-Njz13l076iqO4N2jU1Dk8IiW5oGNX3jXpZ3NnV80c9+Hby45t27AC2lte168eMSz
-fnLPTzztlb/0q9iWWvvWb1MTUy/MTph2oqBHY8WokuvJI2NxI44/h7NKF595p2ZV
-8Gb5a/1OHo2kZwyf6ktqTn6V7EKfOz3Wnc9JG516tSnp9JNbVrf9frJw7pBuSYY3
-PWPihYuTMyqq6Ecp3pzpVx5PBAnzDuRkatW+seM35l27lRw3uUvWyrbq/XjiePDs
-2Mxfr7cuK9Bw3e6PW/pv3pH7yJqdj076pqV7cuaJO8drGxK+T1laXdkMGwf0/aE1
-5b4jl4/HN8z/E00N8PE=
-=s4zD
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgi8bAi/7+tUf6ffQg4YeB5lGmGPAzxhW37ejKZrvHFwUKp3BheWxvYWTFA0J7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTllMjBhZTk3NWM1Yjg0MDEzZjdhOTE5NTU2MGVkNzIwZDMyZDc1YTRmNmMzNWI1YzIyMDYyNjExN2EyMzU5MjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOGJjNmMwOGJmZWZlYjU0N2ZhN2RmNDIwZTE4NzgxZTY1MWE2MThmMDMzYzYxNWI3ZWRlOGNhNjZiYmM3MTcwNTBhIiwidWlkIjoiZWQ0NTA4N2Q2ZWVlNTFlZTlmNjZkNGJiZGU4Y2ZmMTkiLCJ1c2VybmFtZSI6ImtjYW1jYW0ifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MjEwNzg2NjgsImhhc2giOiJmMDBiZTAxZjljYjg2OWU4YmUyMzAyNzQ2NDBiMDZkMjBmNTZkOTZlNjQxYTlkMjg0OTRiNTZhYzFlM2Q3MDFhODhlODY4ODg2NTQwOWFmZWRmYTQzNjg3ZTAzOGYzZDM3ZjdmZDVlNmQ2YzI5ZGY5YTc1ODBiODE4ZjVjNDMyYiIsImhhc2hfbWV0YSI6IjgwMTM1NmZjYWY4NmY3NTE3ZTQyZmRhOTJiYzQ4YzM2YzQyNDlkNWM2OTVmOTA3MzVhN2RmNzVmM2JlNWFhYjciLCJzZXFubyI6MjIzODI0NX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJrY2FtZWwuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDUifSwiY3RpbWUiOjE1MjEwNzg2OTcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNTliMzJhZmFjYTZlNWFiYzllYWVmMDRjMzg4Y2NiNGM3OGY1YTNlZWUzNGQ3ZWY1MzYxZjQ5OTFiNDQ4NmU2ZiIsInNlcW5vIjo0NywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBUBB06iL2YkglfaFtZeEaE8rEB+v/Mh/KqzqbKMEKg2P0mELdevfUHR5RfIlDeJVrbuUV6+36r6r5ME0bI6vgGqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgb3vfHCrbMrNDu//c5+87x4NxvVVC9wpcHXEczO4YUQOjdGFnzQICp3ZlcnNpb24B
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
