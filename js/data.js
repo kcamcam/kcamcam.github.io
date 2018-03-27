@@ -178,5 +178,14 @@ var bajson = {
 		"urlweb":"https://kcamel.com/engr392",
 		"urlgithub":"https://github.com/kcamcam/engr392",
 		"date":"01-2018"
+	},
+	"onesocial":{
+		"imgurl":"\u{1F4C7}",
+		"title":"<strong style=\"font-weight: 700;\">1Social</strong>.me",
+		"subtitle":"<strong style=\"font-weight: 700;\">1Social</strong>.me",
+		"description":"The only social media link you'll ever need to share. All of your social media, now all in one place.",
+		"urlweb":"https://1social.me",
+		"urlgithub":"https://github.com/kcamcam/onesocial",
+		"date":"01-2018"
 	}
 };
