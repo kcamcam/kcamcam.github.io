@@ -181,7 +181,7 @@ var bajson = {
 	},
 	"onesocial":{
 		"imgurl":"\u{1F4C7}",
-		"title":"<strong style=\"font-weight: 700;\">1Social</strong>.me",
+		"title":"1Social.me",
 		"subtitle":"<strong style=\"font-weight: 700;\">1Social</strong>.me",
 		"description":"The only social media link you'll ever need to share. All of your social media, now all in one place.",
 		"urlweb":"https://1social.me",
