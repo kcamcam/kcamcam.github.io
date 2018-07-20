@@ -12,7 +12,7 @@ var bajson = {
 		"imgurl":"\u{1F4DA}",//./img/exambank.png
 		"title":"Exam Bank",
 		"subtitle":"Exam Bank \u{1F4DA}",
-		"description":"Exam bank is a single comprehensive collection of all the exams I have collected throughout the course of my Software Engineering Degree at Concordia. A PHP script genreates the entire page, you could just add files to the github repo and the exams automatically show up on the website.",
+		"description":"Exam bank is a single comprehensive collection of all the exams I have collected throughout the course of my Software Engineering Degree at Concordia. A PHP script genreates the entire page, you could just add files to the github repo and the exams automatically show up on the website. </br></br><a href=\"https://exambank.kcamel.com\">exambank.kcamel.com</a>",
 		"urlweb":"https://exambank.kcamel.com",
 		"urlgithub":"https://github.com/kcamcam/exambank",
 		"date":"11-2017"
@@ -21,7 +21,7 @@ var bajson = {
 		"imgurl":"\u{1F4DD}",//./img/quotifier.png
 		"title":"Quotifier",
 		"subtitle":"Quotifier \u{1F4DD}",
-		"description":"Quotifier is a PHP app that adds random quotes by randon authors to your code. Give it a try!",
+		"description":"Quotifier is a PHP app that adds random quotes by randon authors to your code. Give it a try! </br></br><a href=\"https://quotifier.herokuapp.com\">quotifier.herokuapp.com</a>",
 		"urlweb":"https://quotifier.herokuapp.com/",
 		"urlgithub":"https://github.com/kcamcam/Quotifier",
 		"date":"03-2017"
@@ -48,7 +48,7 @@ var bajson = {
 		"imgurl":"\u{1F4AA}",//./img/ppa.png
 		"title":"PPA",
 		"subtitle":"PPA \u{1F4AA}",
-		"description":"Pro Performance Athletik - Vanilla HTML,CSS,JS and Bootstrap website for a personal trainer.",
+		"description":"Pro Performance Athletik - Vanilla HTML,CSS,JS and Bootstrap website for a personal trainer. </br></br><a href=\"https://kcamel.com/ppa\">ppathletik.ca</a>",
 		"urlweb":"https://kcamel.com/ppa",
 		"urlgithub":"https://github.com/kcamcam/ppa",
 		"date":"09-2017"
@@ -57,7 +57,7 @@ var bajson = {
 		"imgurl":"\u{1F486}",//./img/cpi.png
 		"title":"CPI",
 		"subtitle":"CPI \u{1F486}",
-		"description":"Clinique Physio Impact - Vanilla HTML,CSS,JS and Bootstrap website for a physio/osteopath.",
+		"description":"Clinique Physio Impact - Vanilla HTML,CSS,JS and Bootstrap website for a physio/osteopath. </br></br><a href=\"https://physioimpact.ca\">physioimpact.ca</a>",
 		"urlweb":"https://kcamel.com/CPI/",
 		"urlgithub":"https://github.com/kcamcam/CPI",
 		"date":"12-2017"
@@ -66,7 +66,7 @@ var bajson = {
 		"imgurl":"\u{231A}",//./img/minicalc.png
 		"title":"miniCalc",
 		"subtitle":"miniCalc \u{1F34E}\u{231A}",
-		"description":"Website for an apple watch calculator app developed by my coleagues <a href=\"https://famingolabs.com\">@Famingo Labs.</a>",
+		"description":"Website for an apple watch calculator app developed by my coleagues <a href=\"https://famingolabs.com\">@Famingo Labs</a>. </br></br><a href=\"https://instantcea.ca\">instantcea.ca</a>",
 		"urlweb":"https://kcamel.com/miniCalc.ca/",
 		"urlgithub":"https://github.com/kcamcam/miniCalc.ca",
 		"date":"08-2017"
@@ -75,7 +75,7 @@ var bajson = {
 		"imgurl":"\u{1F4FA}",//./img/cena.png
 		"title":"Instant Cena",
 		"subtitle":"Instant Cena \u{1F4FA}",
-		"description":"Bet you can't see him\u{1F6AB}. Troll your friends \u{1F4A9}.",
+		"description":"Bet you can't see him\u{1F6AB}. Troll your friends \u{1F4A9}. </br></br><a href=\"https://instantcea.ca\">instantcea.ca</a>",
 		"urlweb":"https://instantcena.ca",
 		"urlgithub":"https://github.com/kcamcam/instantcena",
 		"date":"01-2017"
@@ -116,20 +116,20 @@ var bajson = {
 		"urlgithub":"https://github.com/kcamcam/Storyflow",
 		"date":"01-2017"
 	},
-	"kcamel":{
-		"imgurl":"\u{1F468}\u{200D}\u{1F4BB}",//./img/kcamel.png
-		"title":"kcamel",
-		"subtitle":"kcamel \u{1F468}\u{200D}\u{1F4BB}",
-		"description":"My portfolio website, yup the same one you're on, almost entirely generated via JS. These cards \u{1F449} all JS. Pretty sweet.",
-		"urlweb":"https://kcamel.com",
-		"urlgithub":"https://github.com/kcamcam/kcamcam.github.io",
-		"date":"01-2018"
-	},
+	// "kcamel":{
+	// 	"imgurl":"\u{1F468}\u{200D}\u{1F4BB}",//./img/kcamel.png
+	// 	"title":"kcamel",
+	// 	"subtitle":"kcamel \u{1F468}\u{200D}\u{1F4BB}",
+	// 	"description":"My portfolio website, yup the same one you're on, almost entirely generated via JS. These cards \u{1F449} all generated with JS script. Pretty sweet.",
+	// 	"urlweb":"https://kcamel.com",
+	// 	"urlgithub":"https://github.com/kcamcam/kcamcam.github.io",
+	// 	"date":"01-2018"
+	// },
 	"emojify":{
 		"imgurl":"\u{1F92F}",
 		"title":"Emojify",
 		"subtitle":"Emojify \u{1F92F}",
-		"description":"Emojify your text! Some pretty sweet JS adds emojis to text anywhere.",
+		"description":"Emojify your text! Some pretty sweet JS adds emojis to text anywhere.</br></br><a href=\"https://emojify.ca\">emojify.ca</a>",
 		"urlweb":"https://kcamel.com/emojify/",
 		"urlgithub":"https://github.com/kcamcam/emojify",
 		"date":"10-2017"
@@ -138,7 +138,7 @@ var bajson = {
 		"imgurl":"\u{1F63C}",
 		"title":"Kitty Wallpaper",
 		"subtitle":"Kitty Wallpaper \u{1F63C}",
-		"description":"A browser wallpaper that helps keep your \u{1F63C} occipied, while you stay busy \u{1F9D0}.",
+		"description":"A browser wallpaper that helps keep your \u{1F63C} occipied, while you stay busy \u{1F9D0}.</br></br><a href=\"https://cat.kcamel.com\">cat.kcamel.com</a>",
 		"urlweb":"https://cat.kcamel.com",
 		"urlgithub":"https://github.com/kcamcam/cat-wallpaper",
 		"date":"11-2017"
@@ -147,7 +147,7 @@ var bajson = {
 		"imgurl":"\u{1F698}",
 		"title":"Driver Rank",
 		"subtitle":"Driver Rank \u{1F698}",
-		"description":"My first rails project. A place where you can rate other drivers on their driving.",
+		"description":"My first rails project. A place where you can rate other drivers on their driving. </br></br><a href=\"https://driverrank.ca\">driverrank.ca</a>",
 		"urlweb":"https://driverrank.ca",
 		"urlgithub":"https://github.com/kcamcam/driver-rank",
 		"date":"01-2018"
@@ -165,7 +165,7 @@ var bajson = {
 		"imgurl":"\u{1F687}",
 		"title":"Metro Exit Cheat Sheet",
 		"subtitle":"Metro Exit Cheat Sheet \u{1F687}",
-		"description":"A cheat sheet that tells you exactly which metro cart doors will land you directly in front of the exit stairs.",
+		"description":"A cheat sheet that tells you exactly which metro cart doors will land you directly in front of the exit stairs, every time. </br></br><a href=\"https://metro.kcamel.com\">metro.kcamel.com</a>",
 		"urlweb":"https://metro.kcamel.com/",
 		"urlgithub":"https://github.com/kcamcam/metro-exit-cheat-sheet",
 		"date":"02-2018"
@@ -183,9 +183,18 @@ var bajson = {
 		"imgurl":"\u{1F4C7}",
 		"title":"1Social.me",
 		"subtitle":"<strong style=\"font-weight: 700;\">1Social</strong>.me",
-		"description":"The only social media link you'll ever need to share. All of your social media, now all in one place.",
+		"description":"The only social media link you'll ever need to share. All of your social media, now all in one place. </br></br><a href=\"https://1social.me\">1Social.me</a>",
 		"urlweb":"https://1social.me",
 		"urlgithub":"https://github.com/kcamcam/onesocial",
 		"date":"01-2018"
+	},
+	"twitter":{
+		"imgurl":"🧠",
+		"title":"Tweet Author",
+		"subtitle":"Tweet Author",
+		"description":"Ask a neural network 🧠 trained with 4783 tweets written in javascript 😲, <a href=\"https://github.com/BrainJS/brain.js\">Brain.JS</a>, to recognize if the author of a tweet was 🇺🇸 <a href=\"https:\/\/twitter.com\/realDonaldTrump\">@realDonaldTrump</a> or 🇨🇦 <a href=\"https:\/\/twitter.com\/JustinTrudeau\">@JustinTrudeau</a>. </br></br><a href=\"https://twitter.kcamel.com\">twitter.kcamel.com</a>",
+		"urlweb":"https://twitter.kcamel.com",
+		"urlgithub":"https://github.com/kcamcam/twitter-author",
+		"date":"07-2018"
 	}
 };

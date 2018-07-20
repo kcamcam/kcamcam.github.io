@@ -1,4 +1,4 @@
-var projectNamesArr = ["classifiedz","exambank","quotifier","clock","converter","ppa","cpi","minicalc","cena","algotime","space","trippy","storyflow","kcamel","emojify","kitty","driverrank","famingo","metro","readings","onesocial"];
+var projectNamesArr = ["classifiedz","exambank","quotifier","clock","converter","ppa","cpi","minicalc","cena","algotime","space","trippy","storyflow","emojify","kitty","driverrank","famingo","metro","readings","onesocial","twitter"];
 for (i = 0; i < projectNamesArr.length; i++) {
     createCard(projectNamesArr[i]);
 }
