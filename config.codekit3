@@ -23,6 +23,12 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/src\/404.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -41,7 +47,7 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 2,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
@@ -50,37 +56,11 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/css\/_font-awesome.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/css\/_font-awesome.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/src\/css\/_hover.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 2,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/build\/css\/_hover.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
 	"\/src\/css\/_materialize.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 2,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
@@ -93,7 +73,7 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 2,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
@@ -109,7 +89,7 @@
 		"oAP": "\/build\/img\/camel.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -124,7 +104,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/js\/analytics.js",
 		"oF": 0,
 		"sC": 3,
@@ -233,7 +213,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 556698402
+	"lastBuiltDate": 556699067
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2147,7 +2127,7 @@
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"debugStyle": 2,
+		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
