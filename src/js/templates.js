@@ -39,7 +39,7 @@ function createCard(project){
 				<span class=\"right modal-action modal-close\">&times;</span>\
 				<h4 id=\"card-title\">"+subtitle+"</h4>\
 				<span class=\"grey-text text-darken-3 description\">"+description+"</span>\
-				</br>\
+				</br></br>\
 				<a class=\"grey-text text-darken-2 globe\" target=\"_blank\" href=\""+urlweb+"\"><i class=\"fal fa-link\"></i> "+urlweb+"</a>\
 				</br>\
 				<span></span><a class=\"grey-text text-darken-2 pr-2 github\" target=\"_blank\" href=\""+urlgithub+"\"><i class=\"fab fa-github\"></i> View the code on GitHub.</a>\
