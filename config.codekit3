@@ -23,12 +23,6 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/src\/404.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -239,7 +233,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 556698167
+	"lastBuiltDate": 556698402
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
