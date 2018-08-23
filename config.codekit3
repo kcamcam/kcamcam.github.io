@@ -23,112 +23,11 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/404.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/404.html",
-		"oF": 0
-		},
 	"\/build": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/build",
 		"oF": 0
-		},
-	"\/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/CNAME",
-		"oF": 0
-		},
-	"\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/css\/style.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/img\/camel.png": {
-		"ft": 32768,
-		"iS": 4431,
-		"oA": 0,
-		"oAP": "\/build\/img\/camel.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/index.html",
-		"oF": 0
-		},
-	"\/js\/font-awesome.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/font-awesome.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/script.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/script.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/keybase.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/keybase.txt",
-		"oF": 0
-		},
-	"\/License": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/License",
-		"oF": 0
-		},
-	"\/README.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/README.html",
-		"oF": 0
-		},
-	"\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/build\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/src\/404.html": {
 		"cB": 0,
@@ -340,7 +239,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 556697471
+	"lastBuiltDate": 556697737
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
