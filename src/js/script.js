@@ -3,4 +3,4 @@
 // @codekit-prepend quiet 'materialize.js'
 // @codekit-prepend quiet 'font-awesome.js'
 // @codekit-prepend 'data.js'
-// @codekit-prepend 'templates.js' 
+// @codekit-prepend 'templates.js'

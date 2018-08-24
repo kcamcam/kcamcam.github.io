@@ -206,7 +206,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/data.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -226,7 +226,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/jquery.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -236,7 +236,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/materialize.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -246,8 +246,8 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/script.js",
-		"oF": 2,
-		"sC": 3,
+		"oF": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/src\/js\/templates.js": {
@@ -256,7 +256,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/templates.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},

@@ -3,13 +3,13 @@ var projectNamesArr = [];
 //get an array of all the project names
 for(var key in bajson) {
 	if(bajson.hasOwnProperty(key)) {
-    	projectNamesArr.push(key);
-    }
+	  	projectNamesArr.push(key);
+	  }
 }
 
 var i =0;
 for (i = 0; i < projectNamesArr.length; i++) {
-    createCard(projectNamesArr[i]);
+  createCard(projectNamesArr[i]);
 }
 
 function createCard(project){
