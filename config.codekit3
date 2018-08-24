@@ -13,29 +13,120 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/.eslintrc",
+		"oAP": "\/.eslintrc",
 		"oF": 1
 		},
 	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/.gitignore",
+		"oAP": "\/.gitignore",
 		"oF": 1
+		},
+	"\/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/404.html",
+		"oF": 0
+		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/img\/camel.png": {
+		"ft": 32768,
+		"iS": 4431,
+		"oA": 0,
+		"oAP": "\/img\/camel.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/js\/script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/script.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/keybase.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/keybase.txt",
+		"oF": 0
+		},
+	"\/License": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/License",
+		"oF": 0
+		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/src\/404.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/404.html",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/src\/..\/404.html",
+		"oF": 3
 		},
 	"\/src\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/CNAME",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/src\/..\/CNAME",
+		"oF": 3
 		},
 	"\/src\/css\/_bootstrap.scss": {
 		"aP": 1,
@@ -45,7 +136,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/css\/_bootstrap.css",
+		"oAP": "\/css\/_bootstrap.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -58,7 +149,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/css\/_materialize.css",
+		"oAP": "\/css\/_materialize.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -71,8 +162,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/css\/style.css",
-		"oF": 0,
+		"oAP": "\/css\/style.css",
+		"oF": 2,
 		"oS": 3,
 		"uL": 1
 		},
@@ -80,26 +171,31 @@
 		"ft": 32768,
 		"iS": 4431,
 		"oA": 0,
-		"oAP": "\/build\/img\/camel.png",
+		"oAP": "\/src\/img\/camel.png",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/index.html": {
-		"cB": 0,
-		"ft": 8192,
+	"\/src\/index.slim": {
+		"cB": 1,
+		"cmO": 0,
+		"ft": 1024,
+		"llg": 0,
 		"oA": 0,
-		"oAP": "\/build\/index.html",
-		"oF": 0
+		"oAP": "\/index.html",
+		"oF": 2,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
 		},
 	"\/src\/js\/analytics.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/analytics.js",
+		"oAP": "\/js\/analytics.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -109,7 +205,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/data.js",
+		"oAP": "\/js\/data.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -119,7 +215,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/font-awesome.js",
+		"oAP": "\/js\/font-awesome.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -129,7 +225,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/jquery.js",
+		"oAP": "\/js\/jquery.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -139,7 +235,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/materialize.js",
+		"oAP": "\/js\/materialize.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -149,8 +245,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/script.js",
-		"oF": 1,
+		"oAP": "\/js\/script.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
@@ -159,7 +255,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/templates.js",
+		"oAP": "\/js\/templates.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -167,16 +263,16 @@
 	"\/src\/keybase.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/keybase.txt",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/src\/..\/keybase.txt",
+		"oF": 3
 		},
 	"\/src\/License": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/License",
-		"oF": 0
+		"oA": 2,
+		"oAP": "\/src\/..\/License",
+		"oF": 3
 		},
 	"\/src\/README.md": {
 		"cB": 0,
@@ -187,8 +283,8 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 2,
-		"oAP": "\/build\/README.md",
-		"oF": 1,
+		"oAP": "\/src\/..\/README.md",
+		"oF": 3,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -207,7 +303,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 556700911
+	"lastBuiltDate": 556782986
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -463,7 +559,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 1,
+	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -1970,10 +2066,10 @@
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
@@ -2016,10 +2112,10 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "\/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -2095,10 +2191,10 @@
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.png",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "..\/img",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"optimizerType": 1,
 		"quality": 100
 		},
@@ -2116,10 +2212,10 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -2134,13 +2230,13 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"compileOnly": 0,
 		"logicless": 0,
 		"outputFormat": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 1
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2360,7 +2456,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
 }
