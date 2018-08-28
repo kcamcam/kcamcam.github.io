@@ -136,10 +136,10 @@ var bajson = {
 	},
 	"driverrank":{
 		"imgurl":"🚘",
-		"title":"Driver Rank",
-		"subtitle":"Driver Rank 🚘",
+		"title":"Driver Ranks",
+		"subtitle":"Driver Ranks 🚘",
 		"description":"My first rails project. A place where you can rate other drivers on their driving.",
-		"urlweb":"https://driverrank.ca",
+		"urlweb":"http://driverrank.herokuapp.com",
 		"urlgithub":"https://github.com/kcamcam/driver-rank",
 		"date":"01-2018"
 	},
