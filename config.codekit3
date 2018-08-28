@@ -199,7 +199,7 @@
 		"q": 100
 		},
 	"\/src\/index.slim": {
-		"cB": 1,
+		"cB": 0,
 		"cmO": 0,
 		"ft": 1024,
 		"llg": 0,
@@ -323,7 +323,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 557131445
+	"lastBuiltDate": 557131841
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
