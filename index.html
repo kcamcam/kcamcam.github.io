@@ -9,9 +9,111 @@
     <meta content="kevin camellini, kevin, camellini, crossfit, software, engineer, engineering,developer,programmer, concordia, university, montreal, canada" name="keywords">
     <meta content="Kevin Camellini" name="author">
     <!--Favicon-->
-    <link href="img/camel.png?ckcachebust=4223a05fe4ed90fd941870c4b86b99db" rel="icon" type="image/png">
+    <link href="img/camel.png?ckcachebust=3e630c13f060706167e59fd0ae777aff" rel="icon" type="image/png">
     <!--style sheet-->
-    <link href="css/style.css?ckcachebust=31e8e4c2f6f7aba2fbc8be350d06e901" rel="stylesheet" type="text/css">
+    <link href="css/style.css?ckcachebust=32a6e7731d5040dfb52b79b44cc563db" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      @font-face {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 200;
+      src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwOIpWqhPANqczVsq4A.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 200;
+      src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwOIpWqZPANqczVs.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      
+      html, body{
+      display: flex;
+      min-height: 100vh;
+      min-width: 100vw;
+      flex-direction: column;
+      --main-color: rgb(247,138,73);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      font-family: 'Raleway', sans-serif;
+      }
+      /***** Landing *****/
+      .header{
+      min-height:100vh;
+      max-width: 100vw;
+      transform: translateY(25vh);
+      }
+      
+      blockquote {
+        border-left-color: var(--main-color);
+      }
+      
+      /***** Projects *****/
+      .tabs .tab a {
+      color: rgb(66,66,66);
+      font-size: 1em;
+      }
+      .tabs .tab a:hover, .tabs .tab a.active{
+      color: var(--main-color);
+      cursor: pointer;
+      }
+      .tabs .indicator {
+      background-color: rgb(251,168,118);
+      }
+      
+      .card-image{
+      height: 100%;
+      }
+      .card:hover, .card:focus{
+      cursor: pointer;
+      }
+      
+      .modal-close{
+      font-size: 2.5em !important;
+      line-height: 0.4em;
+      }
+      
+      /***** Footer *****/
+      .social ul li a{
+      font-size:1.4em;
+      color: white;
+      }
+      .fa-chevron-left, .fa-chevron-right, .fa-heart{
+       font-size: 1em;
+      }
+      .footer_name{
+       font-weight: bold;
+       color: inherit;
+      }
+      .icon-brand:before {
+      content: "\e909";
+      }
+      .signature {
+      font-size: 1em;
+      }
+      
+      /***** Common *****/
+      /* 404 Page */
+      #background-404-page {
+        background-color: var(--main-color);
+      }
+      #container-404-page {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        font-size: 7em;
+        color: white;
+        font-family: arial black;
+      }
+    </style>
   </head>
   <body>
     <!--Landing-->
@@ -133,6 +235,6 @@
       </div>
     </footer>
     <!--scripts-->
-    <script src="js/script.js?ckcachebust=5ae17b7439ae239504ce6ae9eb2d9990"></script>
+    <script src="js/script.js?ckcachebust=8c233cd88d59308dc8f37eacdde39c7e"></script>
   </body>
 </html>
