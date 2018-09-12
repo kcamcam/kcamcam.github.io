@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.eslintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.eslintrc",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -323,7 +330,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 557131841
+	"lastBuiltDate": 558419523
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
