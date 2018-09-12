@@ -183,7 +183,7 @@ var bajson = {
 		"imgurl":"🧠",
 		"title":"Tweet Author",
 		"subtitle":"Tweet Author 🧠",
-		"description":"Ask a neural network 🧠 trained with 4783 tweets written in javascript 😲, <a href=\"https://github.com/BrainJS/brain.js\">Brain.JS</a>, to recognize if the author of a tweet was 🇺🇸 <a href=\"https:\/\/twitter.com\/realDonaldTrump\">@realDonaldTrump</a> or 🇨🇦 <a href=\"https:\/\/twitter.com\/JustinTrudeau\">@JustinTrudeau</a>.",
+		"description":"Ask a neural network  trained with 4783 tweets written in javascript 😲, <a href=\"https://github.com/BrainJS/brain.js\">Brain.JS</a>, to recognize if the author of a tweet was 🇺🇸 <a href=\"https:\/\/twitter.com\/realDonaldTrump\">@realDonaldTrump</a> or 🇨🇦 <a href=\"https:\/\/twitter.com\/JustinTrudeau\">@JustinTrudeau</a>.",
 		"urlweb":"https://twitter.kcamel.com",
 		"urlgithub":"https://github.com/kcamcam/twitter-author",
 		"date":"07-2018"
@@ -192,7 +192,7 @@ var bajson = {
 		"imgurl":"🎯",
 		"title":"G-Apedia",
 		"subtitle":"G-apedia 🎯",
-		"description":"This website keeps track of a friends accuracy of everyday knowledge 🎯. It is dead simple rails app built with rails, postgresql, and deployed on heroku.",
+		"description":"This website keeps track of a friends accuracy of everyday knowledge. It is dead simple rails app built with rails, postgresql, and deployed on heroku.",
 		"urlweb":"https://gapedia.herokuapp.com",
 		"urlgithub":"https://github.com/kcamcam/gapedia",
 		"date":"09-2018"
