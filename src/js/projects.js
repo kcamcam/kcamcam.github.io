@@ -102,28 +102,24 @@ var bajson = {
 		"urlgithub":"https://github.com/kcamcam/instantcena",
 		"date":"01-2017"
 	},
-	"algotime":{
-		"imgurl":"👨‍💻",
-		"title":"Algorithm Time",
-		"subtitle":"Algorithm Time 👨‍💻",
-		"description":
-			"I attent weekly coding challenges at school hosted by the "+
-			"Software Engineering and Computer Science Society (SCS).",
-		"urlweb":"https://algotime.scsconcordia.com/",
-		"urlgithub":"#!",
-		"date":""
-	},
-	"space":{
-		"imgurl":"🚀",
-		"title":"Space Concordia",
-		"subtitle":"Space Concordia 🚀",
-		"description":
-			"I am a memberof the Space Concordia Robotics team. I work on "+
-			"the motor inerface for the motors on the robotic arm of the rover.",
-		"urlweb":"https://spaceconcordia.github.io/",
-		"urlgithub":"https://github.com/space-concordia-robotics/robotics-prototype/tree/master/motor-interface",
-		"date":""
-	},
+	// "algotime":{
+	// 	"imgurl":"👨‍💻",
+	// 	"title":"Algorithm Time",
+	// 	"subtitle":"Algorithm Time 👨‍💻",
+	// 	"description":"I attent weekly coding challenges at school hosted by the Software Engineering and Computer Science Society (SCS).",
+	// 	"urlweb":"https://algotime.scsconcordia.com/",
+	// 	"urlgithub":"#!",
+	// 	"date":""
+	// },
+	// "space":{
+	// 	"imgurl":"🚀",
+	// 	"title":"Space Concordia",
+	// 	"subtitle":"Space Concordia 🚀",
+	// 	"description":"I am a memberof the Space Concordia Robotics team. I work on the motor inerface for the motors on the robotic arm of the rover.",
+	// 	"urlweb":"https://spaceconcordia.github.io/",
+	// 	"urlgithub":"https://github.com/space-concordia-robotics/robotics-prototype/tree/master/motor-interface",
+	// 	"date":""
+	// },
 	"trippy":{
 		"imgurl":"✈️",
 		"title":"Angel Hacks",
@@ -251,5 +247,14 @@ var bajson = {
 		"urlweb":"https://soen343t5.herokuapp.com",
 		"urlgithub":"https://github.com/AznBoy00/soen343team5",
 		"date":"11-2018"
+	},
+	"gapedia":{
+		"imgurl":"🎯",
+		"title":"G-Apedia",
+		"subtitle":"G-apedia 🎯",
+		"description":"This website keeps track of a friends accuracy of everyday knowledge. It is dead simple rails app built with rails, postgresql, and deployed on heroku.",
+		"urlweb":"https://gapedia.herokuapp.com",
+		"urlgithub":"https://github.com/kcamcam/gapedia",
+		"date":"09-2018"
 	}
 };
