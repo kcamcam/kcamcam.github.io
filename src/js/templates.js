@@ -1,10 +1,9 @@
 var projectNamesArr = [];
-
-//get an array of all the project names
+//get an array of all the project names from projects.js
 for(var key in bajson) {
 	if(bajson.hasOwnProperty(key)) {
 	  	projectNamesArr.push(key);
-	  }
+	}
 }
 
 var i =0;
