@@ -65,16 +65,6 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/js/script.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/js/script.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/keybase.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -223,6 +213,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/src/js/js/analytics.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/js/emoji-holidays.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/src/js/js/emoji-holidays.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -714,8 +714,8 @@
 			}
 		},
 	"esLintConfigFileHandlingType": 0,
-	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintECMAVersion": 0,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
