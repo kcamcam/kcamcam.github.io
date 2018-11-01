@@ -4842,11 +4842,4 @@ for(var key in bajson)bajson.hasOwnProperty(key)&&projectNamesArr.push(key);var 
 //
 // Note: holidays correspong to canadian holidays
 // current date 
-var date=new Date,current_month=date.getMonth()+1,current_day=date.getDate(),current_year=date.getFullYear();current_day=30;
-// holidays
-// New Years Day - January 1st
-var new_years_day=1==(
-// // variables for debugging
-current_month=10)&&1==current_day,valentines_day=2==current_month&&14==current_day,shannon=2==current_month&&19==current_day,st_pats_day=3==current_month&&19==current_day,easter=4==current_month&&current_day==getFirstSunday(1,current_year),victoria_day=5==current_month&&current_day==getQueensBirthday(25,current_year),st_jean=6==current_month&&25==current_day,canada=6==current_month&&27<current_day||7==current_month&&1==current_day,usa=7==current_month&&4==current_day,guatemala=9==current_month&&15==current_day,italy=4==current_month&&25==current_day,labor_day=9==current_month&&3==current_day,thanks_giving=10==current_month&&current_day==getSecondMonday(10,current_year),halloween=10==current_month&&25<=current_day&&current_day<=31,rememberance=11==current_month&&11==current_day,christmas=12==current_month&&12<=current_day&&current_day<=30,boxing_day=12==current_month&&26==current_day,new_years_eve=12==current_month&&31==current_day;
-// Valentines day - February 14th
-insertEmoji("👨‍💻");
+var date=new Date,current_month=date.getMonth()+1,current_day=date.getDate(),current_year=date.getFullYear(),new_years_day=1==current_month&&1==current_day,valentines_day=2==current_month&&14==current_day,shannon=2==current_month&&19==current_day,st_pats_day=3==current_month&&19==current_day,easter=4==current_month&&current_day==getFirstSunday(1,current_year),victoria_day=5==current_month&&current_day==getQueensBirthday(25,current_year),st_jean=6==current_month&&25==current_day,canada=6==current_month&&27<current_day||7==current_month&&1==current_day,usa=7==current_month&&4==current_day,guatemala=9==current_month&&15==current_day,italy=4==current_month&&25==current_day,labor_day=9==current_month&&3==current_day,thanks_giving=10==current_month&&current_day==getSecondMonday(10,current_year),halloween=10==current_month&&25<=current_day&&current_day<=31,rememberance=11==current_month&&11==current_day,christmas=12==current_month&&12<=current_day&&current_day<=30,boxing_day=12==current_month&&26==current_day,new_years_eve=12==current_month&&31==current_day;insertEmoji("👨‍💻");

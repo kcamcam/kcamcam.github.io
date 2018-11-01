@@ -15,8 +15,8 @@ var current_day = date.getDate();
 var current_year = date.getFullYear();
 
 // // variables for debugging
-current_month = 10;
-current_day = 30;
+// current_month = 10;
+// current_day = 30;
 
 // holidays
 // New Years Day - January 1st
