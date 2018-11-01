@@ -15,8 +15,8 @@ var current_day = date.getDate();
 var current_year = date.getFullYear();
 
 // variables for debugging
-// current_month = 4;
-// current_day = 25;
+// current_month = 10;
+// current_day = 31;
 
 // holidays
 // New Years Day - January 1st
@@ -107,14 +107,6 @@ function getEmoji(default_emoji){
     }
 }
 
-// function to insert emoji into the DOM
-function insertEmoji(default_emoji){
-    curr_emoji = getEmoji(default_emoji);
-    console.log("Current Holiday Emoji: " + curr_emoji);
-    document.getElementById("holiday-emoji").innerHTML = curr_emoji;
-    return curr_emoji;
-}
-
 // get second monday of the month for a certain year
 // return the day of of that monday 
 // used for getting thanksgiving canada
@@ -161,5 +153,18 @@ function getFirstSunday(day,year) {
 }
 // console.log(getFirstSunday(1,2018));
 
+// function to insert emoji into the DOM
+// default emoji passed in as a parameter
+// the function inserts the emoji into the DOM
+// element with ID #holiday-emoji
+// and returns the current emoji being passed
+// into the element
+function insertEmoji(default_emoji){
+    curr_emoji = getEmoji(default_emoji);
+    console.log("Current Holiday Emoji: " + curr_emoji);
+    document.getElementById("holiday-emoji").innerHTML = curr_emoji;
+    return curr_emoji;
+}
 // call the function to insert the emoji in to the document
+// Set the default as a parameter
 insertEmoji("👨‍💻");

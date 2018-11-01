@@ -89,13 +89,6 @@
 		"oAP": "/License",
 		"oF": 0
 		},
-	"/README.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/README.html",
-		"oF": 0
-		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -333,7 +326,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 562663493.68000698
+	"lastBuiltDate": 562737724.27544403
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
