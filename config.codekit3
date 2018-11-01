@@ -72,7 +72,7 @@
 		"oA": 0,
 		"oAP": "/js/js/script.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/keybase.txt": {
@@ -210,17 +210,17 @@
 		"oA": 1,
 		"oAP": "/src/js/js/analytics.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
-	"/src/js/emoji-holidays.js": {
+	"/src/js/emoji-calendar.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/src/js/js/emoji-holidays.js",
+		"oAP": "/src/js/js/emoji-calendar.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/src/js/font-awesome.js": {
@@ -230,7 +230,7 @@
 		"oA": 1,
 		"oAP": "/src/js/js/font-awesome.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/src/js/jquery.js": {
@@ -240,7 +240,7 @@
 		"oA": 1,
 		"oAP": "/src/js/js/jquery.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/src/js/materialize.js": {
@@ -250,7 +250,7 @@
 		"oA": 1,
 		"oAP": "/src/js/js/materialize.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/src/js/projects.js": {
@@ -260,7 +260,7 @@
 		"oA": 1,
 		"oAP": "/src/js/js/projects.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/src/js/script.js": {
@@ -269,8 +269,8 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/script.js",
-		"oF": 3,
-		"sC": 0,
+		"oF": 2,
+		"sC": 3,
 		"tS": 0
 		},
 	"/src/js/templates.js": {
@@ -280,7 +280,7 @@
 		"oA": 1,
 		"oAP": "/src/js/js/templates.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/src/keybase.txt": {
@@ -326,7 +326,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 562802718.823241
+	"lastBuiltDate": 562804078.50101602
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2150,7 +2150,7 @@
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {

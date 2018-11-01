@@ -256,5 +256,14 @@ var bajson = {
 		"urlweb":"https://gapedia.herokuapp.com",
 		"urlgithub":"https://github.com/kcamcam/gapedia",
 		"date":"09-2018"
-	}
+    },
+    "calendar":{
+		"imgurl":"📆",
+		"title":"Emoji Calendar",
+		"subtitle":"Emoji Calendar 📆",
+		"description":"Add a festive touch to your HTML all year round with an easy javascript plugin. Simply include the script and add #emoji-calendar id to a block element. Emoji Calendar will automatically insert a festive emoji into the corresponding element depending on the date and the time of year.",
+		"urlweb":"https://kcamel.com/emoji-calendar",
+		"urlgithub":"https://github.com/kcamcam/emoji-calendar",
+		"date":"11-2018"
+    }    
 };

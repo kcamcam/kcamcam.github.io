@@ -4,4 +4,4 @@
 // @codekit-prepend quiet 'font-awesome.js'
 // @codekit-prepend quiet 'projects.js'
 // @codekit-prepend quiet 'templates.js'
-// @codekit-prepend quiet 'emoji-holidays.js'
+// @codekit-prepend quiet 'emoji-calendar.js'

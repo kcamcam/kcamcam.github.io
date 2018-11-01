@@ -14,9 +14,9 @@ var current_month = date.getMonth() + 1;
 var current_day = date.getDate();
 var current_year = date.getFullYear();
 
-// variables for debugging
-// current_month = 10;
-// current_day = 31;
+// // variables for debugging
+current_month = 10;
+current_day = 30;
 
 // holidays
 // New Years Day - January 1st
@@ -56,6 +56,8 @@ var thanks_giving = (
 var halloween = (
     current_month == 10 && 
     (current_day >= 25 && current_day <= 31));
+// Rememberance Day - November 11th
+var rememberance = (current_month == 11 && current_day == 11);
 // Christmas - December 12th to 30th
 var christmas = (
     current_month == 12 &&
@@ -72,14 +74,14 @@ function getEmoji(default_emoji){
         return "🎉";
     }else if (valentines_day){
         return "💝";
+    }else if (shannon){
+        return "👸❤️🎉";
     }else if (st_pats_day){
         return "🍀";
     }else if (easter){
-        return "🐰🥚";
+        return "🐣";
     }else if (victoria_day){
         return "👸";
-    }else if (shannon){
-        return "👸❤️🎉";
     }else if (st_jean){
         return "⚜️";
     }else if (canada){
@@ -96,6 +98,8 @@ function getEmoji(default_emoji){
         return "🦃";
     }else if (halloween){
         return "🎃";
+    }else if (rememberance){
+        return "🎖";
     }else if (christmas){
         return "🎄";
     }else if (boxing_day){
@@ -161,8 +165,8 @@ function getFirstSunday(day,year) {
 // into the element
 function insertEmoji(default_emoji){
     curr_emoji = getEmoji(default_emoji);
-    console.log("Current Holiday Emoji: " + curr_emoji);
-    document.getElementById("holiday-emoji").innerHTML = curr_emoji;
+    console.log("Current Calendar Emoji: " + curr_emoji);
+    document.getElementById("emoji-calendar").innerHTML = curr_emoji;
     return curr_emoji;
 }
 // call the function to insert the emoji in to the document
