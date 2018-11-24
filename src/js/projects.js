@@ -243,7 +243,8 @@ var bajson = {
 			"A term project for SOEN 343 - Software Architecture and Design in the "+
 			"fall semster of 2018. Along with a team of 10, we were tasked with "+
 			"building a library rental servvice along with documentation for"+
-			"the software product; including a full SRS and SAD documents",
+            "the software product. We developed an Identity Mapper, Table Data "+ 
+            "Gateway and a Unit of Work as well maintained tw full SRS and SAD documents.",
 		"urlweb":"https://soen343t5.herokuapp.com",
 		"urlgithub":"https://github.com/AznBoy00/soen343team5",
 		"date":"11-2018"
