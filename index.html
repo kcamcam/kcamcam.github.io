@@ -62,37 +62,47 @@
       <div class="uk-offcanvas-bar">
 
         <button class="uk-offcanvas-close" type="button" uk-close></button>
-        
-        <ul class="uk-nav-default uk-margin-bottom" uk-nav>
+        <ul class="uk-nav-default" uk-nav uk-height-viewport="offset-bottom: 17;">
           <!-- me -->
           <li><a class="uk-nav-header uk-active" href="./">HOME</a></li>
-          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">About</li>
+          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">About</a></li>
 
           <!-- projects -->
           <li class="uk-nav-header cursor-default">Projects</li>
-          <!-- <li><a href="#">Ruby on Rails</a></li> -->
-          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Ruby on Rails</li>
-          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Laravel</li>
-          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Node.js</li>
-          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">php</li>
-          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Javascript</li>
-          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Vanilla HTML</li>
+          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Ruby on Rails</a></li>
+          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Laravel</a></li>
+          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Node.js</a></li>
+          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">php</a></li>
+          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Javascript</a></li>
+          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Vanilla HTML</a></li>
 
           <!--  Social -->
           <li class="uk-nav-header cursor-default">Contact</li>
-          <li style="margin-bottom:3px;"><secret-stuff class="uk-text-meta" data-user="kevincamellini" data-domain="icloud.com"></secret-stuff></li>
+          <li class="mb-3"><secret-stuff class="uk-text-meta cursor-pointer" data-user="kevincamellini" data-domain="icloud.com"></secret-stuff></li>
           <a uk-tooltip="title: GitHub; pos: bottom;"       href="https://github.com/kcamcam"       class="uk-icon-link uk-margin-small-right" uk-icon="github"   target="_blank"></a>
           <a uk-tooltip="title: Twitter; pos: bottom;"      href="http://www.twitter.com/kevcamcam" class="uk-icon-link uk-margin-small-right" uk-icon="twitter"  target="_blank"></a>
           <a uk-tooltip="title: LinkedIn; pos: bottom;"     href="http://linkedin.com/in/kcamcam"   class="uk-icon-link uk-margin-small-right" uk-icon="linkedin" target="_blank"></a>
           
           <!-- UIkit -->
-          <br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <li><a style="color: rgba(255, 255, 255, 0.2);" href="https://getuikit.com/" target="_blank">
-              <small uk-icon="icon: uikit; ratio: 0.8;"></small>
-              <small class="uk-text-middle">Made with UIkit</small>
-          </a></li>
-        </ul>
+          <!-- <div uk-height-viewport="expand: true">&nbsp;</div> -->
+          <!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
+          <!-- <li>
+            <a href="https://getuikit.com/" target="_blank">
+              <small class="text-dark-af" uk-icon="icon: uikit; ratio: 0.8;"></small>
+              <small class="uk-text-middle text-dark-af">Made with UIkit</small>
+            </a>
+          </li> -->
 
+        </ul>
+        
+        <!-- UIkit -->
+        <footer class="uk-margin-bottom">
+          <br/><br/>
+          <a class="uk-link-reset" href="https://getuikit.com/" target="_blank">
+            <small class="text-dark-af" uk-icon="icon: uikit; ratio: 0.8;"></small>
+            <small class="uk-text-middle text-dark-af">Made with UIkit</small>
+          </a>
+        </footer>
       </div>
     </div>
     <!-- ./ nav menu - offcanvas-->

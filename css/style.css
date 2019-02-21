@@ -36,7 +36,17 @@ secret-stuff::after {
 .uk-background-secondary{
     background-color:rgb(51, 51, 51) !important;
 }
-/* set the default cursor to default (arrow)*/
+/* set the cursor to default (arrow)*/
 .cursor-default{
     cursor: default;
+}
+/* set the cursor to hand */
+.cursor-pointer{
+    cursor: pointer;
+}
+.mb-3{
+    margin-bottom: 3px;
+}
+.text-dark-af{
+    color: rgba(255, 255, 255, 0.2);
 }
