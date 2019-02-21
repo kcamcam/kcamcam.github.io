@@ -1,267 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <title>kcamel.com</title>
+    <!-- meta data -->
     <meta charset="utf-8">
-    <!--Let browser know this website is optimized for mobile-->
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
-    <!--Meta Info--><title>kcamel.com</title>
-    <meta content="Portfolio of kevin camellini" name="description">
-    <meta content="kevin camellini, kevin, camellini, crossfit, software, engineer, engineering,developer,programmer, concordia, university, montreal, canada" name="keywords">
-    <meta content="Kevin Camellini" name="author">
-    <!--Favicon-->
-    <link href="img/camel.png" rel="icon" type="image/png">
-    <!--style sheet-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-      /* latin */
-      @font-face {
-          font-family: 'Raleway';
-          font-style: normal;
-          font-weight: 200;
-          src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwOIpWqZPANqczVs.woff2) format('woff2');
-          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-      
-      html, body{
-          display: flex;
-          min-height: 100vh;
-          min-width: 100vw;
-          flex-direction: column;
-          --main-color: rgb(247,138,73);
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-          display: flex;
-          min-height: 100vh;
-          flex-direction: column;
-          font-family: 'Raleway', sans-serif;
-      }
-      /***** Landing *****/
-      .header{
-          min-height:100vh;
-          max-width: 100vw;
-          transform: translateY(25vh);
-      }
-      
-      blockquote {
-          border-left-color: var(--main-color);
-      }
-      
-      /***** Projects *****/
-      .tabs .tab a {
-          color: rgb(66,66,66);
-          font-size: 1em;
-      }
-      .tabs .tab a:hover, .tabs .tab a.active{
-          color: var(--main-color);
-          cursor: pointer;
-      }
-      .tabs .indicator {
-          background-color: rgb(251,168,118);
-      }
-      
-      .card-image{
-          height: 100%;
-      }
-      .card:hover, .card:focus{
-          cursor: pointer;
-      }
-      
-      .modal-close{
-          font-size: 2.5em !important;
-          line-height: 0.4em;
-      }
-      
-      /***** Footer *****/
-      .social ul li a{
-          font-size:1.4em;
-          color: white;
-      }
-      .fa-chevron-left, .fa-chevron-right, .fa-heart{
-          font-size: 1em;
-      }
-      .footer_name{
-          font-weight: bold;
-          color: inherit;
-      }
-      .icon-brand:before {
-          content: "\e909";
-      }
-      .signature {
-          font-size: 1em;
-      }
-      
-      /***** Common *****/
-      /* 404 Page */
-      #background-404-page {
-          background-color: var(--main-color);
-      }
-      #container-404-page {
-          height: 100%;
-          width: 100%;
-          display: flex;
-          position: fixed;
-          align-items: center;
-          justify-content: center;
-          font-size: 7em;
-          color: white;
-          font-family: arial black;
-      }
-    </style>
-  </head>
-  <body>
-    <!--Landing-->
-    <div class="grey lighten-5">
-      <div class="container">
-        <div class="row">
-          <div class="header">
-            <!--valign-wrapper-->
-            <h1 class="grey-text text-darken-3 my-2">
-              Kevin Camellini
-            </h1>
-            <h5 class="grey-text text-darken-3">
-              <span id="emoji-calendar">👨‍💻</span>&nbsp;&nbsp;Soen - Concordia - Montreal - Canada
-            </h5>
-            <!--error message for disabled javascript--><noscript>
-              <h5 class="grey-text text-darken-3">
-                Please enable JavaScript in order to view the content of this website.
-              </h5>
-            </noscript>
-          </div>
-        </div>
+    <meta name="viewport"             content="width=device-width, initial-scale=1">
+    <meta name="description"          content="Kevin Camellini's developer portfolio website">
+    <meta name="keywords"             content="kevin camellini, kevin, camellini, software, engineer, engineering, developer, programmer, concordia, university, montreal, canada">
+    
+    <!-- fb og protocol -->
+    <meta property="og:locale"        content="en_CA">
+    <meta property="og:type"          content="website">
+    <meta property="og:title"         content="kcamel.com">
+    <meta property="og:description"   content="Kevin Camellini's developer portfolio website">
+    <meta property="og:url"           content="https://kcamel.com">
+    <meta property="og:site_name"     content="kcamel.com">
+    <meta property="og:image"         content="https://kcamel.com/img/camel.png">
+
+    <!-- twitter protocol -->
+    <meta name="twitter:card"         content="summary">
+    <meta name="twitter:title"        content="kcamel.com">
+    <meta name="twitter:description"  content="Kevin Camellini's developer portfolio website">
+    <meta name="twitter:creator"      content="@kevcamcam">
+    <meta name="twitter:image"        content="https://kcamel.com/img/camel.png">
+    
+    <!-- favicon -->
+    <link rel="icon" href="img/camel.png" />
+
+    <!-- style imports -->
+    <link rel="stylesheet" href="css/uikit.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- script imports -->
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+    <script src="js/script.js"></script>
+    
+</head>
+<body>
+  <!-- main background -->
+  <div class="uk-height-viewport uk-background-secondary uk-light">
+    <!-- navbar -->
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+      <!-- left side -->
+      <div class="uk-navbar-left">
+        <a class="uk-navbar-item" href="#offcanvas" uk-toggle>
+          <img width="40px" height="40px" data-src="img/camel.png" alt="camel image" uk-img />
+        </a>
+      </div>
+      <!-- right side -->
+      <div class="uk-navbar-right">
+        <a class="uk-navbar-toggle uk-navbar-item" href="#offcanvas" uk-toggle uk-icon="icon: menu"></a>
+      </div>
+    </nav>
+    <!-- ./ navbar -->
+
+    <!-- nav menu - offcanvas -->
+    <div id="offcanvas" uk-offcanvas="overlay: true; flip: true; mode: slide;">
+      <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        
+        <ul class="uk-nav-default uk-margin-bottom" uk-nav>
+          <!-- me -->
+          <li><a class="uk-nav-header uk-active" href="./">HOME</a></li>
+          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">About</li>
+
+          <!-- projects -->
+          <li class="uk-nav-header cursor-default">Projects</li>
+          <!-- <li><a href="#">Ruby on Rails</a></li> -->
+          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Ruby on Rails</li>
+          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Laravel</li>
+          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Node.js</li>
+          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">php</li>
+          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Javascript</li>
+          <li class="uk-text-muted cursor-default" uk-tooltip="title: Coming soon 👨‍💻; pos: left;">Vanilla HTML</li>
+
+          <!--  Social -->
+          <li class="uk-nav-header cursor-default">Contact</li>
+          <li style="margin-bottom:3px;"><secret-stuff class="uk-text-meta" data-user="kevincamellini" data-domain="icloud.com"></secret-stuff></li>
+          <a uk-tooltip="title: GitHub; pos: bottom;"       href="https://github.com/kcamcam"       class="uk-icon-link uk-margin-small-right" uk-icon="github"   target="_blank"></a>
+          <a uk-tooltip="title: LinkedIn; pos: bottom;"     href="http://linkedin.com/in/kcamcam"   class="uk-icon-link uk-margin-small-right" uk-icon="linkedin" target="_blank"></a>
+          <a uk-tooltip="title: Twitter; pos: bottom;"      href="http://www.twitter.com/kevcamcam" class="uk-icon-link uk-margin-small-right" uk-icon="twitter"  target="_blank"></a>
+          
+          <!-- UIkit -->
+          <br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <li><a style="color: rgba(255, 255, 255, 0.2);" href="https://getuikit.com/" target="_blank">
+              <small uk-icon="icon: uikit; ratio: 0.8;"></small>
+              <small class="uk-text-middle">Made with UIkit</small>
+          </a></li>
+        </ul>
+
       </div>
     </div>
-    <!--End Landing--><!--Content-->
-    <div class="grey lighten-4">
-      <!--Tabs-->
-      <ul class="tabs tabs-fixed-width grey lighten-4">
-        <li class="tab col s3">
-          <a href="#hack">Hackathons</a>
-        </li>
-        <li class="tab col s3">
-          <a href="#rails">Rails</a>
-        </li>
-        <li class="tab col s3">
-          <a href="#node">Node</a>
-        </li>
-        <li class="tab col s3">
-          <a href="#laravel">Laravel</a>
-        </li>
-        <li class="tab col s3">
-          <a href="#js">JS</a>
-        </li>
-        <li class="tab col s3">
-          <a href="#php">PHP          </a>
-        </li>
-        <li class="tab col s3">
-          <a href="#html">HTML</a>
-        </li>
-        <!--End Tabs-->
-      </ul>
-      <!--Projects--><!--rails-->
-      <div class="container col s12" id="rails">
-        <h5 class="grey-text text-darken-2 pt-4">
-          Ruby on Rails Projects
-        </h5>
-        <div class="row py-3">
-          <div class="onesocial"></div>
-          <div class="driverrank"></div>
-          <div class="gapedia"></div>
-        </div>
+    <!-- ./ nav menu - offcanvas-->
+
+    <!-- main section -->
+    <div class="uk-section uk-section-large">
+      <!-- main container -->
+      <!-- a small witdth container in the middle of the screen -->
+      <div class="uk-container uk-container-xsmall">
+        <h1 class="uk-heading-primary uk-margin-remove-bottom">Kevin Camellini</h1>
+        <small class="uk-text-bold uk-camel">Student pursuing a Software Engineering degree at Concordia University.</small>
       </div>
-      <!--laravel-->
-      <div class="container col s12" id="laravel">
-        <h5 class="grey-text text-darken-2 pt-4">
-          Laravel Projects
-        </h5>
-        <div class="row py-3">
-          <div class="classifiedz"></div>
-        </div>
-      </div>
-      <!--node-->
-      <div class="container col s12" id="node">
-        <h5 class="grey-text text-darken-2 pt-4">
-          Node Projects
-        </h5>
-        <div class="row py-3">
-          <div class="biblio"></div>
-        </div>
-      </div>
-      <!--js-->
-      <div class="container col s12" id="js">
-        <h5 class="grey-text text-darken-2 pt-4">
-          JavaScript Projects
-        </h5>
-        <div class="row py-3">
-          <div class="calendar"></div>
-          <div class="exambank"></div>
-          <div class="twitter"></div>
-          <div class="metro"></div>
-          <div class="kitty"></div>
-          <div class="emojify"></div>
-          <div class="clock"></div>
-          <div class="converter"></div>
-        </div>
-      </div>
-      <!--php-->
-      <div class="container col s12" id="php">
-        <h5 class="grey-text text-darken-2 pt-4">
-          PHP Projects
-        </h5>
-        <div class="row py-3">
-          <div class="quotifier"></div>
-        </div>
-      </div>
-      <!--html-->
-      <div class="container col s12" id="html">
-        <h5 class="grey-text text-darken-2 pt-4">
-          Web Projects
-        </h5>
-        <div class="row py-3">
-          <div class="ppa"></div>
-          <div class="cpi"></div>
-          <div class="minicalc"></div>
-          <div class="eadings"></div>
-        </div>
-      </div>
-      <!--hack-->
-      <div class="container col s12" id="hack">
-        <h5 class="grey-text text-darken-2 pt-4">
-          Hackathons
-        </h5>
-        <div class="row py-3">
-          <div class="famingo"></div>
-          <div class="storyflow"></div>
-          <div class="trippy"></div>
-        </div>
-      </div>
-      <!--End Projects-->
+      <!-- ./ main container -->
     </div>
-    <!--End Content--><!--Footer-->
-    <footer class="page-footer grey">
-      <!--Footer Callout-->
-      <div class="container">
-        <div class="row">
-          <div class="col s12 social">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a class="grey-text grey-text text-lighten-4" href="https://1social.me/kcamel" target="_blank"><strong>1Social.me/kcamel</strong></a><br><a><strong class="grey-text grey-text text-lighten-4">kevincamellini&nbsp;<i class="fal fa-at" style="font-size:0.8em;"></i>&nbsp;gmail&nbsp;<i class="fal fa-dot-circle" style="font-size:0.8em;"></i>&nbsp;com</strong></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!--Footer Copyright-->
-      <div class="footer-copyright">
-        <div class="container">
-          <div class="row mb-0">
-            <div class="col s12 signature">
-              🛠 with ❤️ and ☕️ by <a class="grey-text text-lighten-4" href="https://1social.me/kcamel" target="_blank"> kcamel</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!--scripts-->
-    <script src="js/script-2.js"></script>
-  </body>
+    <!-- ./ main section -->
+
+  </div>
+  <!-- ./  main background -->
+
+</body>
 </html>
