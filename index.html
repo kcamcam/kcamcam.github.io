@@ -38,8 +38,9 @@
     
 </head>
 <body>
-  <!-- main background -->
-  <div class="uk-height-viewport uk-background-secondary uk-light">
+  <!-- main background wrapper-->
+  <div id="background" class="uk-height-viewport uk-animation-fast uk-background-default uk-dark">
+    
     <!-- navbar -->
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
       <!-- left side -->
@@ -50,8 +51,13 @@
       </div>
       <!-- right side -->
       <div class="uk-navbar-right">
-        <a class="uk-navbar-toggle uk-navbar-item" href="#offcanvas" uk-toggle uk-icon="icon: menu">
-            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="menu"><rect x="2" y="4" width="16" height="2"></rect><rect x="2" y="9" width="16" height="2"></rect><rect x="2" y="14" width="16" height="2"></rect></svg>
+        <button uk-icon="paint-bucket"   class="uk-navbar-item uk-icon-link"      onclick="toggleTheme()" uk-tooltip="title: Toggle dark/light theme; pos: left;"></button>
+        <a      uk-icon="menu"           class="uk-navbar-item uk-icon-link"  href="#offcanvas"       uk-toggle>
+            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="menu">
+                <rect x="2" y="4" width="16" height="2"></rect>
+                <rect x="2" y="9" width="16" height="2"></rect>
+                <rect x="2" y="14" width="16" height="2"></rect>
+            </svg>
         </a>
       </div>
     </nav>
@@ -60,7 +66,6 @@
     <!-- nav menu - offcanvas -->
     <div id="offcanvas" uk-offcanvas="overlay: true; flip: true; mode: slide;">
       <div class="uk-offcanvas-bar">
-
         <button class="uk-offcanvas-close" type="button" uk-close></button>
         <ul class="uk-nav-default" uk-nav uk-height-viewport="offset-bottom: 17;">
           <!-- me -->
@@ -72,7 +77,7 @@
           <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Ruby on Rails</a></li>
           <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Laravel</a></li>
           <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Node.js</a></li>
-          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">php</a></li>
+          <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">PHP</a></li>
           <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Javascript</a></li>
           <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;"><a href="#" class="uk-disabled uk-text-muted">Vanilla HTML</a></li>
 
@@ -82,16 +87,6 @@
           <a uk-tooltip="title: GitHub; pos: bottom;"       href="https://github.com/kcamcam"       class="uk-icon-link uk-margin-small-right" uk-icon="github"   target="_blank"></a>
           <a uk-tooltip="title: Twitter; pos: bottom;"      href="http://www.twitter.com/kevcamcam" class="uk-icon-link uk-margin-small-right" uk-icon="twitter"  target="_blank"></a>
           <a uk-tooltip="title: LinkedIn; pos: bottom;"     href="http://linkedin.com/in/kcamcam"   class="uk-icon-link uk-margin-small-right" uk-icon="linkedin" target="_blank"></a>
-          
-          <!-- UIkit -->
-          <!-- <div uk-height-viewport="expand: true">&nbsp;</div> -->
-          <!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
-          <!-- <li>
-            <a href="https://getuikit.com/" target="_blank">
-              <small class="text-dark-af" uk-icon="icon: uikit; ratio: 0.8;"></small>
-              <small class="uk-text-middle text-dark-af">Made with UIkit</small>
-            </a>
-          </li> -->
 
         </ul>
         
@@ -103,6 +98,7 @@
             <small class="uk-text-middle text-dark-af">Made with UIkit</small>
           </a>
         </footer>
+        
       </div>
     </div>
     <!-- ./ nav menu - offcanvas-->
@@ -113,7 +109,7 @@
       <!-- a small witdth container in the middle of the screen -->
       <div class="uk-container uk-container-xsmall">
         <h1 class="uk-heading-primary uk-margin-remove-bottom">Kevin Camellini</h1>
-        <small class="uk-text-bold uk-camel">Student pursuing a Software Engineering degree at Concordia University.</small>
+        <small class="uk-text-bold uk-camel">Undergraduate student pursuing a Software Engineering degree at Concordia University.</small>
       </div>
       <!-- ./ main container -->
     </div>
