@@ -1,54 +1,74 @@
-html, body{
-    background-color:rgb(51, 51, 51);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+html, body {
+  background-color: rgb(51, 51, 51);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --main-color: rgb(232, 142, 86);
+}
+
+
+/* ------------ */
+/* landing page */
+/* ------------ */
+
+.uk-heading-bullet::before {
+  border-left: 5px solid var(--main-color) !important;
 }
 
 /* --- */
 /* nav */
 /* --- */
+
 /* overide the nav default min-height of 80px */
-.uk-navbar-item{
-    min-height: 60px;
+.uk-navbar-item {
+  min-height: 60px;
 }
 
 /* ------------ */
 /* render email */
 /* ------------ */
+
 secret-stuff::before {
-    content: attr(data-user) "\0040";
+  content: attr(data-user) "\0040";
 }
+
 secret-stuff::after {
-    content: attr(data-domain);
+  content: attr(data-domain);
 }
 
 /* ------------- */
 /* Common Shtuff */
 /* ------------- */
+
 /* active link color */
-.uk-camel, .active{
-    color: rgb(232, 142, 86) !important;
-    /* rgb(207, 117, 61) 👈slightly darker*/
+.uk-camel, .active {
+  color: var(--main-color) !important;
+  /* rgb(207, 117, 61) 👈slightly darker*/
 }
+
 /* overide html hightlight color */
 ::selection {
-    background: rgb(232, 142, 86);
+  background: var(--main-color);
 }
+
 /* overide dark background color */
-.uk-background-secondary{
-    background-color:rgb(51, 51, 51) !important;
+.uk-background-secondary {
+  background-color: rgb(51, 51, 51) !important;
 }
+
 /* set the cursor to default (arrow)*/
-.cursor-default{
-    cursor: default;
+.cursor-default {
+  cursor: default;
 }
+
 /* set the cursor to hand */
-.cursor-pointer{
-    cursor: pointer;
+.cursor-pointer {
+  cursor: pointer;
 }
-.mb-3{
-    margin-bottom: 3px;
+
+.mb-3 {
+  margin-bottom: 3px;
 }
-.text-dark-af{
-    color: rgba(255, 255, 255, 0.3);
+
+.text-dark-af {
+  color: rgba(255, 255, 255, 0.3);
 }

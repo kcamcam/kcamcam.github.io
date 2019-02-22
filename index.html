@@ -30,12 +30,7 @@
     <!-- style imports -->
     <link rel="stylesheet" href="css/uikit.css" />
     <link rel="stylesheet" href="css/style.css" />
-    
-    <!-- script imports -->
-    <script src="js/uikit.js"></script>
-    <script src="js/uikit-icons.js"></script>
-    <script src="js/script.js"></script>
-    
+        
 </head>
 <body>
   <!-- main background wrapper-->
@@ -44,11 +39,11 @@
     <!-- navbar -->
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
       <!-- left side -->
-      <div class="uk-navbar-left">
+      <!-- <div class="uk-navbar-left">
         <a class="uk-navbar-item" href="#offcanvas" uk-toggle>
           <img width="40px" height="40px" data-src="img/camel.png" alt="camel image" uk-img />
         </a>
-      </div>
+      </div> -->
       <!-- right side -->
       <div class="uk-navbar-right">
         <button uk-icon="paint-bucket"   class="uk-navbar-item uk-icon-link"      onclick="toggleTheme()" uk-tooltip="title: Toggle dark/light theme; pos: left;"></button>
@@ -108,8 +103,9 @@
       <!-- main container -->
       <!-- a small witdth container in the middle of the screen -->
       <div class="uk-container uk-container-xsmall">
-        <h1 class="uk-heading-primary uk-margin-remove-bottom">Kevin Camellini</h1>
-        <small class="uk-text-bold uk-camel">Undergraduate student pursuing a degree in Software Engineering at Concordia University.</small>
+        <h1 class="uk-heading-bullet uk-heading-primary uk-margin-remove-bottom">Kevin Camellini</h1>
+        <h5 class="uk-heading-bullet uk-margin-remove"><span id="emoji-calendar"></span> Soen - Concordia - Montreal - Canada </h5>
+        <!-- Undergraduate student pursuing a degree in Software Engineering at Concordia University. -->
       </div>
       <!-- ./ main container -->
     </div>
@@ -118,5 +114,11 @@
   </div>
   <!-- ./  main background -->
 
+
+  <!-- script imports -->
+  <script src="js/uikit.js"></script>
+  <script src="js/uikit-icons.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/emoji-calendar.js"></script>
 </body>
 </html>
