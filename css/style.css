@@ -1,3 +1,6 @@
+/* ------- */
+/* globals */
+/* ------- */
 html, body {
   background-color: rgb(51, 51, 51);
   -webkit-font-smoothing: antialiased;
@@ -5,40 +8,16 @@ html, body {
   --main-color: rgb(232, 142, 86);
 }
 
-
 /* ------------ */
 /* landing page */
 /* ------------ */
-
 .uk-heading-bullet::before {
   border-left: 5px solid var(--main-color) !important;
 }
-.custom-bullet{
-  content: "";
-  /* display: inline-block; */
-  /* position: relative; */
-  /* top: calc(-0.1 * 1em); */
-  padding-left: 15px; 
-  height: 5em;
-  vertical-align: middle;
-  border-left: 5px solid var(--main-color);
-}
-
-/* .custom-bullet::before{
-  content: "";
-  display: inline-block;
-  position: relative;
-  top: calc(-0.1 * 1em);
-  vertical-align: middle;
-  height: 5em;
-  margin-right: 10px;
-  border-left: 5px solid #e5e5e5;
-} */
 
 /* --- */
 /* nav */
 /* --- */
-
 /* overide the nav default min-height of 80px */
 .uk-navbar-item {
   min-height: 60px;
@@ -47,7 +26,6 @@ html, body {
 /* ------------ */
 /* render email */
 /* ------------ */
-
 secret-stuff::before {
   content: attr(data-user) "\0040";
 }
@@ -59,7 +37,6 @@ secret-stuff::after {
 /* ------------- */
 /* Common Shtuff */
 /* ------------- */
-
 /* active link color */
 .uk-camel, .active {
   color: var(--main-color) !important;
