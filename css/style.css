@@ -13,6 +13,27 @@ html, body {
 .uk-heading-bullet::before {
   border-left: 5px solid var(--main-color) !important;
 }
+.custom-bullet{
+  content: "";
+  /* display: inline-block; */
+  /* position: relative; */
+  /* top: calc(-0.1 * 1em); */
+  padding-left: 15px; 
+  height: 5em;
+  vertical-align: middle;
+  border-left: 5px solid var(--main-color);
+}
+
+/* .custom-bullet::before{
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: calc(-0.1 * 1em);
+  vertical-align: middle;
+  height: 5em;
+  margin-right: 10px;
+  border-left: 5px solid #e5e5e5;
+} */
 
 /* --- */
 /* nav */
@@ -44,31 +65,25 @@ secret-stuff::after {
   color: var(--main-color) !important;
   /* rgb(207, 117, 61) 👈slightly darker*/
 }
-
 /* overide html hightlight color */
 ::selection {
   background: var(--main-color);
 }
-
 /* overide dark background color */
 .uk-background-secondary {
   background-color: rgb(51, 51, 51) !important;
 }
-
 /* set the cursor to default (arrow)*/
 .cursor-default {
   cursor: default;
 }
-
 /* set the cursor to hand */
 .cursor-pointer {
   cursor: pointer;
 }
-
 .mb-3 {
   margin-bottom: 3px;
 }
-
 .text-dark-af {
   color: rgba(255, 255, 255, 0.3);
 }
