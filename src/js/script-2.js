@@ -1,0 +1,7 @@
+// @codekit-prepend quiet 'analytics.js'
+// @codekit-prepend quiet 'jquery.js'
+// @codekit-prepend quiet 'materialize.js'
+// @codekit-prepend quiet 'font-awesome.js'
+// @codekit-prepend quiet 'projects.js'
+// @codekit-prepend quiet 'templates.js'
+// @codekit-prepend quiet 'emoji-calendar-kcamel.js'
