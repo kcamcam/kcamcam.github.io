@@ -1,0 +1,88 @@
+<!-- navbar toggler -->
+<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <!-- right side -->
+  <div class="uk-navbar-right">
+    <!-- background color toggle -->
+    <button uk-icon="paint-bucket" class="uk-navbar-item uk-icon-link um-padding-remove-right" uk-tooltip="title: Toggle contrast; pos: left;" onclick="toggleTheme();"></button>
+    <!-- nav toggle hamburger -->
+    <button uk-icon="menu" class="uk-navbar-item uk-icon-link" href="#offcanvas" uk-toggle>
+      <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="menu">
+        <rect x="2" y="4" width="16" height="2"></rect>
+        <rect x="2" y="9" width="16" height="2"></rect>
+        <rect x="2" y="14" width="16" height="2"></rect>
+      </svg>
+    </button>
+  </div>
+</nav>
+<!-- ./ navbar toggler -->
+
+<!-- nav menu - offcanvas -->
+<div id="offcanvas" uk-offcanvas="overlay: true; flip: true; mode: slide;">
+  <div class="uk-offcanvas-bar">
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <ul class="uk-nav-default uk-margin-large-bottom" uk-nav>
+      <!-- me -->
+      <li class="uk-nav-header cursor-default">General</li>
+      <li id="home" class="nav-item-toggle">
+        <a href="./">Home</a>
+      </li>
+      <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;">
+          <a href="#" class="uk-disabled" style="opacity: 0.5;">About</a>
+      </li>
+
+      <!-- projects -->
+      <li class="uk-nav-header cursor-default">Projects</li>
+      <li id="rails" class="nav-item-toggle">
+        <a href="rails.html">Ruby on Rails</a>
+      </li>
+      <li id="js" class="nav-item-toggle">
+        <a href="javascript.html">Javascript</a>
+      </li>
+      <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;">
+        <a href="#" class="uk-disabled" style="opacity: 0.5;">Laravel</a>
+      </li>
+      <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;">
+        <a href="#" class="uk-disabled" style="opacity: 0.5;">Node.js</a>
+      </li>
+      <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;">
+          <a href="#" class="uk-disabled" style="opacity: 0.5;">PHP</a>
+      </li>
+      <li uk-tooltip="title: Coming soon 👨‍💻; pos: left;">
+        <a href="#" class="uk-disabled" style="opacity: 0.5;">Vanilla HTML</a>
+      </li>
+
+      <!--  Social -->
+      <li class="uk-nav-header cursor-default">Contact</li>
+      <li class="mb-3"><secret-stuff class="uk-text-meta cursor-arrow" data-user="kevincamellini" data-domain="icloud.com"></secret-stuff></li>
+      <a uk-tooltip="title: GitHub; pos: bottom;"       href="https://github.com/kcamcam"       class="uk-icon-link uk-margin-small-right" uk-icon="github"   target="_blank"></a>
+      <a uk-tooltip="title: Twitter; pos: bottom;"      href="http://www.twitter.com/kevcamcam" class="uk-icon-link uk-margin-small-right" uk-icon="twitter"  target="_blank"></a>
+      <a uk-tooltip="title: LinkedIn; pos: bottom;"     href="http://linkedin.com/in/kcamcam"   class="uk-icon-link uk-margin-small-right" uk-icon="linkedin" target="_blank"></a>
+      
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <!-- Technologies -->
+      <li>
+        <a class="uk-link-reset" href="https://getuikit.com/" target="_blank">
+          <small class="text-dark-af" uk-icon="icon: uikit; ratio: 0.8;"></small>
+          <small class="uk-text-middle text-dark-af">Made with <strong>UIkit</strong></small>
+        </a>
+      </li>
+      <li>
+      <a class="uk-link-reset" href="https://codekitapp.com/" target="_blank">
+        <small class="text-dark-af" uk-icon="icon: code; ratio: 0.8;"></small>
+        <small class="uk-text-middle text-dark-af">Developed using <strong>CodeKit</strong></small>
+      </a>
+      </li>
+      <li>
+      <a class="uk-link-reset" href="https://github.com/kcamcam/kcamcam.github.io" target="_blank">
+        <small class="text-dark-af" uk-icon="icon: github-alt; ratio: 0.8;"></small>
+        <small class="uk-text-middle text-dark-af">Hosted on <strong>GitHub Pages</strong></small>
+      </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- ./ nav menu - offcanvas-->

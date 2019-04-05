@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>kcamel.com</title>
+  <title>Ruby on Rails</title>
   <!-- meta data -->
   <meta charset="utf-8">
   <meta name="viewport"             content="width=device-width, initial-scale=1">
@@ -25,10 +25,10 @@
   <meta name="twitter:image"        content="https://kcamel.com/img/camel.png">
   
   <!-- favicon -->
-  <link rel="icon" href="img/camel.png?ckcachebust=ec92346adc5ff336998c2dc084ccdf4a" />
+  <link rel="icon" href="img/camel.png?ckcachebust=4130ef2fdfb9d5280e7876bf396f3141" />
   
   <!-- style import -->
-  <link rel="stylesheet" href="css/main.css?ckcachebust=f0e982b68cc072ccdad7a371ae2b827f" />
+  <link rel="stylesheet" href="css/main.css?ckcachebust=44404442dc1d43526380c54ce46b6cc6" />
         
 </head>
 <body>
@@ -125,38 +125,128 @@
     <!-- ./ nav menu - offcanvas-->
 
     <!-- main section - with large vertical padding -->
-    <div class="uk-section uk-section-large">
-      <!-- main container -->
+    <div class="uk-section uk-section-medium">
       <!-- main container - a small witdth container in the middle of the screen -->
       <div class="uk-container uk-container-xsmall">
-        <h1 class="uk-heading-bullet uk-heading-primary uk-margin-remove-bottom">Kevin Camellini</h1>
-        <h5 class="uk-margin-remove">Student in Software Engineering at Concordia University </h5>
-        <!-- Undergraduate student pursuing a degree in Software Engineering at Concordia University. -->
-      </div>
-      <!--html-->
-      <div class="container col s12" id="html">
-        <h5 class="grey-text text-darken-2 pt-4">
-          Web Projects
-        </h5>
-        <div class="row py-3">
-          <div class="ppa"></div>
-          <div class="cpi"></div>
-          <div class="minicalc"></div>
-          <div class="eadings"></div>
+        <!-- Title -->
+        <h1 class="uk-heading-bullet uk-heading-primary">Ruby on Rails</h1>
+        
+        <!-- description -->
+        <p class="uk-text-justify">
+          I was first introduced to the Ruby programming language in a Principles 
+          of Programming Languages class and instantly fell in love.
+          Even more so when I found out there was an elegant framework created to 
+          take advantage of the languages great features.
+        </p>
+
+        <!-- Projects -->
+        <h1>Projects</h1>
+        
+        <!-- Cards -->
+        <!-- 1social -->
+        <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+          <div class="uk-card-body">
+            <!-- Title -->
+            <span class="uk-card-title uk-margin-remove-bottom">One Social</span>
+            <!-- Date -->
+            
+            <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Spring 2018</span> 
+            
+            <!-- Description -->
+            <p class="uk-text-justify">
+              One Social is a web app that neatly aggregates all of your social media 
+              links into one good looking place. You can find an example of my social 
+              media profile <a class="link" href="https://one-social.herokuapp.com/kcamel" target="_blank">here</a>.
+              Some notable features are: <strong>search</strong> functionality, 
+              many-to-one and many-to-many <strong>database relationships</strong>, 
+              and my dedication to aesthetically pleasing <strong>design</strong>.
+            </p>
+        
+            <!-- GitHub -->
+            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+                uk-icon="github" href="https://github.com/kcamcam/onesocial" 
+                target="_blank">
+            </a>
+        
+            <!-- Link -->
+            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+                uk-icon="link" href="https://one-social.herokuapp.com" 
+                uk-tooltip="title: Running on a free Heroku dyno.<br/>Give it a few seconds to load.; pos: right"
+                target="_blank">
+            </a>
+          </div>
         </div>
-      </div>
-      <!--hack-->
-      <div class="container col s12" id="hack">
-        <h5 class="grey-text text-darken-2 pt-4">
-          Hackathons
-        </h5>
-        <div class="row py-3">
-          <div class="famingo"></div>
-          <div class="storyflow"></div>
-          <div class="trippy"></div>
+        <!-- ./ 1social -->
+        
+        <!-- G-Apedia -->
+        <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+          <div class="uk-card-body">
+            <!-- Title -->
+            <span class="uk-card-title uk-margin-remove-bottom">G-Apedia</span>
+            
+            <!-- Date -->
+            <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Fall 2018</span> 
+            
+            <!-- Description -->
+            <p class="uk-text-justify">
+              G -Apedia is an accuracy meter for the know-it-all in my group of friends. 
+              You can simply give him an upvote or a down vote when he cites correct or 
+              wrongful information respctfully. It is about as simple as a Rails web app 
+              can get. It consits of one database relation with two columns upvotes and 
+              downvotes and some simple ruby does the math to calculate his accuracy in 
+              the front end. This project shows my ability to deploy a rails app quickly
+              and efficiently. G-Apedia took only a few hours to deploy.
+            </p>
+        
+            <!-- GitHub -->
+            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+                uk-icon="github" href="https://github.com/kcamcam/gapedia" 
+                target="_blank">
+            </a>
+        
+            <!-- Link -->
+            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+                uk-icon="link" href="http://g.kcamel.com" 
+                uk-tooltip="title: Running on a free Heroku dyno.<br/>Give it a few seconds to load.; pos: right"
+                target="_blank">
+            </a>
+          </div>
         </div>
+        <!-- ./ G-Apedia -->
+        
+        <!-- Driver Rank -->
+        <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+          <div class="uk-card-body">
+            <!-- Title -->
+            <span class="uk-card-title uk-margin-remove-bottom">Driver Rank</span>
+        
+            <!-- Date -->
+            <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Fall 2017</span> 
+            
+            <!-- Description -->
+            <p class="uk-text-justify">
+              Driver Rank is a web app for ranking other peoples driving abilities.
+              It was my very first Rails app and in turn I made a lot of mistakes but 
+              it turned out to be an exceptional learning experience.
+            </p>
+        
+            <!-- GitHub -->
+            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+                uk-icon="github" href="https://github.com/kcamcam/driver-rank" 
+                target="_blank">
+            </a>
+        
+            <!-- Link -->
+            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+                uk-icon="link" href="https://driverrank.herokuapp.com/" 
+                uk-tooltip="title: Running on a free Heroku dyno.<br/>Give it a few seconds to load.; pos: right"
+                target="_blank">
+            </a>
+          </div>
+        </div>
+        <!-- ./ Driver Rank -->
       </div>
-      <!--End Projects-->
+      <!-- ./ main container -->
     </div>
     <!-- ./ main section -->
 
@@ -165,6 +255,6 @@
 
 
   <!-- script import -->
-  <script src="js/main.js?ckcachebust=0a597c90c7a728ca1c0ce3ac77f8d139"></script>
+  <script src="js/main.js?ckcachebust=72a444bf4ac9af0e2523345df80906dd"></script>
 </body>
 </html>
