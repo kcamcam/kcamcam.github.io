@@ -12,13 +12,16 @@ html, body {
 /* landing page */
 /* ------------ */
 .uk-heading-bullet::before {
-  border-left: 5px solid var(--main-color) !important;
+  border-left: 4px solid var(--main-color) !important;
 }
 
 /* --- */
 /* nav */
 /* --- */
 /* overide the nav default min-height of 80px */
+// .uk-offcanvas-bar{
+//   background-color: red;
+// }
 .uk-navbar-item {
   min-height: 60px;
 }
@@ -37,11 +40,16 @@ secret-stuff::after {
 /* ------------- */
 /* Common Shtuff */
 /* ------------- */
-/* active link color */
-.uk-camel, .active {
+.link {
   color: var(--main-color) !important;
-  /* rgb(207, 117, 61) 👈slightly darker*/
 }
+/* active link color */
+a:hover { //.uk-active a
+  opacity: 0.8;
+  transition-duration: 0.1s;
+  // color: rgb(207, 117, 61) !important; // 👈slightly darker
+}
+
 /* overide html hightlight color */
 ::selection {
   background: var(--main-color);
@@ -55,12 +63,13 @@ secret-stuff::after {
   cursor: default;
 }
 /* set the cursor to hand */
-.cursor-pointer {
-  cursor: pointer;
+.cursor-arrow {
+  cursor: arrow;
 }
 .mb-3 {
   margin-bottom: 3px;
 }
+// used for the uikit logo in the navbar
 .text-dark-af {
   color: rgba(255, 255, 255, 0.3);
 }

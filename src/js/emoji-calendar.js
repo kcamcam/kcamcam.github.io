@@ -71,41 +71,41 @@ var new_years_eve = (current_month == 12 && current_day == 31);
 // evaluates to true. else set the emoji to default.
 function getEmoji(default_emoji){
     if (new_years_day){
-        return "🎉";
+      return "🎉";
     }else if (valentines_day){
-        return "💝";
+      return "💝";
     }else if (shannon){
-        return "👸❤️🎉";
+      return "👸❤️🎉";
     }else if (st_pats_day){
-        return "🍀";
+      return "🍀";
     }else if (easter){
-        return "🐣";
+      return "🐣";
     }else if (victoria_day){
-        return "👸";
+      return "👸";
     }else if (st_jean){
-        return "⚜️";
+      return "⚜️";
     }else if (canada){
-        return "🇨🇦";
+      return "🇨🇦";
     }else if (usa){
-        return "🇺🇸";
+      return "🇺🇸";
     }else if (guatemala){
-        return "🇬🇹";
+      return "🇬🇹";
     }else if (italy){
-        return "🇮🇹";
+      return "🇮🇹";
     }else if (labor_day){
-        return "🛠";
+      return "🛠";
     }else if (thanks_giving){
-        return "🦃";
+      return "🦃";
     }else if (halloween){
-        return "🎃";
+      return "🎃";
     }else if (rememberance){
-        return "🎖";
+      return "🎖";
     }else if (christmas){
-        return "🎄";
+      return "🎄";
     }else if (boxing_day){
-        return "🥊";
+      return "🥊";
     }else if (new_years_eve){
-        return "🎊";
+      return "🎊";
     }else {
         return default_emoji;
     }
@@ -164,11 +164,11 @@ function getFirstSunday(day,year) {
 // and returns the current emoji being passed
 // into the element
 function insertEmoji(default_emoji){
-    curr_emoji = getEmoji(default_emoji);
+    var curr_emoji = getEmoji(default_emoji);
     console.log("Current Calendar Emoji: " + curr_emoji);
     document.getElementById("emoji-calendar").innerHTML = curr_emoji;
     return curr_emoji;
 }
 // call the function to insert the emoji in to the document
 // Set the default as a parameter
-insertEmoji("👨‍💻");
+// insertEmoji("👨‍💻");
