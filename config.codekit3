@@ -14,7 +14,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 1
 		},
 	"/404.html": {
@@ -22,7 +22,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/404.html",
+		"oAP": "/404.html",
 		"oF": 0
 		},
 	"/CNAME": {
@@ -30,7 +30,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/CNAME",
+		"oAP": "/CNAME",
 		"oF": 1
 		},
 	"/css/main.css": {
@@ -39,7 +39,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/css/main.css",
+		"oAP": "/css/main.css",
 		"oF": 0,
 		"oS": 2
 		},
@@ -47,10 +47,10 @@
 		"ft": 32768,
 		"iS": 4431,
 		"oA": 0,
-		"oAP": "/build/img/camel.png",
+		"oAP": "/img/camel.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -59,7 +59,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
 	"/js/main.js": {
@@ -68,7 +68,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/js/main.js",
+		"oAP": "/js/main.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -79,7 +79,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/js/script-2.js",
+		"oAP": "/js/script-2.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -89,7 +89,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/keybase.txt",
+		"oAP": "/keybase.txt",
 		"oF": 1
 		},
 	"/License": {
@@ -97,7 +97,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/License",
+		"oAP": "/License",
 		"oF": 1
 		},
 	"/rails.html": {
@@ -105,7 +105,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/rails.html",
+		"oAP": "/rails.html",
 		"oF": 0
 		},
 	"/README.md": {
@@ -118,7 +118,7 @@
 		"ft": 4096,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/README.html",
+		"oAP": "/README.html",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
@@ -132,15 +132,15 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/src/404.html",
-		"oF": 0
+		"oAP": "/404.html",
+		"oF": 2
 		},
 	"/src/_js_cards.kit": {
 		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/src/_js_cards.html",
+		"oAP": "/_js_cards.html",
 		"oF": 0
 		},
 	"/src/_meta.kit": {
@@ -148,7 +148,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/src/_meta.html",
+		"oAP": "/_meta.html",
 		"oF": 0
 		},
 	"/src/_nav.kit": {
@@ -156,7 +156,15 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/src/_nav.html",
+		"oAP": "/_nav.html",
+		"oF": 0
+		},
+	"/src/_rails_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_rails_cards.html",
 		"oF": 0
 		},
 	"/src/css/_custom.scss": {
@@ -167,7 +175,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/src/css/_custom.css",
+		"oAP": "/css/_custom.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -180,7 +188,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/src/css/_uikit.css",
+		"oAP": "/css/_uikit.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -193,7 +201,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/src/css/main.css",
+		"oAP": "/css/main.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -202,7 +210,7 @@
 		"ft": 32768,
 		"iS": 4431,
 		"oA": 0,
-		"oAP": "/build/src/img/camel.png",
+		"oAP": "/img/camel.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -214,7 +222,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/src/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
 	"/src/javascript.kit": {
@@ -222,7 +230,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/src/javascript.html",
+		"oAP": "/javascript.html",
 		"oF": 0
 		},
 	"/src/js/custom.js": {
@@ -231,7 +239,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/build/src/js/custom.js",
+		"oAP": "/js/custom.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -242,7 +250,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/build/src/js/emoji-calendar.js",
+		"oAP": "/js/emoji-calendar.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -253,7 +261,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/src/js/main.js",
+		"oAP": "/js/main.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -264,7 +272,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/build/src/js/uikit-icons.js",
+		"oAP": "/js/uikit-icons.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -275,7 +283,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/build/src/js/uikit.js",
+		"oAP": "/js/uikit.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -285,7 +293,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/src/rails.html",
+		"oAP": "/rails.html",
 		"oF": 0
 		}
 	},
@@ -299,14 +307,14 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 576131402.57491803
+	"lastBuiltDate": 576139530.67603505
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerEnableIEGrid": 0,
+	"autoprefixerEnableIEGrid": 1,
 	"babel7PresetType": 1,
 	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
@@ -586,7 +594,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
-	"buildFolderActive": 1,
+	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -901,7 +909,7 @@
 			},
 		"id-match": {
 			"active": 0,
-			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
 			},
 		"implicit-arrow-linebreak": {
 			"active": 0,
@@ -1401,7 +1409,7 @@
 			},
 		"no-tabs": {
 			"active": 0,
-			"optionString": "{allowIndentationTabs: false}"
+			"optionString": ""
 			},
 		"no-template-curly-in-string": {
 			"active": 0,
@@ -1754,7 +1762,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
@@ -2119,14 +2127,14 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "css/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
-		"outputStyle": 3,
+		"outputStyle": 2,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
@@ -2167,14 +2175,14 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathRelativePath": "js/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -2193,8 +2201,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0,
+		"autoOutputPathStyle": 1,
+		"shouldRunCacheBuster": 1,
 		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
@@ -2250,10 +2258,10 @@
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.png",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "img/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"optimizerType": 1,
 		"quality": 100
 		},
@@ -2272,14 +2280,14 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathRelativePath": "css/",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -2343,7 +2351,7 @@
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
-	"sourceFolderName": "source",
+	"sourceFolderName": "src",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
 	"tsAllowUnreachableCode": 0,
@@ -2630,7 +2638,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"warnings": {
