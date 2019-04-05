@@ -25,12 +25,6 @@
 		"oAP": "/build/404.html",
 		"oF": 0
 		},
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -56,7 +50,7 @@
 		"oAP": "/build/img/camel.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -66,14 +60,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/index.html",
-		"oF": 0
-		},
-	"/javascript.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/javascript.html",
 		"oF": 0
 		},
 	"/js/main.js": {
@@ -141,14 +127,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/src/.eslintrc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/src/.eslintrc",
-		"oF": 0
-		},
 	"/src/404.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -181,35 +159,6 @@
 		"oAP": "/build/src/_nav.html",
 		"oF": 0
 		},
-	"/src/_rails_cards.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/src/_rails_cards.html",
-		"oF": 0
-		},
-	"/src/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/src/CNAME",
-		"oF": 0
-		},
-	"/src/css/_bootstrap.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/src/css/_bootstrap.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/src/css/_custom.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -221,27 +170,6 @@
 		"oAP": "/build/src/css/_custom.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
-		},
-	"/src/css/_custom.scss~HEAD": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/build/src/css/_custom.scss~HEAD",
-		"oF": 0
-		},
-	"/src/css/_materialize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/src/css/_materialize.css",
-		"oF": 0,
-		"oS": 0,
 		"uL": 1
 		},
 	"/src/css/_uikit.scss": {
@@ -270,19 +198,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"/src/css/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/build/src/css/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/src/img/camel.png": {
 		"ft": 32768,
 		"iS": 4431,
@@ -302,19 +217,6 @@
 		"oAP": "/build/src/index.html",
 		"oF": 0
 		},
-	"/src/index.slim": {
-		"cB": 0,
-		"cmO": 0,
-		"ft": 1024,
-		"hM": 0,
-		"llg": 0,
-		"oA": 0,
-		"oAP": "/build/src/index.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 1,
-		"rAC": 0
-		},
 	"/src/javascript.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -322,17 +224,6 @@
 		"oA": 0,
 		"oAP": "/build/src/javascript.html",
 		"oF": 0
-		},
-	"/src/js/analytics.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/src/js/analytics.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/src/js/custom.js": {
 		"bF": 0,
@@ -343,17 +234,6 @@
 		"oAP": "/build/src/js/custom.js",
 		"oF": 0,
 		"sC": 0,
-		"tS": 0
-		},
-	"/src/js/emoji-calendar-kcamel.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/src/js/emoji-calendar-kcamel.js",
-		"oF": 0,
-		"sC": 3,
 		"tS": 0
 		},
 	"/src/js/emoji-calendar.js": {
@@ -367,28 +247,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/src/js/font-awesome.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/src/js/font-awesome.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/src/js/jquery.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/src/js/jquery.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/src/js/main.js": {
 		"bF": 0,
 		"ft": 64,
@@ -398,50 +256,6 @@
 		"oAP": "/build/src/js/main.js",
 		"oF": 0,
 		"sC": 0,
-		"tS": 0
-		},
-	"/src/js/materialize.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/src/js/materialize.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/src/js/projects.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/src/js/projects.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/src/js/script-2.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/build/src/js/script-2.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/src/js/templates.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/src/js/templates.js",
-		"oF": 0,
-		"sC": 3,
 		"tS": 0
 		},
 	"/src/js/uikit-icons.js": {
@@ -466,22 +280,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/src/keybase.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/src/keybase.txt",
-		"oF": 0
-		},
-	"/src/License": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/src/License",
-		"oF": 0
-		},
 	"/src/rails.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -489,25 +287,6 @@
 		"oA": 0,
 		"oAP": "/build/src/rails.html",
 		"oF": 0
-		},
-	"/src/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/src/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		}
 	},
 "hooks": [
