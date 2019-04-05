@@ -2,9 +2,10 @@
 /* globals */
 /* ------- */
 html, body {
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(34, 34, 34);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  // --main-color: rgb(232, 142, 86);
   --main-color: rgb(232, 142, 86);
 }
 
@@ -55,7 +56,7 @@ a:hover { //.uk-active a
   background: var(--main-color);
 }
 /* overide dark background color */
-.uk-background-secondary {
+.uk-card-secondary {
   background-color: rgb(51, 51, 51) !important;
 }
 /* set the cursor to default (arrow)*/

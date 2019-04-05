@@ -62,6 +62,14 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/javascript.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/javascript.html",
+		"oF": 0
+		},
 	"/js/main.js": {
 		"bF": 0,
 		"ft": 64,
@@ -307,7 +315,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 576139530.67603505
+	"lastBuiltDate": 576140076.63448703
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
