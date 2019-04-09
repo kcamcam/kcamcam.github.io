@@ -2,7 +2,7 @@
 ### My Personal Portfolio Website
 [kcamel.com](https://kcamel.com)  
 [kcamel.dev](https://kcamel.dev)  
-[kcamel.dev](https://kcamel.io) 
+[kcamel.io](https://kcamel.io) 
 
 
 ### Technologies Used
