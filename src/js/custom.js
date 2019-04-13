@@ -111,7 +111,7 @@ function toggleActiveNavItem(){
   });
 
   switch(title) {
-    case "kcamel.com":
+    case "kcamel.io":
       addActiveClassToElementWithId('home');
       break;
     case "About":
