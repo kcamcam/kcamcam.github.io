@@ -24,6 +24,9 @@ function setTheme(){
 }
 
 function setDarkTheme(animate){
+  // set the body background color to dark
+  document.body.style.backgroundColor = 'rgb(34,34,34)';
+  // set the page background color to dark
   let background = document.getElementById('background');
   background.classList.remove("uk-background-default");
   background.classList.remove("uk-dark");
@@ -45,6 +48,9 @@ function setDarkTheme(animate){
 }
 
 function setLightTheme(animate){
+  // set the body background color to light
+  document.body.style.backgroundColor = 'rgb(255,255,255)';
+  // set the page background color to light
   let background = document.getElementById('background');
   background.classList.remove("uk-background-secondary");
   background.classList.remove("uk-light"); 
@@ -111,6 +117,9 @@ function toggleActiveNavItem(){
     case "About":
       addActiveClassToElementWithId('about');
       break;
+    case "Hackathons":
+      addActiveClassToElementWithId('hackathons');
+      break;
     case "Ruby on Rails":
       addActiveClassToElementWithId('rails');
       break;
@@ -120,15 +129,15 @@ function toggleActiveNavItem(){
     case "Node.js":
       addActiveClassToElementWithId('node');
       break;
-    case "PHP":
-      addActiveClassToElementWithId('php');
-      break;
     case "Javascript":
       addActiveClassToElementWithId('js');
       break;
-    case "HTML":
-      addActiveClassToElementWithId('html');
-      break;      
+    case "Web":
+      addActiveClassToElementWithId('web');
+      break;
+    case "Android":
+      addActiveClassToElementWithId('android');
+      break;
   }
 }
 
@@ -138,5 +147,6 @@ function addActiveClassToElementWithId(elementId){
 
 // set the appropriate nav item to active when the page loads
 toggleActiveNavItem();
+
 // set the appropriate theme when the page loads
 setTheme();

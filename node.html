@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>kcamel.com</title>
+  <title>Node.js</title>
   <!-- meta data -->
   <meta charset="utf-8">
   <meta name="viewport"             content="width=device-width, initial-scale=1">
@@ -25,10 +25,10 @@
   <meta name="twitter:image"        content="https://kcamel.com/img/camel.png">
   
   <!-- favicon -->
-  <link rel="icon" href="img/camel.png?ckcachebust=3d70880941e2c6d09dbb4a290b49680a" />
+  <link rel="icon" href="img/camel.png?ckcachebust=4edab130d13efdac396fb503a12a40f8" />
   
   <!-- style import -->
-  <link rel="stylesheet" href="css/main.css?ckcachebust=bcdfec6acb1d4f64f65d8c2c5e068ba6" />
+  <link rel="stylesheet" href="css/main.css?ckcachebust=5deb34e391439dd5af77f68c1ce1346d" />
         
 </head>
 <body>
@@ -128,13 +128,62 @@
     <!-- ./ nav menu - offcanvas-->
 
     <!-- main section - with large vertical padding -->
-    <div class="uk-section uk-section-large">
-      <!-- main container -->
+    <div class="uk-section uk-section-medium">
       <!-- main container - a small witdth container in the middle of the screen -->
       <div class="uk-container uk-container-xsmall">
-        <h1 class="uk-heading-bullet uk-heading-primary uk-margin-remove-bottom">Kevin Camellini</h1>
-        <h5 class="uk-margin-remove">Student in Software Engineering at Concordia University </h5>
-        <!-- Undergraduate student pursuing a degree in Software Engineering at Concordia University. -->
+        <!-- Title -->
+        <h1 class="uk-heading-bullet uk-heading-primary">Node.js</h1>
+        
+        <!-- Cards -->
+        <!-- Biblio -->
+        <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+          <div class="uk-card-body">
+            <!-- Title -->
+            <a  class="uk-card-title uk-margin-remove-bottom" 
+                href="https://soen343t5.herokuapp.com"
+                uk-tooltip="title: Running on a free Heroku dyno.<br/>Leave it a few seconds to warmup.; pos: right" 
+                target="_blank">Biblio</a>
+            <!-- Date -->
+            <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Fall 2018</span> 
+            <!-- Description -->
+            <p class="uk-text-justify">
+              Biblio was created as a term project for Soen 343, <i>Software Architecture 
+              and Design I</i>, in the Fall semester of 2018 at Concordia. On a team 
+              of 10 people, we were tasked with building a library rental service. We 
+              were also tasked with creating, updating, and maintaining the three 
+              following artifacts throughout the life entire cycle of the project: 
+            </p>
+            <ul class="">
+              <li>The Code Repository </li>
+              <li>A detailed <strong><a href="https://github.com/AznBoy00/soen343team5/blob/master/SRS-SAD/SRS-TEAM5.pdf" target="_blank">Software Requirements Specification</a></strong> Document (SRS)</li>
+              <li>A detailed <strong><a href="https://github.com/AznBoy00/soen343team5/blob/master/SRS-SAD/SAD-TEAM5.pdf" target="_blank">Software Architecture Document</a></strong> (SAD)</li>
+            </ul>
+            <p class="uk-text-justify">
+              Some notable features implemented in this project are an 
+              <strong><a href="https://github.com/AznBoy00/soen343team5/blob/master/IMAP/identitymap.js" target="_blank">IMAP</a></strong> 
+              (Identity Mapper), 
+              <a href="https://github.com/AznBoy00/soen343team5/blob/master/TDG/usersGateway.js" target="_blank"><strong>TDG</strong></a> 
+              (Table Data Gateway) and a 
+              <strong><a href="https://github.com/AznBoy00/soen343team5/blob/master/uow/uow.js" target="_blank">UoW</a></strong>
+              (Unit of Work) all developed from scratch.
+            </p>
+            
+            <!-- GitHub -->
+            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+                uk-icon="github" href="https://github.com/AznBoy00/soen343team5" 
+                uk-tooltip="title:View the code on GitHub; pos: right" 
+                target="_blank"></a>
+            
+            <!-- Link -->
+            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+                uk-icon="link" href="https://soen343t5.herokuapp.com"
+                uk-tooltip="title: Running on a free Heroku dyno.<br/>Leave it a few seconds to warm up.; pos: right"
+                target="_blank">
+            </a>
+          </div>
+        </div>
+        <!-- ./ Biblio -->
+
       </div>
       <!-- ./ main container -->
     </div>
@@ -145,6 +194,6 @@
 
 
   <!-- script import -->
-  <script src="js/main.js?ckcachebust=a10b89b9af209b0ef516c061a780b27c"></script>
+  <script src="js/main.js?ckcachebust=08cdccb9ad5b98c9d29acd291c60dc9d"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 /* ------- */
 /* globals */
 /* ------- */
-html, body {
+body {
   background-color: rgb(34, 34, 34);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -41,19 +41,28 @@ secret-stuff::after {
 /* ------------- */
 /* Common Shtuff */
 /* ------------- */
-.link {
-  color: var(--main-color) !important;
+// cuz bolder is better
+h1, h2, h3, h4, h5, h6, .uk-nav-header, .uk-card-title {
+  font-weight: 600;
 }
+// reset link colors
+a {
+  color: inherit;
+  opacity: 1!important;
+  font-weight: 600;
+}
+
 /* active link color */
-a:hover { //.uk-active a
+a:hover {
+  color: inherit;
   opacity: 0.8;
   transition-duration: 0.1s;
-  // color: rgb(207, 117, 61) !important; // 👈slightly darker
+  // text-decoration: none;
 }
 
 /* overide html hightlight color */
 ::selection {
-  background: var(--main-color);
+  background: var(--main-color) !important;
 }
 /* overide dark background color */
 .uk-card-secondary {
