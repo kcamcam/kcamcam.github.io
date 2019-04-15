@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Courses</title>
+  <!-- meta data -->
+  <meta charset="utf-8">
+  <meta name="viewport"             content="width=device-width, initial-scale=1">
+  <meta name="description"          content="Kevin Camellini's developer portfolio website">
+  <meta name="keywords"             content="kevin camellini, kevin, camellini, software, engineer, engineering, developer, programmer, concordia, university, montreal, canada">
+  
+  <!-- fb og protocol -->
+  <meta property="og:locale"        content="en_CA">
+  <meta property="og:type"          content="website">
+  <meta property="og:title"         content="kcamel.io">
+  <meta property="og:description"   content="Kevin Camellini's developer portfolio website">
+  <meta property="og:url"           content="https://kcamel.io">
+  <meta property="og:site_name"     content="kcamel.io">
+  <meta property="og:image"         content="https://kcamel.io/img/camel.png">
+  
+  <!-- twitter protocol -->
+  <meta name="twitter:card"         content="summary">
+  <meta name="twitter:title"        content="kcamel.io">
+  <meta name="twitter:description"  content="Kevin Camellini's developer portfolio website">
+  <meta name="twitter:creator"      content="@kevcamcam">
+  <meta name="twitter:image"        content="https://kcamel.io/img/camel.png">
+  
+  <!-- favicon -->
+  <link rel="icon" href="img/camel.png?ckcachebust=a9e2b6a7b20c44d9703759d3e4e931e5" />
+  
+  <!-- style import -->
+  <link rel="stylesheet" href="css/main.css?ckcachebust=265379cac3101edb89518a9ca6d8b15b" />
+        
+</head>
+<body>
+  <!-- main background wrapper-->
+  <div id="background" class="uk-height-viewport uk-animation-fast uk-background-secondary uk-light">
+    
+    <!-- navbar toggler -->
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+      <!-- right side -->
+      <div class="uk-navbar-right">
+        <!-- background color toggle -->
+        <button uk-icon="paint-bucket" class="uk-navbar-item uk-icon-link um-padding-remove-right" uk-tooltip="title: Toggle contrast; pos: left;" onclick="toggleTheme();"></button>
+        <!-- nav toggle hamburger -->
+        <button uk-icon="menu" class="uk-navbar-item uk-icon-link" href="#offcanvas" uk-toggle>
+          <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="menu">
+            <rect x="2" y="4" width="16" height="2"></rect>
+            <rect x="2" y="9" width="16" height="2"></rect>
+            <rect x="2" y="14" width="16" height="2"></rect>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <!-- ./ navbar toggler -->
+    
+    <!-- nav menu - offcanvas -->
+    <div id="offcanvas" uk-offcanvas="overlay: true; flip: true; mode: slide;">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav-default uk-margin-large-bottom" uk-nav>
+          <!-- me -->
+          <li class="uk-nav-header cursor-default">General</li>
+          <li id="home" class="nav-item-toggle">
+            <a href="./">Home</a>
+          </li>
+          <li id="about" class="nav-item-toggle">
+              <a href="about.html">About</a>
+          </li>
+          <li id="courses" class="nav-item-toggle">
+              <a href="courses.html">Courses</a>
+          </li>
+    
+          <!-- projects -->
+          <li class="uk-nav-header cursor-default">Projects</li>
+          <li id="hackathons" class="nav-item-toggle">
+            <a href="hackathons.html">Hackathons</a>
+          </li>
+          <li id="rails" class="nav-item-toggle">
+            <a href="rails.html">Ruby on Rails</a>
+          </li>
+          <li id="js" class="nav-item-toggle">
+            <a href="javascript.html">Javascript</a>
+          </li>
+          <li id="laravel" class="nav-item-toggle">
+            <a href="laravel.html">Laravel</a>
+          </li>
+          <li id="node" class="nav-item-toggle">
+            <a href="node.html">Node.js</a>
+          </li>
+          <li id="android" class="nav-item-toggle">
+            <a href="android.html">Android</a>
+          </li>
+          <li id="web" class="nav-item-toggle">
+            <a href="web.html">Web</a>
+          </li>
+    
+          <!-- other -->
+          <li class="uk-nav-header cursor-default">Other</li>
+          <li id="blog" class="nav-item-toggle">
+            <a href="blog.html">Blog</a>
+          </li>
+    
+          <!--  Social -->
+          <li class="uk-nav-header cursor-default">Contact</li>
+          <li class="mb-3"><secret-stuff class="uk-text-meta cursor-arrow" data-user="kevincamellini" data-domain="icloud.com"></secret-stuff></li>
+          <a uk-tooltip="title: GitHub; pos: bottom;"       href="https://github.com/kcamcam"                     class="uk-icon-link uk-margin-small-right" uk-icon="github"   target="_blank"></a>
+          <a uk-tooltip="title: Twitter; pos: bottom;"      href="https://www.twitter.com/kevcamcam"              class="uk-icon-link uk-margin-small-right" uk-icon="twitter"  target="_blank"></a>
+          <a uk-tooltip="title: LinkedIn; pos: bottom;"     href="https://linkedin.com/in/kcamcam"                class="uk-icon-link uk-margin-small-right" uk-icon="linkedin" target="_blank"></a>
+          <a uk-tooltip="title: Resumé; pos: bottom;"       href="https://resume.creddle.io/resume/8khszcv8vgj"   class="uk-icon-link uk-margin-small-right" uk-icon="file-text" target="_blank"></a>
+          
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <!-- Technologies -->
+          <li>
+            <a href="https://getuikit.com/" target="_blank">
+              <small class="text-dark-af" uk-icon="icon: uikit; ratio: 0.8;"></small>
+              <small class="uk-text-middle text-dark-af">Made with <strong>UIkit</strong></small>
+            </a>
+          </li>
+          <li>
+          <a href="https://codekitapp.com/" target="_blank">
+            <small class="text-dark-af" uk-icon="icon: code; ratio: 0.8;"></small>
+            <small class="uk-text-middle text-dark-af">Developed using <strong>CodeKit</strong></small>
+          </a>
+          </li>
+          <li>
+          <a href="https://github.com/kcamcam/kcamcam.github.io" target="_blank">
+            <small class="text-dark-af" uk-icon="icon: github-alt; ratio: 0.8;"></small>
+            <small class="uk-text-middle text-dark-af">Hosted on <strong>GitHub Pages</strong></small>
+          </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ./ nav menu - offcanvas-->
+
+    <!-- main section - with large vertical padding -->
+    <div class="uk-section uk-section-medium">
+      <!-- main container - a small witdth container in the middle of the screen -->
+      <div class="uk-container uk-container-xsmall">
+        <!-- Title -->
+        <h1 class="uk-heading-bullet uk-heading-primary">Courses</h1>
+        <p>
+          Below is a list of courses I have completed so far.
+        </p>
+        <!-- Description -->
+        <div uk-filter="target: .js-filter">
+          <!-- Filter controls -->
+          <ul class="uk-subnav uk-subnav-pill">
+            <li uk-filter-control class="uk-active"><a href="#">ALL</a></li>
+            <li uk-filter-control=".soen"><a href="#">SOEN</a></li>
+            <li uk-filter-control=".comp"><a href="#">COMP</a></li>
+            <li uk-filter-control=".engr"><a href="#">ENGR</a></li>
+            <li uk-filter-control=".encs"><a href="#">ENCS</a></li>
+            <li uk-filter-control=".elec"><a href="#">ELEC</a></li>
+            <li uk-filter-control=".civi"><a href="#">CIVI</a></li>
+            <li uk-filter-control=".phys"><a href="#">PHYS</a></li>
+            <li uk-filter-control=".econ"><a href="#">ECON</a></li>
+            <li uk-filter-control=".todo"><a href="#">TODO</a></li>
+          </ul>
+          <div class="js-filter">
+            <div class="soen">
+              <h1 id="soen" class="uk-heading-bullet">
+                <a href="#soen">SOEN</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 228: System Hardware</h3>
+                  <p class="uk-text-justify">
+                    Processor structure, Data and Instructions, Instruction Set Processor (ISP) level view of computer hardware, assembly language level use. Memory systems — RAM and disks, hierarchy of memories. I/O organization, I/O devices and their diversity, their interconnection to CPU and Memory. Communication between computers at the physical level. Networks and computers.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 287:	Web Programming</h3>
+                  <p class="uk-text-justify">
+                    Internet architecture and protocols. Web applications through clients and servers. Markup languages. Client-side programming using scripting languages. Static website contents and dynamic page generation through server-side programming. Preserving state (client-side) in web applications.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 331:	Introduction to Formal Methods for Software Engineering</h3>
+                  <p class="uk-text-justify">
+                    Assertions. Static and dynamic checking. Method specification using preconditions and postconditions. Strengthening and weakening. Design by contract. Hoare logic. Invariants. Class specification using invariants. Software tools for assertion checking and verification. Reliable software development.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 341:	Software Process</h3>
+                  <p class="uk-text-justify">
+                    Basic principles of software engineering. Introduction to software process models. Activities in each phase, including review activities. Working in teams: organization; stages of formation; roles; conflict resolution. Notations used in software documentation. How to review, revise, and improve software documentation.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 342:	Software Requirements and Specifications</h3>
+                  <p class="uk-text-justify">
+                    Requirements engineering. Functional and non-functional requirements. Traceability. Test generation. Formal and informal specifications. Formal specification languages. Reasoning with specifications. Correctness issues. Verification.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 343:	Software Architecture and Design I</h3>
+                  <p class="uk-text-justify">
+                    From requirements to design to implementation. Planned vs. evolutionary design and refactoring. Model-driven design and Unified Modelling Language (UML). Structural and behavioural design descriptions and specifications. General and domain-specific design principles, patterns and idioms. Object-oriented design concepts such as interfaces vs. abstract types, polymorphism, generics, and delegation vs. subclassing. Introduction to software architecture (styles and view models). Design quality. Design rationale. Design methodologies (e.g. based on responsibility assignment). Test-driven development.
+                  </p>
+                </div>
+              </div>
+              
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 344:	Software Architecture and Design II</h3>
+                  <p class="uk-text-justify">
+                    Architectural activities, roles, and deliverables. Architectural view models. Architectural styles (including client-server, layered, pipes-and-filters, event-based, process control) and frameworks. Architectural analysis and the interplay with requirements elicitation. Notations for expressing architectural designs, structural and behavioural specifications. From architectural design to detailed design. Domain specific architectures and design patterns. Evaluation and performance estimation of designs. Advanced object-oriented design patterns and idioms. 
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 345:	Software Testing, Verification and Quality Assurance</h3>
+                  <p class="uk-text-justify">
+                    Testing strategies. Specification-based vs. code-based, black-box vs. white-box, functional vs. structural testing; unit, integration, system, acceptance, and regression testing. Verification vs. validation. Test planning, design and artifacts. Introduction to software reliability and quality assurance. Formal verification methods, oracles; static and dynamic program verification.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 357:	User Interface Design</h3>
+                  <p class="uk-text-justify">
+                    The human side: I/O; memory; and information processing. Interaction: mental models; human error; interaction frameworks and paradigms. Direct manipulation. User interface design: principles; standards; and guidelines. User-centred design: standards and design rationale; heuristic evaluation; iterative design; and prototyping. Task-centred design. Rationalized design: usability engineering; dialogue notations; user models; diagrammatic notations; and textual notations. Evaluation: with the user; without the user; quantitative; and qualitative. Implementation support. Help and documentation.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 384:	Management, Measurement and Quality Control</h3>
+                  <p class="uk-text-justify">
+                    Organization of large software development. Roles of team members, leaders, managers, stakeholders, and users. Tools for monitoring and controlling a schedule. Financial, organizational, human, and computational resources allocation and control. Project and quality reviews, inspections, and walkthroughs. Risk management. Communication and collaboration. Cause and effects of project failure. Project management via the Internet. Quality assurance and control. 
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 390:	Software Engineering Team Design Project</h3>
+                  <p class="uk-text-justify">
+                    Students work in teams to design and implement a software project from requirements provided by the coordinator. Each team will demonstrate the software and prepare adequate documentation for it. In addition, each student will write an individual report.
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="comp">
+              <h1 id="comp" class="uk-heading-bullet">
+                <a href="#comp">COMP</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 232: Mathematics for Computer Science</h3>
+                  <p class="uk-text-justify">
+                    Sets. Propositional logic and predicate calculus. Functions and relations. Elements of number theory. Proof techniques: direct proof, indirect proof, proof by contradiction, proof by induction.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 248: Object‑Oriented Programming I</h3>
+                  <p class="uk-text-justify">
+                    Basic data types, variables, expressions, assignments, control flow. Classes, objects, methods. Information hiding, public vs. private visibility, data abstraction and encapsulation. References. Arrays.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 249: Object‑Oriented Programming II</h3>
+                  <p class="uk-text-justify">
+                    Design of classes. Inheritance. Polymorphism. Static and dynamic binding. Abstract classes. Exception handling. File I/O. Recursion. Interfaces and inner classes. Graphical user interfaces. Generics. Collections and iterators.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 335: Introduction to Theoretical Computer Science</h3>
+                  <p class="uk-text-justify">
+                    Finite state automata and regular languages. Push-down automata and context-free languages. Pumping lemmas. Applications to parsing. Turing machines. Undecidability and decidability. 
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 345: Databases</h3>
+                  <p class="uk-text-justify">
+                    Introduction to database management systems. Conceptual database design: the entity-relationship model. The relational data model and relational algebra: functional dependencies and normalization. The SQL language and its application in defining, querying, and updating databases; integrity constraints; triggers. Developing database applications. Other data models: Datalog. Object-oriented data model and ODL. Semi-structured data.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 346: Operating Systems</h3>
+                  <p class="uk-text-justify">
+                    Fundamentals of operating system functionalities, design and implementation. Multiprogramming: processes and threads, context switching, queuing models and scheduling. Interprocess communication and synchronization. Principles of concurrency. Synchronization primitives. Deadlock detection and recovery, prevention and avoidance schemes. Memory management. Device management. File systems. Protection models and schemes.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 348: Principles of Programming Languages</h3>
+                  <p class="uk-text-justify">
+                    Survey of programming paradigms: Imperative, functional, and logic programming. Issues in the design and implementation of programming languages. Declaration models: binding, visibility, and scope. Type systems, including static and dynamic typing. Parameter passing mechanisms. Hybrid language design.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 352: Data Structures and Algorithms</h3>
+                  <p class="uk-text-justify">
+                    Abstract data types: stacks and queues, trees, priority queues, dictionaries. Data structures: arrays, linked lists, heaps, hash tables, search trees. Design and analysis of algorithms: asymptotic notation, recursive algorithms, searching and sorting, tree traversal, graph algorithms.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="engr">
+              <h1 id="engr" class="uk-heading-bullet">
+                <a href="#engr">ENGR</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 201: Professional Practice and Responsibility</h3>
+                  <p class="uk-text-justify">
+                    Health and safety issues for engineering projects: Quebec and Canadian legislation; safe work practices; general laboratory safety common to all engineering disciplines, and specific laboratory safety pertaining to particular engineering disciplines. Review of the legal framework in Quebec, particularly the Professional Code and the Engineers Act, as well as professional ethics
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 202: Sustainable Development and Environmental Stewardship</h3>
+                  <p class="uk-text-justify">
+                    Introduction to the concept of sustainable development and the approaches for achieving it. Relationships with economic, social, and technological development. Methods for evaluating sustainability of engineering projects, including utilization of relevant databases and software. Impact of engineering design and industrial development on the environment.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 213: Applied Ordinary Differential Equations</h3>
+                  <p class="uk-text-justify">
+                    This course introduces Engineering students to the theory and application of ordinary differential equations. Definition and terminology, initial-value problems, separable differential equations, linear equations, exact equations, solutions by substitution, linear models, orthogonal trajectories, complex numbers, form of complex numbers: powers and roots, theory: linear equations, homogeneous linear equations with constant coefficients, undetermined coefficients, variation of parameters, Cauchy-Euler equation, reduction of order, linear models: initial value, review of power series, power series solutions, theory, homogeneous linear systems, solution by diagonalisation, non-homogeneous linear systems. Eigenvalues and eigenvectors.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 233: Applied Advanced Calculus</h3>
+                  <p class="uk-text-justify">
+                    This course introduces Engineering students to the theory and application of advanced calculus. Functions of several variables, partial derivatives, total and exact differentials, approximations with differentials. Tangent plane and normal line to a surface, directional derivatives, gradient. Double and triple integrals. Polar, cylindrical, and spherical coordinates. Change of variables in double and triple integrals. Vector differential calculus; divergence, curl, curvature, line integrals, Green's theorem, surface integrals, divergence theorem, applications of divergence theorem, Stokes' theorem.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 371: Probability and Statistics in Engineering</h3>
+                  <p class="uk-text-justify">
+                    Axioms of probability theory. Events. Conditional probability. Bayes theorem. Random variables. Mathematical expectation. Discrete and continuous probability density functions. Transformation of variables. Probabilistic models, statistics, and elements of hypothesis testing (sampling distributions and interval estimation). Introduction to statistical quality control. Applications to engineering problems. 
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 391: Numerical Methods in Engineering</h3>
+                  <p class="uk-text-justify">
+                    Roots of algebraic and transcendental equations; function approximation; numerical differentiation; numerical integration; solution of simultaneous algebraic equations; numerical integration of ordinary differential equations
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 392: Impact of Technology on Society</h3>
+                  <p class="uk-text-justify">
+                    Social history of technology and of science including the industrial revolution and modern times. Engineering and scientific creativity, social and environmental problems created by uncontrolled technology, appropriate technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="encs">
+              <h1 id="encs" class="uk-heading-bullet">
+                <a href="#encs">ENCS</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENCS 282: Technical Writing and Communication</h3>
+                  <p class="uk-text-justify">
+                    Technical writing form and style. Technical and scientific papers, abstracts, reports. Library research and referencing methods for engineers and computer scientists. Technical communication using information technology: document processing software, computer-assisted presentation, analysis and design of web presentation, choice and use of appropriate tools
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="elec">
+              <h1 id="elec" class="uk-heading-bullet">
+                <a href="#elec">ELEC</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ELEC 275: Principles of Electrical Engineering</h3>
+                  <p class="uk-text-justify">
+                    Fundamentals of electric circuits: Kirchoff’s laws, voltage and current sources, Ohm’s law, series and parallel circuits. Nodal and mesh analysis of DC circuits. Superposition theorem, Thevenin and Norton Equivalents. Use of operational amplifiers. Transient analysis of simple RC, RL and RLC circuits. Steady state analysis: Phasors and impedances, power and power factor. Single and three phase circuits. Magnetic circuits and transformers. Power generation and distribution
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="civi">
+              <h1 id="civi" class="uk-heading-bullet">
+                <a href="#civi">CIVI</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">CIVI 231: Geology for Civil Engineers</h3>
+                  <p class="uk-text-justify">
+                    Basic principles of physical and structural geology with emphasis on topics related to civil engineering, study of minerals, rocks and soil types, load formation, techniques of air-photo interpretations, and geological mapping. Geological site investigation. Preparation and interpretation of engineering geology reports. Lectures: three hours per week. Tutorial: one hour per week. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="phys">
+              <h1 id="phys" class="uk-heading-bullet">
+                <a href="#phys">PHYS</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">PHYS 284: Introduction to Astronomy</h3>
+                  <p class="uk-text-justify">
+                    Explore current knowledge of the cosmos from the celestial sphere towards the farthest reaches of the universe. The journey begins with a description of planet earth, its place in the solar system, and resulting seasonal changes, tidal movements, and earth’s precession. Further out, the solar system, the planets, star clusters, the Milky Way galaxy, and modern strange systems such as black holes, quasars, and supernovae are explored. The physical, theoretical and experimental grounds for understanding are described including Newton's laws, quantum and relativistic theories of light and matter, the science of visual and microwave telescopes, and techniques for discovering the existence of planets in other solar systems is also described. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="econ">
+              <h1 id="econ" class="uk-heading-bullet">
+                <a href="#econ">ECON</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ECON 201: Introduction to Microeconomics</h3>
+                  <p class="uk-text-justify">
+                    Introduction to the functioning of the market system; concepts of supply and demand, the role of prices in resource allocation; production decisions by firms. Analysis of differences between competition and monopoly, and the implications for economic efficiency; theories of labour markets and wage determination.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ECON 203: Introduction to Macroeconomics</h3>
+                  <p class="uk-text-justify">
+                    An introductory analysis of aggregate economic activity. The focus is on the principles of determination of the level of employment, national income, real output, inflation, and international balance of payments. The course also analyzes the principles which govern trade relations among countries. These topics are integrated by a discussion of government monetary and fiscal policies to stabilize economic activity.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ADMI 201: Introduction to Administration</h3>
+                  <p class="uk-text-justify">
+                    This course is intended to develop a basic understanding of the role of administration in our society. The course includes a survey of different forms of organizations, their social and legal responsibilities, and how they function to achieve their goals.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="todo">
+              <h1 id="todo" class="uk-heading-bullet">
+                <a href="#todo">TO DO</a>
+              </h1>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 321:	Information Systems Security</h3>
+                  <p class="uk-text-justify">
+                    Protocol layers and security protocols. Intranets and extranets. Mobile computing. Electronic commerce. Security architectures in open-network environments. Cryptographic security protocols. Threats, attacks, and vulnerabilities. Security services: confidentiality; authentication; integrity; access control; non-repudiation; and availability. Security mechanisms: encryption; data-integrity mechanisms; digital signatures; keyed hashes; access-control mechanisms; challenge-response authentication; traffic padding; routing control; and notarization. Key-management principles. Distributed and embedded firewalls. Security zones.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 385:	Control Systems and Applications</h3>
+                  <p class="uk-text-justify">
+                    Mathematical modelling of dynamical systems; block diagrams; feedback; open and closed loops. Linear differential equations; time domain analysis; free, forced, and total response; steady state and transient response. Laplace transform and inverse transform; second order systems. Transfer functions and stability. Control system design: PID and root locus techniques. Computer simulation of control systems.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">SOEN 490:	Capstone Software Engineering Design Project</h3>
+                  <p class="uk-text-justify">
+                    Students work in teams of between six and nine members to construct a significant software application. The class meets at regular intervals. Team members will give a presentation of their contribution to the project.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 301: Engineering Management Principles and Economics</h3>
+                  <p class="uk-text-justify">
+                    Introduction to project delivery systems. Principles of project management; role and activity of a manager; enterprise organizational charts; cost estimating; planning and control. Company finances; interest and time value of money; discounted cash flow; evaluation of projects in private and public sectors; depreciation methods; business tax regulations; decision tree; sensitivity analysis. Lectures: three hours per week. Tutorial: one hour per week. 
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">ENGR 301: Engineering Management Principles and Economics</h3>
+                  <p class="uk-text-justify">
+                    Introduction to project delivery systems. Principles of project management; role and activity of a manager; enterprise organizational charts; cost estimating; planning and control. Company finances; interest and time value of money; discounted cash flow; evaluation of projects in private and public sectors; depreciation methods; business tax regulations; decision tree; sensitivity analysis. Lectures: three hours per week. Tutorial: one hour per week. 
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP  445: Data Communication and Computer Networks </h3>
+                  <p class="uk-text-justify">
+                    Network architectures: OSI and Internet models. Link layer: error detection, multiple access protocols, addressing. Local area networks: Ethernet, ATM, switches and hubs. Network layer: forwarding and routing, IP, routing algorithms, multicast. Transport layer: connectionless and connection-oriented transport, reliable data transport, congestion control, QoS, UDP and TCP. Application layer: DNS, the web and http, file transfer, and email. Introduction to network security, multimedia protocols and wireless networking.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 472: Artificial Intelligence</h3>
+                  <p class="uk-text-justify">
+                    Scope of AI. First-order logic. Automated reasoning. Search and heuristic search. Game-playing. Planning. Knowledge representation. Probabilistic reasoning. Introduction to machine learning. Introduction to natural language processing.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">COMP 473: Pattern Recognition</h3>
+                  <p class="uk-text-justify">
+                    Preprocessing. Feature extraction and selection. Similarity between patterns and distance measurements. Syntactic and statistical approaches. Clustering analysis. Bayesian decision theory and discriminant functions. Neural networks and machine learning. Applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+      <!-- ./ main container -->
+    </div>
+    <!-- ./ main section -->
+
+  </div>
+  <!-- ./  main background -->
+
+
+  <!-- script import -->
+  <script src="js/main.js?ckcachebust=7b7515864c45fd1dd6e86f846a0b1e59"></script>
+</body>
+</html>

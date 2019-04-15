@@ -15,7 +15,9 @@ body {
 .uk-heading-bullet::before {
   border-left: 4px solid var(--main-color) !important;
 }
-
+.uk-heading-bullet a:hover{//.uk-card-title:hover, a:hover
+  text-decoration: none;
+}
 /* --- */
 /* nav */
 /* --- */
@@ -82,4 +84,8 @@ a:hover {
 // used for the uikit logo in the navbar
 .text-dark-af {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.uk-subnav-pill > .uk-active > a{
+  background-color: var(--main-color);
 }

@@ -138,6 +138,13 @@ function toggleActiveNavItem(){
     case "Android":
       addActiveClassToElementWithId('android');
       break;
+    case "Blog":
+      addActiveClassToElementWithId('blog');
+      break;
+    case "Courses":
+      addActiveClassToElementWithId('courses');
+      break;
+
   }
 }
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ruby on Rails</title>
+  <title>Blog</title>
   <!-- meta data -->
   <meta charset="utf-8">
   <meta name="viewport"             content="width=device-width, initial-scale=1">
@@ -25,10 +25,10 @@
   <meta name="twitter:image"        content="https://kcamel.io/img/camel.png">
   
   <!-- favicon -->
-  <link rel="icon" href="img/camel.png?ckcachebust=a538d1cd941d9347382a0d94f30085c3" />
+  <link rel="icon" href="img/camel.png?ckcachebust=a127dd5adcca153e34697fe5c714c02f" />
   
   <!-- style import -->
-  <link rel="stylesheet" href="css/main.css?ckcachebust=1c223b38a57a059d3cc60ce7a693e00c" />
+  <link rel="stylesheet" href="css/main.css?ckcachebust=34368c73e0d5e5df227f66a4939c78ac" />
         
 </head>
 <body>
@@ -142,129 +142,27 @@
       <!-- main container - a small witdth container in the middle of the screen -->
       <div class="uk-container uk-container-xsmall">
         <!-- Title -->
-        <h1 class="uk-heading-bullet uk-heading-primary">Ruby on Rails</h1>
+        <h1 class="uk-heading-bullet uk-heading-primary">Blog</h1>
         
-        <!-- description -->
+        <!-- Description -->
         <p class="uk-text-justify">
-          I was first introduced to the Ruby programming language in a Principles 
-          of Programming Languages class and instantly fell in love.
-          Even more so when I found out there was an elegant framework created to 
-          take advantage of the languages great features.
+          🚧 Coming soon 
         </p>
-
-        <!-- Projects -->
-        <h1>Projects</h1>
         
-        <!-- Cards -->
-        <!-- 1social -->
-        <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
-          <div class="uk-card-body">
-            <!-- Title -->
-            <a  class="uk-card-title uk-margin-remove-bottom" 
-                href="https://one-social.herokuapp.com" 
-                uk-tooltip="title: Running on a free Heroku dyno.<br/>Leave it a few seconds to warm up.; pos: right"
-                target="_blank">One Social</a>
-            <!-- Date -->
-            
-            <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Spring 2018</span> 
-            
-            <!-- Description -->
-            <p class="uk-text-justify">
-              One Social is a web app built with Ruby on Rails that neatly aggregates 
-              all of your social media links into one place. You can find an example of 
-              my social media profile <a href="https://one-social.herokuapp.com/kcamel" target="_blank">here</a>. 
-              Some notable features are: <strong>search</strong> functionality, many-to-one 
-              and many-to-many <strong>database relationships</strong>, and a dedication 
-              to aesthetically pleasing <strong>design</strong>. This project is a great 
-              example of my attention to detail and love for programming.
-            </p>
-        
-            <!-- GitHub -->
-            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
-                uk-icon="github" href="https://github.com/kcamcam/onesocial" 
-                uk-tooltip="title:View the code on GitHub; pos: right" 
-                target="_blank"></a>
-        
-            <!-- Link -->
-            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
-                uk-icon="link" href="https://one-social.herokuapp.com" 
-                uk-tooltip="title: Running on a free Heroku dyno.<br/>Leave it a few seconds to warm up.; pos: right"
-                target="_blank"></a>
+        <h1>Latest Tweet</h1>
+        <div class="uk-margin-xlarge-bottom" uk-grid>
+          <div class="uk-width-1-1@s uk-width-1-2@m">
+            <a  class="twitter-timeline" 
+                href="https://twitter.com/kevcamcam?ref_src=twsrc%5Etfw"
+                data-width="90%"
+                data-tweet-limit="1"
+                data-chrome="nofooter">
+                </a>
+            <script async 
+                    src="https://platform.twitter.com/widgets.js?ckcachebust=577059507" 
+                    charset="utf-8"></script>
           </div>
         </div>
-        <!-- ./ 1social -->
-        
-        <!-- G-Apedia -->
-        <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
-          <div class="uk-card-body">
-            <!-- Title -->
-            <a  class="uk-card-title uk-margin-remove-bottom"
-                href="http://g.kcamel.com" 
-                uk-tooltip="title: Running on a free Heroku dyno.<br/>Leave it a few seconds to warm up.; pos: right"
-                target="_blank">G-Apedia</a>
-            
-            <!-- Date -->
-            <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Fall 2018</span> 
-            
-            <!-- Description -->
-            <p class="uk-text-justify">
-              G -Apedia is an accuracy meter for the know-it-all in my group of friends. 
-              You can simply give him an upvote or a down vote when he cites correct or 
-              wrongful information respctfully. It is about as simple as a Rails web app 
-              can get. It consits of one database relation with two columns upvotes and 
-              downvotes and some simple ruby does the math to calculate his accuracy in 
-              the front end. This project shows my ability to deploy a rails app quickly
-              and efficiently. G-Apedia took only a few hours to deploy.
-            </p>
-        
-            <!-- GitHub -->
-            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
-                uk-icon="github" href="https://github.com/kcamcam/gapedia" 
-                uk-tooltip="title:View the code on GitHub; pos: right" 
-                target="_blank"></a>
-        
-            <!-- Link -->
-            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
-                uk-icon="link" href="http://g.kcamel.com" 
-                uk-tooltip="title: Running on a free Heroku dyno.<br/>Leave it a few seconds to warm up.; pos: right"
-                target="_blank"></a>
-          </div>
-        </div>
-        <!-- ./ G-Apedia -->
-        
-        <!-- Driver Rank -->
-        <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
-          <div class="uk-card-body">
-            <!-- Title -->
-            <a  class="uk-card-title uk-margin-remove-bottom"
-                href="https://driverrank.herokuapp.com/" 
-                uk-tooltip="title: Running on a free Heroku dyno.<br/>Leave it a few seconds to warm up.; pos: right"
-                target="_blank">Driver Rank</a>
-        
-            <!-- Date -->
-            <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Fall 2017</span> 
-            
-            <!-- Description -->
-            <p class="uk-text-justify">
-              Driver Rank is a web app for ranking other peoples driving abilities.
-              It was my very first Rails app and in turn I made a lot of mistakes but 
-              it turned out to be an exceptional learning experience.
-            </p>
-        
-            <!-- GitHub -->
-            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
-                uk-icon="github" href="https://github.com/kcamcam/driver-rank" 
-                uk-tooltip="title:View the code on GitHub; pos: right" 
-                target="_blank"></a>
-        
-            <!-- Link -->
-            <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
-                uk-icon="link" href="https://driverrank.herokuapp.com/" 
-                uk-tooltip="title: Running on a free Heroku dyno.<br/>Leave it a few seconds to warm up.; pos: right"
-                target="_blank"></a>
-          </div>
-        </div>
-        <!-- ./ Driver Rank -->
       </div>
       <!-- ./ main container -->
     </div>
@@ -275,6 +173,6 @@
 
 
   <!-- script import -->
-  <script src="js/main.js?ckcachebust=b1f0f6b6deab220c89c3510b47d6afa4"></script>
+  <script src="js/main.js?ckcachebust=c637e02083d31e6d8845cd8b5153fa73"></script>
 </body>
 </html>

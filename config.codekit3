@@ -17,12 +17,36 @@
 		"oAP": "/.gitignore",
 		"oF": 1
 		},
+	"/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/404.html",
+		"oF": 0
+		},
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/android.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/android.html",
+		"oF": 0
+		},
+	"/blog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/blog.html",
 		"oF": 0
 		},
 	"/CNAME": {
@@ -32,6 +56,14 @@
 		"oA": 1,
 		"oAP": "/CNAME",
 		"oF": 1
+		},
+	"/courses.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/courses.html",
+		"oF": 0
 		},
 	"/css/main.css": {
 		"aP": 1,
@@ -194,6 +226,102 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/android.html",
+		"oF": 0
+		},
+	"/src/blog/blog.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/blog.html",
+		"oF": 0
+		},
+	"/src/courses/_civi_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_civi_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_comp_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_comp_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_course_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_course_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_econ_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_econ_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_elec_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_elec_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_encs_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_encs_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_engr_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_engr_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_phys_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_phys_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_soen_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_soen_cards.html",
+		"oF": 0
+		},
+	"/src/courses/_todo_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_todo_cards.html",
+		"oF": 0
+		},
+	"/src/courses/courses.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/courses.html",
 		"oF": 0
 		},
 	"/src/css/_custom.scss": {
@@ -429,7 +557,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 576833669.02595103
+	"lastBuiltDate": 577059507.88537598
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
