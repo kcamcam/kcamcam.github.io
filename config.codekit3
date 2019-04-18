@@ -25,6 +25,14 @@
 		"oAP": "/404.html",
 		"oF": 0
 		},
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/android.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -179,38 +187,6 @@
 		"oA": 0,
 		"oAP": "/404.html",
 		"oF": 2
-		},
-	"/src/_meta.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_meta.html",
-		"oF": 0
-		},
-	"/src/_nav.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_nav.html",
-		"oF": 0
-		},
-	"/src/_nav_section_container_bottom.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_nav_section_container_bottom.html",
-		"oF": 0
-		},
-	"/src/_nav_section_container_top.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_nav_section_container_top.html",
-		"oF": 0
 		},
 	"/src/about/about.kit": {
 		"cB": 1,
@@ -514,6 +490,38 @@
 		"oAP": "/node.html",
 		"oF": 0
 		},
+	"/src/partials/_meta.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_meta.html",
+		"oF": 0
+		},
+	"/src/partials/_nav.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_nav.html",
+		"oF": 0
+		},
+	"/src/partials/_nav_section_container_bottom.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_nav_section_container_bottom.html",
+		"oF": 0
+		},
+	"/src/partials/_nav_section_container_top.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_nav_section_container_top.html",
+		"oF": 0
+		},
 	"/src/rails/_rails_cards.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -565,7 +573,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 577252923.88394105
+	"lastBuiltDate": 577253554.40474904
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
