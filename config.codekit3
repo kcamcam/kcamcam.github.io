@@ -25,14 +25,6 @@
 		"oAP": "/404.html",
 		"oF": 0
 		},
-	"/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/about.html",
-		"oF": 0
-		},
 	"/android.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -220,13 +212,13 @@
 		"oAP": "/_nav_section_container_top.html",
 		"oF": 0
 		},
-	"/src/about.kit": {
+	"/src/about/about.kit": {
 		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/about.html",
-		"oF": 0
+		"oF": 2
 		},
 	"/src/android/_android_cards.kit": {
 		"cB": 1,
@@ -573,7 +565,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 577251508.91502798
+	"lastBuiltDate": 577252923.88394105
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
