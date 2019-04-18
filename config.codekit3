@@ -204,6 +204,22 @@
 		"oAP": "/_nav.html",
 		"oF": 0
 		},
+	"/src/_nav_section_container_bottom.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_nav_section_container_bottom.html",
+		"oF": 0
+		},
+	"/src/_nav_section_container_top.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_nav_section_container_top.html",
+		"oF": 0
+		},
 	"/src/about.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -557,7 +573,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 577231966.86508596
+	"lastBuiltDate": 577251508.91502798
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
