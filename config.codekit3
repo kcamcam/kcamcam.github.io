@@ -14,152 +14,16 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/.gitignore",
+		"oAP": "/docs/.gitignore",
 		"oF": 1
-		},
-	"/404.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/404.html",
-		"oF": 0
-		},
-	"/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/about.html",
-		"oF": 0
-		},
-	"/android.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/android.html",
-		"oF": 0
-		},
-	"/blog.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/blog.html",
-		"oF": 0
-		},
-	"/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/CNAME",
-		"oF": 1
-		},
-	"/courses.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/courses.html",
-		"oF": 0
-		},
-	"/css/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/main.css",
-		"oF": 0,
-		"oS": 2
-		},
-	"/hackathons.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/hackathons.html",
-		"oF": 0
-		},
-	"/img/camel.png": {
-		"ft": 32768,
-		"iS": 4431,
-		"oA": 0,
-		"oAP": "/img/camel.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/javascript.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/javascript.html",
-		"oF": 0
-		},
-	"/js/main.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/main.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/keybase.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/keybase.txt",
-		"oF": 1
-		},
-	"/laravel.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/laravel.html",
-		"oF": 0
 		},
 	"/License": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/License",
+		"oAP": "/docs/License",
 		"oF": 1
-		},
-	"/node.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/node.html",
-		"oF": 0
-		},
-	"/rails.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/rails.html",
-		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,
@@ -171,7 +35,7 @@
 		"ft": 4096,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/README.html",
+		"oAP": "/docs/README.html",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
@@ -185,7 +49,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/404.html",
+		"oAP": "/docs/build/404.html",
 		"oF": 2
 		},
 	"/src/about/about.kit": {
@@ -193,7 +57,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/about.html",
+		"oAP": "/docs/about.html",
 		"oF": 2
 		},
 	"/src/android/_android_cards.kit": {
@@ -201,7 +65,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_android_cards.html",
+		"oAP": "/docs/_android_cards.html",
 		"oF": 0
 		},
 	"/src/android/android.kit": {
@@ -209,7 +73,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/android.html",
+		"oAP": "/docs/android.html",
 		"oF": 0
 		},
 	"/src/blog/blog.kit": {
@@ -217,15 +81,23 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/blog.html",
+		"oAP": "/docs/blog.html",
 		"oF": 0
+		},
+	"/src/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/docs/CNAME",
+		"oF": 1
 		},
 	"/src/courses/_civi_cards.kit": {
 		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_civi_cards.html",
+		"oAP": "/docs/_civi_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_comp_cards.kit": {
@@ -233,7 +105,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_comp_cards.html",
+		"oAP": "/docs/_comp_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_course_cards.kit": {
@@ -241,7 +113,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_course_cards.html",
+		"oAP": "/docs/_course_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_econ_cards.kit": {
@@ -249,7 +121,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_econ_cards.html",
+		"oAP": "/docs/_econ_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_elec_cards.kit": {
@@ -257,7 +129,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_elec_cards.html",
+		"oAP": "/docs/_elec_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_encs_cards.kit": {
@@ -265,7 +137,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_encs_cards.html",
+		"oAP": "/docs/_encs_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_engr_cards.kit": {
@@ -273,7 +145,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_engr_cards.html",
+		"oAP": "/docs/_engr_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_phys_cards.kit": {
@@ -281,7 +153,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_phys_cards.html",
+		"oAP": "/docs/_phys_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_soen_cards.kit": {
@@ -289,7 +161,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_soen_cards.html",
+		"oAP": "/docs/_soen_cards.html",
 		"oF": 0
 		},
 	"/src/courses/_todo_cards.kit": {
@@ -297,7 +169,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_todo_cards.html",
+		"oAP": "/docs/_todo_cards.html",
 		"oF": 0
 		},
 	"/src/courses/courses.kit": {
@@ -305,7 +177,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/courses.html",
+		"oAP": "/docs/courses.html",
 		"oF": 0
 		},
 	"/src/css/_custom.scss": {
@@ -316,7 +188,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_custom.css",
+		"oAP": "/docs/css/_custom.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -329,7 +201,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_uikit.css",
+		"oAP": "/docs/css/_uikit.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -342,7 +214,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/main.css",
+		"oAP": "/docs/css/main.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -352,7 +224,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_hackathon_cards.html",
+		"oAP": "/docs/_hackathon_cards.html",
 		"oF": 0
 		},
 	"/src/hackathons/hackathons.kit": {
@@ -360,14 +232,14 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/hackathons.html",
+		"oAP": "/docs/hackathons.html",
 		"oF": 0
 		},
 	"/src/img/camel.png": {
 		"ft": 32768,
 		"iS": 4431,
 		"oA": 0,
-		"oAP": "/img/camel.png",
+		"oAP": "/docs/img/camel.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -379,7 +251,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.html",
+		"oAP": "/docs/index.html",
 		"oF": 0
 		},
 	"/src/javascript/_javascript_cards.kit": {
@@ -387,7 +259,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_javascript_cards.html",
+		"oAP": "/docs/_javascript_cards.html",
 		"oF": 0
 		},
 	"/src/javascript/_other_javascript_cards.kit": {
@@ -395,7 +267,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_other_javascript_cards.html",
+		"oAP": "/docs/_other_javascript_cards.html",
 		"oF": 0
 		},
 	"/src/javascript/javascript.kit": {
@@ -403,7 +275,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/javascript.html",
+		"oAP": "/docs/javascript.html",
 		"oF": 0
 		},
 	"/src/js/custom.js": {
@@ -412,7 +284,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/js/custom.js",
+		"oAP": "/docs/js/custom.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -423,7 +295,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/main.js",
+		"oAP": "/docs/js/main.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -434,7 +306,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/js/uikit-icons.js",
+		"oAP": "/docs/js/uikit-icons.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -445,17 +317,25 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/js/uikit.js",
+		"oAP": "/docs/js/uikit.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"/src/keybase.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/docs/keybase.txt",
+		"oF": 1
 		},
 	"/src/laravel/_laravel_cards.kit": {
 		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_laravel_cards.html",
+		"oAP": "/docs/_laravel_cards.html",
 		"oF": 0
 		},
 	"/src/laravel/_php_cards.kit": {
@@ -463,7 +343,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_php_cards.html",
+		"oAP": "/docs/_php_cards.html",
 		"oF": 0
 		},
 	"/src/laravel/laravel.kit": {
@@ -471,7 +351,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/laravel.html",
+		"oAP": "/docs/laravel.html",
 		"oF": 0
 		},
 	"/src/node/_node_cards.kit": {
@@ -479,7 +359,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_node_cards.html",
+		"oAP": "/docs/_node_cards.html",
 		"oF": 0
 		},
 	"/src/node/node.kit": {
@@ -487,7 +367,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/node.html",
+		"oAP": "/docs/node.html",
 		"oF": 0
 		},
 	"/src/partials/_meta.kit": {
@@ -495,7 +375,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_meta.html",
+		"oAP": "/docs/_meta.html",
 		"oF": 0
 		},
 	"/src/partials/_nav.kit": {
@@ -503,7 +383,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_nav.html",
+		"oAP": "/docs/_nav.html",
 		"oF": 0
 		},
 	"/src/partials/_nav_section_container_bottom.kit": {
@@ -511,7 +391,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_nav_section_container_bottom.html",
+		"oAP": "/docs/_nav_section_container_bottom.html",
 		"oF": 0
 		},
 	"/src/partials/_nav_section_container_top.kit": {
@@ -519,7 +399,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_nav_section_container_top.html",
+		"oAP": "/docs/_nav_section_container_top.html",
 		"oF": 0
 		},
 	"/src/rails/_rails_cards.kit": {
@@ -527,7 +407,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_rails_cards.html",
+		"oAP": "/docs/_rails_cards.html",
 		"oF": 0
 		},
 	"/src/rails/rails.kit": {
@@ -535,7 +415,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/rails.html",
+		"oAP": "/docs/rails.html",
 		"oF": 0
 		},
 	"/src/web/_web_cards.kit": {
@@ -543,7 +423,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/_web_cards.html",
+		"oAP": "/docs/_web_cards.html",
 		"oF": 0
 		},
 	"/src/web/web.kit": {
@@ -551,15 +431,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/web.html",
-		"oF": 0
-		},
-	"/web.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/web.html",
+		"oAP": "/docs/web.html",
 		"oF": 0
 		}
 	},
@@ -573,7 +445,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 579584008.01777697
+	"lastBuiltDate": 579584411.57626295
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -860,8 +732,8 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
-	"buildFolderActive": 0,
-	"buildFolderName": "build",
+	"buildFolderActive": 1,
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2922,7 +2794,7 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "/docs"
 	},
 "settingsFileVersion": "3"
 }
