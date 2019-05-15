@@ -49,6 +49,14 @@
 		"oAP": "/blog.html",
 		"oF": 0
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/CNAME",
+		"oF": 3
+		},
 	"/courses.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -112,6 +120,14 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"/keybase.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/keybase.txt",
+		"oF": 3
 		},
 	"/laravel.html": {
 		"cB": 0,
@@ -203,14 +219,6 @@
 		"oA": 0,
 		"oAP": "/blog.html",
 		"oF": 0
-		},
-	"/src/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/src/CNAME",
-		"oF": 1
 		},
 	"/src/courses/_civi_cards.kit": {
 		"cB": 1,
@@ -442,14 +450,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/src/keybase.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/src/keybase.txt",
-		"oF": 1
-		},
 	"/src/laravel/_laravel_cards.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -573,7 +573,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 579584624.77235496
+	"lastBuiltDate": 579584923.91751397
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
