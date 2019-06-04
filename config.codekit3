@@ -121,14 +121,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/keybase.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/keybase.txt",
-		"oF": 3
-		},
 	"/laravel.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -406,6 +398,17 @@
 		"oAP": "/javascript.html",
 		"oF": 0
 		},
+	"/src/js/amplitude.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/amplitude.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/src/js/custom.js": {
 		"bF": 0,
 		"ft": 64,
@@ -573,7 +576,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 580355586.27582002
+	"lastBuiltDate": 581304660.03383899
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
