@@ -409,17 +409,6 @@
 		"oAP": "/javascript.html",
 		"oF": 0
 		},
-	"/src/js/amplitude.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/amplitude.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/src/js/custom.js": {
 		"bF": 0,
 		"ft": 64,
@@ -598,7 +587,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 581396003.50802398
+	"lastBuiltDate": 581396131.45518994
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
