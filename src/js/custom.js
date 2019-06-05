@@ -1,24 +1,24 @@
 // Function to toggle the background and consequently the font color as well 
-// from dark theme to alight theme. Removeanimation is used on a 0.2s timer
+// from dark theme to light theme. Remove animation (boolean) is used on a 0.2s timer
 // to remove the fadein/out animation once it is complete.
 function toggleTheme() {
-  // if light background
+  // if dark background
   if (background.classList.contains("uk-background-default")){
-    setCookie("theme", "dark", 1);
+    setCookie("theme", "dark", 7);
     setDarkTheme(true);
-  // else if dark background
-  } else {
-    setCookie("theme", "light", 1);
+    // else if light background
+  } else if (background.classList.contains("uk-background-secondary")){
+    setCookie("theme", "light", 7);
     setLightTheme(true);
   }
 }
 
 function setTheme(){
   var theme = getCookie("theme");
-  console.log("The theme is currently set to:"+ theme);
+  console.log("The theme is currently set to: "+ theme);
   if (theme == "dark"){
     setDarkTheme(false);
-  }else{
+  } else if (theme == "light"){
     setLightTheme(false)
   }
 }
