@@ -110,6 +110,17 @@
 		"oAP": "/javascript.html",
 		"oF": 0
 		},
+	"/js/amplitude.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/amplitude.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/js/main.js": {
 		"bF": 0,
 		"ft": 64,
@@ -431,6 +442,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/src/js/statcounter.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/statcounter.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/src/js/uikit-icons.js": {
 		"bF": 0,
 		"ft": 64,
@@ -576,7 +598,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 581307109.34742498
+	"lastBuiltDate": 581396003.50802398
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -864,7 +886,7 @@
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
-	"buildFolderName": "docs",
+	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
