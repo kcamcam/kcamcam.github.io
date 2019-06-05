@@ -1,6 +1,7 @@
 // Function to toggle the background and consequently the font color as well 
 // from dark theme to light theme. Remove animation (boolean) is used on a 0.2s timer
-// to remove the fadein/out animation once it is complete.
+// to remove the fadein/out animation once it is complete. Check what theme it was 
+// previously set to, then toggle it to the new theme and change the cookie.
 function toggleTheme() {
   // if dark background
   if (background.classList.contains("uk-background-default")){
