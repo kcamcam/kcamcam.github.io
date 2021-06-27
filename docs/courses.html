@@ -25,10 +25,10 @@
   <meta name="twitter:image"        content="https://kcamel.io/img/camel.png">
   
   <!-- favicon -->
-  <link rel="icon" href="img/camel.png?ckcachebust=646505083" />
+  <link rel="icon" href="img/camel.png?ckcachebust=646507758" />
   
   <!-- style import -->
-  <link rel="stylesheet" href="css/main.css?ckcachebust=e10d9f2aa4ad779efda59db961b1c4b8" />
+  <link rel="stylesheet" href="css/main.css?ckcachebust=f18443e1e5d44f7f96970df4401b8e2a" />
   
   <!-- Default StatCounter code for kcamel https://kcamel.io -->
   <script type="text/javascript">
@@ -39,7 +39,7 @@
     var sc_remove_link=1; 
     </script>
     <script type="text/javascript"
-    src="https://www.statcounter.com/counter/counter.js?ckcachebust=646505083" async></script>
+    src="https://www.statcounter.com/counter/counter.js?ckcachebust=646507758" async></script>
     <noscript><div class="statcounter"><img class="statcounter"
     src="https://c.statcounter.com/12021171/0/2dcf1c27/1/" alt="Web
     Analytics"></div></noscript>
@@ -73,47 +73,33 @@
       <div class="uk-offcanvas-bar">
         <button class="uk-offcanvas-close" type="button" uk-close></button>
         <ul class="uk-nav-default uk-margin-medium-bottom" uk-nav>
-          <!-- me -->
-          <li class="uk-nav-header cursor-default">General</li>
+    
+          <li class="uk-nav-header cursor-default">Menu</li>
           <li id="home" class="nav-item-toggle">
-            <a href="./">Home</a>
-          </li>
-          <li id="about" class="nav-item-toggle">
-              <a href="about.html">About</a>
-          </li>
-          <li id="courses" class="nav-item-toggle">
-              <a href="courses.html">Courses</a>
+            <a href="./">HOME</a>
           </li>
     
-          <!-- projects -->
-          <li class="uk-nav-header cursor-default">Projects</li>
+          <li id="about" class="nav-item-toggle">
+              <a href="about.html">ABOUT</a>
+          </li>
+    
+          <li id="courses" class="nav-item-toggle">
+              <a href="courses.html">COURSES</a>
+          </li>
+    
           <li id="hackathons" class="nav-item-toggle">
-            <a href="hackathons.html">Hackathons</a>
+            <a href="hackathons.html">HACKATHONS</a>
           </li>
-          <li id="rails" class="nav-item-toggle">
-            <a href="rails.html">Ruby on Rails</a>
-          </li>
-          <li id="js" class="nav-item-toggle">
-            <a href="javascript.html">Javascript</a>
-          </li>
-          <li id="laravel" class="nav-item-toggle">
-            <a href="laravel.html">Laravel</a>
-          </li>
-          <li id="node" class="nav-item-toggle">
-            <a href="node.html">Node.js</a>
-          </li>
-          <li id="android" class="nav-item-toggle">
-            <a href="android.html">Android</a>
-          </li>
+    
           <li id="web" class="nav-item-toggle">
-            <a href="web.html">Web</a>
+            <a href="projects.html">PROJECTS</a>
           </li>
     
           <!-- other -->
-          <li class="uk-nav-header cursor-default">Other</li>
+          <!-- <li class="uk-nav-header cursor-default">Other</li>
           <li id="blog" class="nav-item-toggle">
             <a href="blog.html">Blog</a>
-          </li>
+          </li> -->
     
           <!--  Social -->
           <li class="uk-nav-header cursor-default">Contact</li>
@@ -122,27 +108,24 @@
           <a href="https://linkedin.com/in/kcamel"                  class="uk-icon-link uk-margin-small-right"  uk-icon="linkedin"    target="_blank"></a>
           <!-- <a href="https://resume.creddle.io/resume/8khszcv8vgj"    class="uk-icon-link uk-margin-small-right"  uk-icon="file-text" target="_blank"></a> -->
     
-          <br/>
-          <br/>
-          <br/>
-          <br/>
           <!-- Technologies -->
+          <li class="uk-nav-header cursor-default">Technologies</li>
           <li>
             <a href="https://getuikit.com/" target="_blank">
               <small class="text-dark-af" uk-icon="icon: uikit; ratio: 0.8;"></small>
-              <small class="uk-text-middle text-dark-af">Made with <strong>UIkit</strong> framework</small>
+              <small class="uk-text-middle text-dark-af"><strong>UIkit</strong></small>
             </a>
           </li>
           <li>
             <a href="https://codekitapp.com/" target="_blank">
               <small class="text-dark-af" uk-icon="icon: code; ratio: 0.8;"></small>
-              <small class="uk-text-middle text-dark-af">Developed using <strong>CodeKit</strong></small>
+              <small class="uk-text-middle text-dark-af"><strong>CodeKit</strong></small>
             </a>
           </li>
           <li>
             <a href="https://pages.github.com/" target="_blank">
               <small class="text-dark-af" uk-icon="icon: github-alt; ratio: 0.8;"></small>
-              <small class="uk-text-middle text-dark-af">Hosted on <strong>GitHub Pages</strong></small>
+              <small class="uk-text-middle text-dark-af"><strong>GitHub Pages</strong></small>
             </a>
           </li>
         </ul>
@@ -158,13 +141,13 @@
   <!-- Title -->
   <h1 class="uk-heading-bullet uk-heading-primary">Courses</h1>
   <p>
-    Courses completed during my studies at Concordia.
+    Courses completed during my studies at Concordia University, Bachelor of Software Engineering 2020.
   </p>
   <!-- Description -->
   <div uk-filter="target: .js-filter">
     <!-- Filter controls -->
     <ul class="uk-subnav uk-subnav-pill">
-      <li uk-filter-control class="uk-active"><a href="#">ALL</a></li>
+      <li uk-filter-control="#todo" class="uk-active"><a href="#">TODO</a></li>
       <li uk-filter-control="#soen"><a href="#">SOEN</a></li>
       <li uk-filter-control="#comp"><a href="#">COMP</a></li>
       <li uk-filter-control="#engr"><a href="#">ENGR</a></li>
@@ -173,7 +156,7 @@
       <li uk-filter-control="#civi"><a href="#">CIVI</a></li>
       <li uk-filter-control="#phys"><a href="#">PHYS</a></li>
       <li uk-filter-control="#econ"><a href="#">ECON</a></li>
-      <li uk-filter-control="#todo"><a href="#">TODO</a></li>
+      <li uk-filter-control><a href="#">ALL</a></li>
     </ul>
     <div class="js-filter">
       <div id="soen">
@@ -326,6 +309,7 @@
           </div>
         </div>
       </div>
+  
       <div id="comp">
         <h1 class="uk-heading-bullet">
           <a href="#comp">COMP</a>
@@ -426,6 +410,7 @@
           </div>
         </div>
       </div>
+  
       <div id="engr">
         <h1 class="uk-heading-bullet">
           <a href="#engr">ENGR</a>
@@ -502,6 +487,7 @@
           </div>
         </div>
       </div>
+  
       <div id="encs">
         <h1 class="uk-heading-bullet">
           <a href="#encs">ENCS</a>
@@ -515,6 +501,7 @@
           </div>
         </div>
       </div>
+  
       <div id="elec">
         <h1 class="uk-heading-bullet">
           <a href="#elec">ELEC</a>
@@ -528,6 +515,7 @@
           </div>
         </div>
       </div>
+  
       <div id="civi">
         <h1 class="uk-heading-bullet">
           <a href="#civi">CIVI</a>
@@ -541,6 +529,7 @@
           </div>
         </div>
       </div>
+  
       <div id="phys">
         <h1 class="uk-heading-bullet">
           <a href="#phys">PHYS</a>
@@ -554,6 +543,7 @@
           </div>
         </div>
       </div>
+  
       <div id="econ">
         <h1 class="uk-heading-bullet">
           <a href="#econ">ECON</a>
@@ -585,13 +575,14 @@
           </div>
         </div>
       </div>
+  
       <div id="todo">
         <h1 class="uk-heading-bullet">
           <a href="#todo">TO DO</a>
         </h1>
         <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
           <div class="uk-card-body">
-            <p class="uk-text-justify">✅ all done</p>
+            <p class="uk-text-justify"><span uk-icon="check"></span> all done</p>
           </div>
         </div>
         
@@ -615,6 +606,6 @@
   
 
   <!-- script import -->
-  <script src="js/main.js?ckcachebust=a60fc0588c2c5ca03e5a065167960426"></script>
+  <script src="js/main.js?ckcachebust=352993a5caf5c7e14c0591db67640eaf"></script>
 </body>
 </html>

@@ -254,30 +254,6 @@
 		"oAP": "/docs/index.html",
 		"oF": 0
 		},
-	"/src/javascript/_javascript_cards.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/docs/_javascript_cards.html",
-		"oF": 0
-		},
-	"/src/javascript/_other_javascript_cards.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/docs/_other_javascript_cards.html",
-		"oF": 0
-		},
-	"/src/javascript/javascript.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/javascript.html",
-		"oF": 0
-		},
 	"/src/js/custom.js": {
 		"bF": 0,
 		"ft": 64,
@@ -322,46 +298,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/src/laravel/_laravel_cards.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/docs/_laravel_cards.html",
-		"oF": 0
-		},
-	"/src/laravel/_php_cards.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/docs/_php_cards.html",
-		"oF": 0
-		},
-	"/src/laravel/laravel.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/laravel.html",
-		"oF": 0
-		},
-	"/src/node/_node_cards.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/docs/_node_cards.html",
-		"oF": 0
-		},
-	"/src/node/node.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/node.html",
-		"oF": 0
-		},
 	"/src/partials/_meta.kit": {
 		"cB": 1,
 		"ft": 2048,
@@ -394,7 +330,47 @@
 		"oAP": "/docs/_nav_section_container_top.html",
 		"oF": 0
 		},
-	"/src/rails/_rails_cards.kit": {
+	"/src/projects/_javascript_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/_javascript_cards.html",
+		"oF": 0
+		},
+	"/src/projects/_laravel_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/_laravel_cards.html",
+		"oF": 0
+		},
+	"/src/projects/_node_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/_node_cards.html",
+		"oF": 0
+		},
+	"/src/projects/_other_javascript_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/_other_javascript_cards.html",
+		"oF": 0
+		},
+	"/src/projects/_php_cards.kit": {
+		"cB": 1,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/_php_cards.html",
+		"oF": 0
+		},
+	"/src/projects/_rails_cards.kit": {
 		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
@@ -402,15 +378,7 @@
 		"oAP": "/docs/_rails_cards.html",
 		"oF": 0
 		},
-	"/src/rails/rails.kit": {
-		"cB": 1,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/rails.html",
-		"oF": 0
-		},
-	"/src/web/_web_cards.kit": {
+	"/src/projects/_web_cards.kit": {
 		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
@@ -418,12 +386,12 @@
 		"oAP": "/docs/_web_cards.html",
 		"oF": 0
 		},
-	"/src/web/web.kit": {
+	"/src/projects/projects.kit": {
 		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/docs/web.html",
+		"oAP": "/docs/projects.html",
 		"oF": 0
 		}
 	},
@@ -437,7 +405,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 646505083.56543303
+	"lastBuiltDate": 646507758.934255
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
