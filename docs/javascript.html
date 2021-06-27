@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Javascript</title>
+  <!-- meta data -->
+  <meta charset="utf-8">
+  <meta name="viewport"             content="width=device-width, initial-scale=1">
+  <meta name="description"          content="Kevin Camellini's developer portfolio website">
+  <meta name="keywords"             content="kevin camellini, kevin, camellini, software, engineer, engineering, developer, programmer, concordia, university, montreal, canada">
+  
+  <!-- fb og protocol -->
+  <meta property="og:locale"        content="en_CA">
+  <meta property="og:type"          content="website">
+  <meta property="og:title"         content="kcamel.io">
+  <meta property="og:description"   content="Kevin Camellini's developer portfolio website">
+  <meta property="og:url"           content="https://kcamel.io">
+  <meta property="og:site_name"     content="kcamel.io">
+  <meta property="og:image"         content="https://kcamel.io/img/camel.png">
+  
+  <!-- twitter protocol -->
+  <meta name="twitter:card"         content="summary">
+  <meta name="twitter:title"        content="kcamel.io">
+  <meta name="twitter:description"  content="Kevin Camellini's developer portfolio website">
+  <meta name="twitter:creator"      content="@kevcamcam">
+  <meta name="twitter:image"        content="https://kcamel.io/img/camel.png">
+  
+  <!-- favicon -->
+  <link rel="icon" href="img/camel.png?ckcachebust=646505083" />
+  
+  <!-- style import -->
+  <link rel="stylesheet" href="css/main.css?ckcachebust=05bbf3b931ba786523e538dee2b69def" />
+  
+  <!-- Default StatCounter code for kcamel https://kcamel.io -->
+  <script type="text/javascript">
+    var sc_project=12021171; 
+    var sc_invisible=1; 
+    var sc_security="2dcf1c27"; 
+    var sc_https=1; 
+    var sc_remove_link=1; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js?ckcachebust=646505083" async></script>
+    <noscript><div class="statcounter"><img class="statcounter"
+    src="https://c.statcounter.com/12021171/0/2dcf1c27/1/" alt="Web
+    Analytics"></div></noscript>
+    <!-- End of StatCounter Code -->
+
+</head>
+<body>
+  <!-- main background wrapper-->
+  <div id="background" class="uk-height-viewport uk-animation-fast uk-background-secondary uk-light">
+    
+    <!-- navbar toggler -->
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+      <!-- right side -->
+      <div class="uk-navbar-right">
+        <!-- background color toggle -->
+        <button uk-icon="paint-bucket" class="uk-navbar-item uk-icon-link um-padding-remove-right" uk-tooltip="title: Toggle contrast; pos: left;" onclick="toggleTheme();"></button>
+        <!-- nav toggle hamburger -->
+        <button uk-icon="menu" class="uk-navbar-item uk-icon-link" href="#offcanvas" uk-toggle>
+          <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="menu">
+            <rect x="2" y="4" width="16" height="2"></rect>
+            <rect x="2" y="9" width="16" height="2"></rect>
+            <rect x="2" y="14" width="16" height="2"></rect>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <!-- ./ navbar toggler -->
+    
+    <!-- nav menu - offcanvas -->
+    <div id="offcanvas" uk-offcanvas="overlay: true; flip: true; mode: reveal;">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav-default uk-margin-medium-bottom" uk-nav>
+          <!-- me -->
+          <li class="uk-nav-header cursor-default">General</li>
+          <li id="home" class="nav-item-toggle">
+            <a href="./">Home</a>
+          </li>
+          <li id="about" class="nav-item-toggle">
+              <a href="about.html">About</a>
+          </li>
+          <li id="courses" class="nav-item-toggle">
+              <a href="courses.html">Courses</a>
+          </li>
+    
+          <!-- projects -->
+          <li class="uk-nav-header cursor-default">Projects</li>
+          <li id="hackathons" class="nav-item-toggle">
+            <a href="hackathons.html">Hackathons</a>
+          </li>
+          <li id="rails" class="nav-item-toggle">
+            <a href="rails.html">Ruby on Rails</a>
+          </li>
+          <li id="js" class="nav-item-toggle">
+            <a href="javascript.html">Javascript</a>
+          </li>
+          <li id="laravel" class="nav-item-toggle">
+            <a href="laravel.html">Laravel</a>
+          </li>
+          <li id="node" class="nav-item-toggle">
+            <a href="node.html">Node.js</a>
+          </li>
+          <li id="android" class="nav-item-toggle">
+            <a href="android.html">Android</a>
+          </li>
+          <li id="web" class="nav-item-toggle">
+            <a href="web.html">Web</a>
+          </li>
+    
+          <!-- other -->
+          <li class="uk-nav-header cursor-default">Other</li>
+          <li id="blog" class="nav-item-toggle">
+            <a href="blog.html">Blog</a>
+          </li>
+    
+          <!--  Social -->
+          <li class="uk-nav-header cursor-default">Contact</li>
+          <li class="mb-3"><secret-stuff class="uk-text-meta cursor-arrow" data-user="kevincamellini" data-domain="gmail.com"></secret-stuff></li>
+          <a href="https://github.com/kcamcam"                      class="uk-icon-link uk-margin-small-right"  uk-icon="github"    target="_blank"></a>
+          <a href="https://linkedin.com/in/kcamel"                  class="uk-icon-link uk-margin-small-right"  uk-icon="linkedin"    target="_blank"></a>
+          <!-- <a href="https://resume.creddle.io/resume/8khszcv8vgj"    class="uk-icon-link uk-margin-small-right"  uk-icon="file-text" target="_blank"></a> -->
+    
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <!-- Technologies -->
+          <li>
+            <a href="https://getuikit.com/" target="_blank">
+              <small class="text-dark-af" uk-icon="icon: uikit; ratio: 0.8;"></small>
+              <small class="uk-text-middle text-dark-af">Made with <strong>UIkit</strong> framework</small>
+            </a>
+          </li>
+          <li>
+            <a href="https://codekitapp.com/" target="_blank">
+              <small class="text-dark-af" uk-icon="icon: code; ratio: 0.8;"></small>
+              <small class="uk-text-middle text-dark-af">Developed using <strong>CodeKit</strong></small>
+            </a>
+          </li>
+          <li>
+            <a href="https://pages.github.com/" target="_blank">
+              <small class="text-dark-af" uk-icon="icon: github-alt; ratio: 0.8;"></small>
+              <small class="uk-text-middle text-dark-af">Hosted on <strong>GitHub Pages</strong></small>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ./ nav menu - offcanvas-->
+    
+    <!-- main section - with large vertical padding -->
+    <div class="uk-section uk-section-small">
+      <!-- main container - a small witdth container in the middle of the screen -->
+      <div class="uk-container uk-container-xsmall uk-margin-xlarge-bottom">
+
+  <!-- Title -->
+  <h1 class="uk-heading-bullet uk-heading-primary">Javascript</h1>
+
+  <!-- Projects -->
+  <!-- Cards -->
+  <!-- Exambank -->
+  <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+    <div class="uk-card-body">
+      <!-- Title -->
+      <a  class="uk-card-title uk-margin-remove-bottom" 
+          href="https://kcamel.io/exambank" 
+          target="_blank">Exam Bank</a>
+      <!-- Date -->
+      <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Spring 2015</span> 
+      <!-- Description -->
+      <p class="uk-text-justify">
+        Exambank is a website providing study materials for students in Engineering, 
+        Software Engineering and Computer Science at Concordia. The project started 
+        in my first year as a means to pay it forward and to give back to the community 
+        by providing quality study material for future students. From its humble 
+        beginnings, today it reaches around <strong>2 thousand students</strong> 
+        per month during the regular semester and generates roughly <strong>10 thousand</strong> 
+        page views per month during exam periods. A pretty simple JS script allows 
+        me to update and maintain contributions from other students more effectively.
+        This also permits the website to be hosted statically for free on GitHub 
+        without having to pay for server space.
+      </p>
+      <!-- Link -->
+      <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+          uk-icon="link" 
+          href="https://kcamel.io/exambank" 
+          target="_blank">
+      </a>
+    </div>
+  </div>
+  <!-- ./ Exambank -->
+  
+  <!-- Tweet Author -->
+  <div class="cards uk-card uk-card-large uk-card-secondary uk-box-shadow-medium uk-margin">
+      <div class="uk-card-body">
+        <!-- Title -->
+        <a  class="uk-card-title uk-margin-remove-bottom" 
+            href="https://kcamel.io/twitter-author/" 
+            target="_blank">Tweet Author</a>
+        <!-- Date -->
+        <span class="uk-align-right uk-margin-remove uk-text-muted uk-text-small">Summer 2018</span> 
+        <!-- Description -->
+        <p class="uk-text-justify">
+          Ask a neural network using a library written in javascript called 
+          <a class="link" href="https://github.com/BrainJS/brain.js" target="_blank">Brain.JS</a> 
+          and trained with 4783 tweets to recognize if the author of a tweet was 
+          @realDonaldTrump or @JustinTrudeau. It is very inaccurate and the only 
+          thing it manages to get right often is when Prime Minister Trudeau posts 
+          a tweet in french. Regardless, it was a fun project and a nice first 
+          learning experience with machine learning. Also, I created a pretty nice 
+          twitter scrapper for this app. I will be revisiting this project after 
+          having taken an AI class in the Fall of 2019.
+        </p>
+        
+        <!-- GitHub -->
+        <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+            uk-icon="github" href="https://github.com/kcamcam/twitter-author" 
+            uk-tooltip="title:View code on GitHub; pos: right" 
+            target="_blank"></a>
+        
+        <!-- Link -->
+        <a  class="uk-margin-remove-bottom uk-margin-remove-left" 
+            uk-icon="link" href="https://kcamel.io/twitter-author/" 
+            target="_blank">
+        </a>
+      </div>
+    </div>
+    <!-- ./ Exambank -->
+
+  <!-- Small Cards -->
+  <div class="uk-child-width-1-2@s uk-grid-small uk-grid-match" uk-grid>
+    
+    <!-- Emoji Calendar -->
+    <div>
+      <div class="cards uk-card uk-card-small uk-card-secondary uk-card-body uk-box-shadow-medium">
+        <!-- Date -->
+        <p class="uk-align-right uk-text-muted uk-text-small">Fall 2018</p>
+        <!-- Title -->
+        <a  class="uk-card-title" 
+            href="http://kcamel.io/emoji-calendar/" 
+            target="_blank">Emoji Calendar</a>
+        <br/>
+        <!-- GitHub -->
+        <a  class="uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-left" 
+            uk-icon="github" href="https://github.com/kcamcam/emoji-calendar" 
+            uk-tooltip="title:View the code on GitHub; pos: right" 
+            target="_blank"></a>
+        <!-- Link -->
+        <a  class="uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-left" 
+            uk-icon="link" href="http://kcamel.io/emoji-calendar/" 
+            target="_blank">
+        </a>
+      </div>
+    </div>
+    <!-- ./ Emoji Calendar -->
+  
+    <!-- Metro Cheat Sheet -->
+    <div>
+      <div class="cards uk-card uk-card-small uk-card-secondary uk-card-body uk-box-shadow-medium">
+        <!-- Date -->
+        <p class="uk-align-right uk-text-muted uk-text-small">Winter 2018</p>      
+        <!-- Title -->
+        <a  class="uk-card-title" 
+            href="http://kcamel.io/metro-exit-cheat-sheet/" 
+            target="_blank">Metro Exit</a>
+        <br/>
+        <!-- Link -->
+        <a  class="uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-left" 
+            uk-icon="link" 
+            href="http://kcamel.io/metro-exit-cheat-sheet/" 
+            target="_blank">
+        </a>
+      </div>
+    </div>
+    <!-- ./ Metro Cheat Sheet -->
+  
+    <!-- Cat Wallpaper -->
+    <div>
+      <div class="cards uk-card uk-card-small uk-card-secondary uk-card-body uk-box-shadow-medium">
+        <!-- Date -->
+        <p class="uk-align-right uk-text-muted uk-text-small">Fall 2017</p>
+        <!-- Title -->
+        <a  class="uk-card-title" 
+            href="https://kcamel.io/cat-wallpaper" 
+            target="_blank">Cat Wallpaper</a>
+        <br/>
+        <!-- Link -->
+        <a  class="uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-left" 
+            uk-icon="link" 
+            href="https://kcamel.io/cat-wallpaper/" 
+            target="_blank">
+        </a>
+      </div>
+    </div>
+    <!-- ./ Cat Wallpaper -->
+  
+    <!-- Emojify -->
+    <div>
+      <div class="cards uk-card uk-card-small uk-card-secondary uk-card-body uk-box-shadow-medium">
+        <!-- Date -->
+        <p class="uk-align-right uk-text-muted uk-text-small">Fall 2017</p>
+        <!-- Title -->
+        <a  class="uk-card-title" 
+            href="https://kcamel.io/emojify/" 
+            target="_blank">Emojify</a>
+        <br/>
+        <!-- Link -->
+        <a  class="uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-left" 
+            uk-icon="link" href="https://kcamel.io/emojify/" 
+            target="_blank">
+        </a>
+      </div>
+    </div>
+    <!-- ./ Emojify -->
+  
+    <!-- Binary Clock -->
+    <div>
+      <div class="cards uk-card uk-card-small uk-card-secondary uk-card-body uk-box-shadow-medium">
+        <!-- Date -->
+        <p class="uk-align-right uk-text-muted uk-text-small">Summer 2017</p>
+        <!-- Title -->
+        <a  class="uk-card-title" 
+            href="https://kcamel.io/binary-clock/" 
+            target="_blank">Binary Clock</a>
+        <br/>
+        <!-- Link -->
+        <a  class="uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-left" 
+            uk-icon="link" href="https://kcamel.io/binary-clock/" 
+            target="_blank">
+        </a>
+      </div>
+    </div>
+    <!-- ./ Binary Clock -->
+  
+    <!-- Binary Converter -->
+    <div>
+      <div class="cards uk-card uk-card-small uk-card-secondary uk-card-body uk-box-shadow-medium">
+        <!-- Date -->
+        <p class="uk-align-right uk-text-muted uk-text-small">Winter 2017</p>
+        <!-- Title -->
+        <a  class="uk-card-title" 
+            href="https://kcamel.io/binary-converter/" 
+            target="_blank">Binary Converter</a>
+        <br/>
+        <!-- GitHub -->
+        <a  class="uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-left" 
+            uk-icon="github" href="https://github.com/kcamcam/binaryConverter" 
+            uk-tooltip="title:View th code on GitHub; pos: right" 
+            target="_blank"></a>
+        <!-- Link -->
+        <a  class="uk-margin-remove-bottom uk-margin-small-top uk-margin-remove-left" 
+            uk-icon="link" href="https://kcamel.io/binary-converter/" 
+            target="_blank">
+        </a>
+      </div>
+    </div>
+    <!-- ./ Binary Converter -->
+  
+  </div>
+  
+  
+
+      </div>
+      <!-- ./ main container -->
+    </div>
+    <!-- ./ main section -->
+  </div>
+  <!-- ./  main background -->
+  
+
+  <!-- script import -->
+  <script src="js/main.js?ckcachebust=20e27f8e0b90d4da2c693a13db5c1153"></script>
+</body>
+</html>
