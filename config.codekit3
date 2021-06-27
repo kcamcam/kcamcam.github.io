@@ -17,64 +17,11 @@
 		"oAP": "/docs/.gitignore",
 		"oF": 1
 		},
-	"/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/docs/CNAME",
-		"oF": 3
-		},
-	"/css/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/docs/css/main.css",
-		"oF": 0,
-		"oS": 2
-		},
 	"/docs": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/docs/docs",
 		"oF": 0
-		},
-	"/img/camel.png": {
-		"ft": 32768,
-		"iS": 4431,
-		"oA": 1,
-		"oAP": "/docs/img/camel.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/js/amplitude.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/docs/js/amplitude.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/js/main.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/docs/js/main.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
 		},
 	"/License": {
 		"cB": 0,
