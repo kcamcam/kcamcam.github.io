@@ -17,12 +17,6 @@
 		"oAP": "/docs/.gitignore",
 		"oF": 1
 		},
-	"/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/docs/docs",
-		"oF": 0
-		},
 	"/License": {
 		"cB": 0,
 		"ft": 8192,
@@ -413,7 +407,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 646507758.934255
+	"lastBuiltDate": 646508322.63849294
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
