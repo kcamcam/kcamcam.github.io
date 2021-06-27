@@ -90,6 +90,14 @@
 		"oAP": "/docs/blog.html",
 		"oF": 0
 		},
+	"/src/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/docs/CNAME",
+		"oF": 1
+		},
 	"/src/courses/_civi_cards.kit": {
 		"cB": 1,
 		"ft": 2048,
